@@ -1,0 +1,39 @@
+# general
+.DS_Store
+*.zip
+*.tar.gz
+*.exe
+*.bz2
+.hg/
+.gitignore
+ 
+# backup
+*~
+*.bak
+ 
+# c/c++/objc
+a.out
+*.o
+*.a
+ 
+# python
+*.pyc
+build/
+dist/
+*.egg-info
+*.mo
+bulkloader-log-*
+ 
+# xcode
+*.pbxuser
+ 
+# action script
+*.swf
+ 
+# java
+*.class
+ 
+# yacc/lex
+lex.yy.c
+*.tab.c
+*.tab.h
