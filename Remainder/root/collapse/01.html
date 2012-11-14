@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>title</title>
+<link rel="stylesheet" href="./memoremainder.css">
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="src/jquery.collapse.js"></script>
+
+<div id="demo" data-collapse>
+  <h2>Fruits</h2>
+  <ul>
+    <li>Apple</li>
+    <li>Pear</li>
+    <li>Orange</li>
+    <textarea></textarea>
+  </ul>
+  <h2>Info</h2>
+  <div>
+    <p>You can use any container you like (in this case a div element)</p>
+  </div>
+</div>
+
+<div class="col c2">
+      <!-- BEGIN Custom show and hide -->
+      <h2>Custom show &amp; hide</h2>
+      <div id="custom-show-hide-example">
+        <h3>ê›íË</h3>
+        <div>
+        <p></p>
+        <textarea></textarea>
+        </div>
+        <h3>Anarachy in the UK</h3>
+        <div>I like tea</div>
+        <h3>Indeed</h3>
+        <div>This is some information</div>
+      </div>
+      <script>
+        new jQueryCollapse($("#custom-show-hide-example"), {
+          open: function() {
+            this.slideDown(150);
+          },
+          close: function() {
+            this.slideUp(150);
+          }
+        });
+      </script>
+      <!-- END Custom show and hide -->
+</body>
+</html>

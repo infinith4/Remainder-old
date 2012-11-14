@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Title記述</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <div class="btn-group">
+    <button class="btn btn-warning">Action</button>
+    <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+    </ul>
+    <div>
+<br>
+<br>
+<br>
+<br>
+
+    <br>
+    <span class="label">Default</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-important">Important</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-inverse">Inverse</span>
+<br>
+<div class="hero-unit">
+    <h1>Remainder</h1>
+    <p>Remainderは,あなたのちょっと気になるを定期的にお知らせします。<br>
+    テスト</p>
+</div>
+<div class="alert">
+    <button class="close" data-dismiss="alert">&times;</button>
+    <strong>Alert！</strong> シンプルなアラート表示例です
+</div>
+<div class="alert alert-block">
+    <a class="close" data-dismiss="alert" href="#">&times;</a>
+    <h4 class="alert-heading">Alert！</h4>
+    paddingが若干広めに取られた指定も可能です<br>また、タイトルを付けたアラート表示も可能です
+</div>
+<div class="alert">
+    <button class="close" data-dismiss="alert">&times;</button>
+    <strong>色指定</strong> 指定無しでデフォルト色
+</div>
+<div class="alert alert-error">
+    <button class="close" data-dismiss="alert">&times;</button>
+    <strong>色指定</strong> alert-error指定
+</div>
+<div class="alert alert-success">
+    <button class="close" data-dismiss="alert">&times;</button>
+    <strong>色指定</strong> alert-success指定
+</div>
+<div class="alert alert-info">
+    <button class="close" data-dismiss="alert">&times;</button>
+    <strong>色指定</strong> alert-info指定
+</div>
+<div class="progress">
+    <div class="bar" style="width: 60%;"></div>
+</div>
+<div class="progress progress-striped">
+    <div class="bar" style="width: 20%;"></div>
+</div>
+<div class="progress progress-striped active">
+    <div class="bar" style="width: 40%;"></div>
+</div>
+<button class="btn btn-primary"><i class="icon-envelope icon-white" style="margin-top: 1px;"></i> submit</button>
+<form>
+    <label>ラベル</label>
+    <input type="text" class="span3" placeholder="入力欄">
+    <label class="checkbox">
+        <input type="checkbox"> チェックボックス
+    </label>
+    <button type="submit" class="btn btn-primary"><i class="icon-envelope icon-white" style="margin-top: 1px;"></i> Submit</button>
+</form>
+<form class="form-search">
+    <input type="text" class="input-medium search-query">
+    <button type="submit" class="btn">Search</button>
+</form>
+<form class="form-horizontal">
+    <fieldset>
+        <div class="control-group">
+            <label class="control-label" for="input01">Text input</label>
+            <div class="controls">
+                <input type="text" class="input-xlarge" id="input01">
+                <p class="help-block">入力に対しての説明文などを記述できます</p>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="optionsCheckbox">Checkbox</label>
+            <div class="controls">
+                <label class="checkbox">
+                    <input type="checkbox" id="optionsCheckbox" value="option1">
+                    チェックボックスに対する説明など
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" id="optionsCheckbox" value="option2">
+                    チェックボックスに対する説明など
+                </label>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Radio buttons</label>
+            <div class="controls">
+                <label class="radio">
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    ラジオボタンに対する説明など
+                </label>
+                <label class="radio">
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    ラジオボタンに対する説明など
+                </label>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="select01">Select list</label>
+            <div class="controls">
+                <select id="select01">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="multiSelect">Multicon-select</label>
+                <div class="controls">
+                    <select multiple="multiple" id="multiSelect">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="fileInput">File input</label>
+            <div class="controls">
+                <input class="input-file" id="fileInput" type="file">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="textarea">Textarea</label>
+            <div class="controls">
+                <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+            </div>
+        </div>
+    </fieldset>
+</form>
+
+</body>
+</html>

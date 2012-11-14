@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>レコードへ登録確認</title>
+</head>
+<body>
+<table border="1">
+<tr>
+  <th>Memo</th><th>Weektimes</th><th>days</th>
+  <th>importance</th><th>created</th><th>updated</th>
+
+</tr>
+[% FOREACH item = list %]
+  <tr>
+    <td>[% item.memo | html %]</td>
+    <td>[% item.weektimes | html %]</td>
+    <td>[% item.days | html %]</td>
+    <td>[% item.importance | html %]</td>
+    <td>[% item.created | html %]</td>
+    <td>[% item.updated | html %]</td>
+  </tr>
+[% END %]
+</table>
+</body>
+</html>

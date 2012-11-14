@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Memo Remainder</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body background="./img/webtreats_stone_3.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/jquery.tooltip.js/jquery.tooltip.js"></script>
+<link rel="stylesheet" type="text/css" href="./js/jquery.tooltip.js/jquery.tooltip.css" />
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Remainder</a>
+
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#"><i class="icon-off"></i>Sign in</a></li>
+        <div class="btn-group" >
+          <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> User</a>
+          <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+            <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+            <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="i"></i> Make admin</a></li>
+          </ul>
+        </div>
+    </ul>
+
+  </div>
+</div>
+       
+        <div class="row">
+          
+          <div class="span4">
+          
+            
+            <form method="POST" action="/memo"><!--？-->
+              <div class="control-group">
+                <label class="control-label" for="textarea">Memoを追加する</label>
+                <div class="controls">
+                  <textarea class="input-xlarge" name="memo" id="textarea" rows="5" cols="320"></textarea>
+                </div>
+              
+              
+           <!-- 保存と破棄ボタン   -->
+            
+              <div class="controls" align="right">
+                <button type="submit" class="btn btn-danger"><i class="icon-envelope icon-white" style="margin-top: 1px;"></i>送信</button>
+                <button type="reset" class="btn btn-inverse"><i class="icon-remove icon-white" style="margin-top: 1px;"></i>破棄</button>
+                <!-- <input type="submit" value="保存"> -->
+                <!-- <input type="reset" value="破棄"> -->
+              </div>
+             </div>
+              
+            </form>
+            <hr>
+            設定<br>
+            複数個をチェックボックスで指定<br>
+            <li>Remaindする時間</li>
+            <!-- <select name="select" style="width: 30px"> -->
+            <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->
+    週
+            <select name="weektimes" style="width: 50px">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+            回<br>
+            label class="checkbox"で囲むと改行されて不便<br>
+            <input type="checkbox" name="days" id="optionsCheckbox" value="random">
+            ランダム
+            <div class="jToolTip_q">
+              ？
+              <div class="jToolTip_a">
+                1週間のうちランダムにお知らせします。
+                
+              </div>
+            </div>
+            <br>
+            <input type="checkbox" name="days" id="optionsCheckbox" value="monday">
+            月曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="tuesday">
+            火曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="wensday">
+            水曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="thursday">
+            木曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="friday">
+            金曜日
+            <br>
+            <input type="checkbox" name="days" id="optionsCheckbox" value="saturday">
+            土曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="sunday">
+            日曜日
+            <br><br>
+            
+            通知方法：メール,ポップアップ,他？
+            <input type="checkbox" id="optionsCheckbox" name="notification" value="mail">
+            <i class="icon-envelope icon-white" style="margin-top: 1px;"></i>メール
+            <!-- <input type="checkbox" id="optionsCheckbox" value="popup">
+                 ポップアップ
+            -->
+            
+          </div>
+          
+
+          <div class="span3">
+            <div align="right">
+              <!-- 検索 -->
+              <form class="form-search">
+                <input type="text" class="input-medium search-query">
+                <button type="submit" class="btn">検索</button>
+              </form>
+    
+              <form action="http://www.google.com/search" method="get">
+                <input type="hidden" name="hl" value="ja">
+                <input type="hidden" name="as_sitesearch" value="サイトのURL">
+                <input class="text" type="text" name="q" size="16" value="">
+                <input class="button" type="submit" value="Googleでサイト内検索">
+              </form>
+            </div>
+
+            <h1>aaaaaa</h1>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+
+          </div>
+
+          <div class="span2">
+            設定<br>
+
+            複数個をチェックボックスで指定<br>
+            <li>Remaindする時間</li>
+            <!-- <select name="select" style="width: 30px"> -->
+            <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->
+    週
+            <select name="weektimes" style="width: 50px">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+            回<br>
+            label class="checkbox"で囲むと改行されて不便<br>
+            <input type="checkbox" name="days" id="optionsCheckbox" value="monday">
+            月曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="tuesday">
+            火曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="wensday">
+            水曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="thursday">
+            木曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="friday">
+            金曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="saturday">
+            土曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="sunday">
+            日曜日
+            <br><br>
+            <label class="checkbox">
+              <input type="checkbox" id="optionsCheckbox" value="monday">
+              月曜日
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" id="optionsCheckbox" value="tuesday">
+              火曜日
+            </label>
+            通知方法：メール,ポップアップ,他？
+            <input type="checkbox" id="optionsCheckbox" name="notification" value="mail">
+            <i class="icon-envelope icon-white" style="margin-top: 1px;"></i>メール
+            <!-- <input type="checkbox" id="optionsCheckbox" value="popup">
+                 ポップアップ
+            -->
+            [% list.weektimes %]
+          </div>
+        </div>
+        </div>
+</body>
+
+</html>

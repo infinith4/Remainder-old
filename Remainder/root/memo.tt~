@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Memo Remainder</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <div class="row">
+      <div class="span9">
+        
+        <div class="row">
+          <div class="span4">
+          
+          <!-- 保存と破棄ボタン   -->
+        <form method="POST" action="/memo"><!--？-->
+          <div class="controls">
+            <button type="submit" class="btn btn-danger"><i class="icon-envelope icon-white" style="margin-top: 1px;"></i>保存</button>
+            <button type="reset" class="btn btn-inverse"><i class="icon-envelope icon-white" style="margin-top: 1px;"></i>破棄</button>
+            <!-- <input type="submit" value="保存"> -->
+            <!-- <input type="reset" value="破棄"> -->
+          </div>
+            <div class="control-group">
+              <label class="control-label" for="textarea">Memoを追加する</label>
+              <div class="controls">
+                <textarea class="input-xlarge" name="memo" id="textarea" rows="3"></textarea>
+              </div>
+            </div>
+            aaaa
+
+    
+          </div>
+          <div class="span3">
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+            [Memo area]<br>
+
+          </div>
+        </div>
+      </div>
+<div class="span2">
+          <!-- 検索 -->
+    <form class="form-search">
+      <input type="text" class="input-medium search-query">
+      <button type="submit" class="btn">検索</button>
+    </form>
+    
+    <form action="http://www.google.com/search" method="get">
+      <input type="hidden" name="hl" value="ja">
+      <input type="hidden" name="as_sitesearch" value="サイトのURL">
+      <input class="text" type="text" name="q" size="16" value="">
+      <input class="button" type="submit" value="Googleでサイト内検索">
+    </form>
+
+設定<br>
+
+    複数個をチェックボックスで指定<br>
+    <li>Remaindする時間</li>
+   <!-- <select name="select" style="width: 30px"> -->
+    google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>
+    週
+    <select name="weektimes" style="width: 50px">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+    </select>
+    回<br>
+label class="checkbox"で囲むと改行されて不便<br>
+      <input type="checkbox" name="days" id="optionsCheckbox" value="monday">
+      月曜日
+      <input type="checkbox" name="days" id="optionsCheckbox" value="tuesday">
+      火曜日
+      <input type="checkbox" name="days" id="optionsCheckbox" value="wensday">
+      水曜日
+      <input type="checkbox" name="days" id="optionsCheckbox" value="thursday">
+      木曜日
+      <input type="checkbox" name="days" id="optionsCheckbox" value="friday">
+      金曜日
+      <input type="checkbox" name="days" id="optionsCheckbox" value="saturday">
+      土曜日
+      <input type="checkbox" name="days" id="optionsCheckbox" value="sunday">
+      日曜日
+      <br><br>
+    <label class="checkbox">
+      <input type="checkbox" id="optionsCheckbox" value="monday">
+      月曜日
+    </label>
+    <label class="checkbox">
+      <input type="checkbox" id="optionsCheckbox" value="tuesday">
+      火曜日
+    </label>
+通知方法：メール,ポップアップ,他？
+    <input type="checkbox" id="optionsCheckbox" name="notification" value="mail">
+    <i class="icon-envelope icon-white" style="margin-top: 1px;"></i>メール
+    <!--
+        <input type="checkbox" id="optionsCheckbox" value="popup">
+        ポップアップ
+    -->
+    [% list.weektimes %]
+    </form>
+
+</div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <!-- Sidebar content-->
+          1
+        </div>
+        <div class="span10">
+          <!-- Body content-->
+          2
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
