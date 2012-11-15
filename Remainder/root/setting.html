@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>title</title>
+<!--
+<link rel="stylesheet" href="./css/memoremainder.css">
+-->
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="src/jquery.collapse.js"></script>
+
+
+<div class="col c2">
+      <!-- BEGIN Custom show and hide -->
+      <div id="custom-show-hide-example">
+        <h3>設定</h3>
+        <div>
+          
+            複数個をチェックボックスで指定<br>
+            <li>Remaindする時間</li>
+            <!-- <select name="select" style="width: 30px"> -->
+            <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->
+    週
+            <select name="weektimes" style="width: 50px">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+            回<br>
+            label class="checkbox"で囲むと改行されて不便<br>
+            <input type="checkbox" name="days" id="optionsCheckbox" value="random">
+            ランダム
+            <div class="jToolTip_q">
+              ？
+              <div class="jToolTip_a">
+                1週間のうちランダムにお知らせします。
+                
+              </div>
+            </div>
+            <br>
+            <input type="checkbox" name="days" id="optionsCheckbox" value="monday">
+            月曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="tuesday">
+            火曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="wensday">
+            水曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="thursday">
+            木曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="friday">
+            金曜日
+            <br>
+            <input type="checkbox" name="days" id="optionsCheckbox" value="saturday">
+            土曜日
+            <input type="checkbox" name="days" id="optionsCheckbox" value="sunday">
+            日曜日
+            <br><br>
+            
+            通知方法：メール,ポップアップ,他？
+            <input type="checkbox" id="optionsCheckbox" name="notification" value="mail">
+            <i class="icon-envelope icon-white" style="margin-top: 1px;"></i>メール
+            <!-- <input type="checkbox" id="optionsCheckbox" value="popup">
+                 ポップアップ
+            -->
+            
+          </div>
+
+        </div>
+        <h3>Anarachy in the UK</h3>
+        <div>I like tea</div>
+        <h3>Indeed</h3>
+        <div>This is some information</div>
+      </div>
+      <script>
+        new jQueryCollapse($("#custom-show-hide-example"), {
+          open: function() {
+            this.slideDown(150);
+          },
+          close: function() {
+            this.slideUp(150);
+          }
+        });
+      </script>
+      <!-- END Custom show and hide -->
+
+            設定<br>
+          
+</body>
+</html>

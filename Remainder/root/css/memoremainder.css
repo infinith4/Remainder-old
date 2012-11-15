@@ -1,0 +1,28 @@
+
+h3 {
+  #margin: 0;
+  background-color: rgb(69,169,169);
+  background-image: linear-gradient(bottom, rgb(169,169,169) 14%, rgb(169,169,169) 57%);
+  background-image: -o-linear-gradient(bottom, rgb(169,169,169) 14%, rgb(169,169,169) 57%);
+  background-image: -moz-linear-gradient(bottom, rgb(69,69,69) 14%, rgb(69,69,69) 57%);
+  background-image: -webkit-linear-gradient(bottom, rgb(69,69,69) 14%, rgb(169,169,169) 57%);
+  background-image: -ms-linear-gradient(bottom, rgb(169,169,169) 14%, rgb(169,169,169) 57%);
+  color: #000;
+}
+
+h3 a {
+  background: url("css/sprite.png") 15px 13px no-repeat;
+  display: block;
+  #padding: 10px;
+  #padding-left: 102px;
+  #margin: 0;
+  color: #fff;
+  #text-decoration: none;
+  font-weight: normal;
+  border-bottom: 1px solid rgba(29,29,29, 0.5);
+  text-shadow: 1px 1px 2px rgb(169,169,169);
+}
+h3:hover { background-image: -webkit-linear-gradient(bottom, rgb(169,169,169) 24%, rgb(69,69,69) 57%);}
+h3.open  { background: rgb(69,69,69); }
+h3.open a { background-position: 13px -25px;?}
+
