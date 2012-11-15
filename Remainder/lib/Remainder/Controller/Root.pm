@@ -64,7 +64,7 @@ sub remainder :Local {
 sub memo :Local {
 	my ($self ,$c) = @_;
 	#$c->stash->{list} = [$c->model('CatalDB::Book')->all];
-    my $memo = $c->request->body_params->{'textarea'};
+    my $memo = $c->request->body_params->{'memo'};
     #print $memo;
     my $weektimes = $c->request->body_params->{'weektimes'};
     #print $weektimes;
@@ -75,13 +75,14 @@ sub memo :Local {
     #レコードへ登録
 #=pod
     my $row = $c->model('RemainderDB::RemainderMemo')->create({
-        memo => "aaa",
+        memo => $memo,
         #weektimes => $weektimes,
-        #days => $days,
+        days => $days,
         notification => $notification,
-        #created => '\NOW()',
-        #updated => '\NOW()',
+        #created => 'NOW()',
+        #updated => 'NOW()',
     });
+    $c->stash->{remaindermemo} = [$c->model('RemainderDB::RemainderMemo')->all];
     #$c->response->body('success')
 #=cut
     #print $day;

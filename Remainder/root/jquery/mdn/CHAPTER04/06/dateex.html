@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>jQuery exDate</title>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+<script type="text/javascript" src="exdate.js"></script>
+
+<script type="text/javascript">
+$(function() {
+
+	//現在の時間でオブジェクト生成
+	var date=$.exDate();
+	
+	//各種変換
+	$("#tochar").text(date.toChar());
+	$("#lastday").text(date.lastDay().toChar());
+	$("#addmonths_past").text(date.addMonths(-7).toChar("yyyy年mm月dd日 hh時mi分"));
+	$("#addmonths_feature").text(date.addMonths(17).toChar("yyyy年mm月dd日 hh時mi分"));
+
+});
+</script>
+</head>
+<body>
+<h1>jQuery exDateオブジェクト(jQuery exDate)</h1>
+<h2>現在の時刻</h2> 
+<p id="tochar"></p>
+<h2>今月の最終日</h2> 
+<p id="lastday"></p>
+<h2>7ヶ月前の年月日</h2> 
+<p id="addmonths_past"></p>
+<h2>17ヶ月後の年月日</h2> 
+<p id="addmonths_feature"></p>
+</body>
+</html>

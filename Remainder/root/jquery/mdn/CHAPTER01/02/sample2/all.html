@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>sample1</title>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.main li").hover(function(){
+        $(">ul:not(:animated)",this).slideDown("fast");
+    },
+    function(){
+        $(">ul",this).slideUp("fast");
+    })
+})
+
+</script>
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+ul.main li{
+	float:left;
+	width:180px;
+	height:40px;
+	background:url("btn_off.png");
+	position:relative;
+}
+ul.main li a{
+	display:block;
+	width:100%;
+	height:100%;
+	line-height:40px;
+	text-indent:30px;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+	position:relative;
+}
+ul.main li a:hover{
+	background:url("btn_on.png");
+	color:#333333;
+}
+ul.sub li ul.sub{
+    position:absolute;
+    left:180px;
+    top:0;
+}
+ul.sub{
+    display:none;
+}
+
+ul.main:after {
+    content:".";
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+}
+
+#container{
+	margin:0px auto;
+	width:900px;
+	font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック",sans-serif;
+}
+.header {
+	margin-bottom:10px;
+}
+.footer {
+	border-top: solid 1px #cccccc;
+}
+.footer p {
+	text-align:center;
+	padding:5px;
+	font-size:77%;	
+}
+
+.contents {
+	margin-bottom:30px;
+}
+
+
+.contents h1 {
+	font-size:153.9%;
+	color:#000000;
+	margin-bottom:25px;
+}
+
+.contents h2 {
+	font-size:116%;
+	color:#990033;
+}
+
+.contents p {
+	font-size:93%;
+	margin-bottom:20px;
+}
+
+.contents:after {
+	height:0;
+	visibility:hidden;
+	content:".";
+	display:block;
+	clear:both;
+}
+
+.leftbox {
+	float:left;
+	margin-right:20px
+
+}
+.leftbox2 {
+	width:580px;
+	float:left;
+	margin-right:20px
+
+}
+.caption {
+	font-size:77%;
+
+}
+
+/* IE7 対策 */
+ul.main{
+	zoom:1;
+	margin-bottom:50px;
+}
+*+html ul.main li{
+    display:inline;
+    zoom:1;
+}
+*+html ul.sub{
+    zoom:1;
+    position:relative;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+	<div class="header">
+	<img src="header_multi_level.jpg" />
+	</div>
+	<ul class="main">
+		<li><a href="#">TOP</a>
+
+		</li>
+		<li><a href="#">GALLERY</a>
+			<ul class="sub">
+				<li><a href="#">PICTURE</a>
+					<ul class="sub">
+						<li><a href="#">PORTRAIT</a></li>	
+						<li><a href="#">STILL LIFE</a></li>
+					</ul>
+				</li>
+				<li><a href="#">PHOTO</a>
+					<ul class="sub">
+						<li><a href="#">ART</a></li>	
+						<li><a href="#">EVENT</a></li>
+						<li><a href="#">NATURE</a>
+							<ul class="sub">
+								<li><a href="#">FOREST</a></li>
+								<li><a href="#">SEA</a></li>
+								<li><a href="#">SKY</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#">OTHER</a></li>
+			</ul>
+		</li>
+		<li><a href="#">GUIDE</a>
+			<ul class="sub">
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">FORUM</a></li>
+			</ul>
+		</li>
+				<li><a href="#">OTHER</a>
+			<ul class="sub">
+				<li><a href="#">BLOG</a>
+					<ul class="sub">
+						<li><a href="#">OFFICIAL</a></li>
+						<li><a href="#">ENTERTAINMENT</a></li>
+						<li><a href="#">GOURMET</a></li>
+					</ul>
+				</li>
+				<li><a href="#">TWITTER</a></li>
+				<li><a href="#">FACEBOOK</a></li>
+			</ul>
+		</li>
+				<li><a href="#">ABOUT</a>
+			<ul class="sub">
+				<li><a href="#">COMPANY</a>
+					 <ul class="sub">
+						<li><a href="#">HISTORY</a></li>
+						<li><a href="#">PROFILE</a></li>
+						<li><a href="#">ACCESS</a></li>
+					</ul>
+				</li>	
+				<li><a href="#">RECRUIT</a></li>
+				<li><a href="#">CONTACT US</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="contents">
+		<h1><img src="h1_1.png" /></h1>
+		<div class="leftbox">
+			<img src="pic1.jpg" /><br /><span class="caption">完成イメージ</span>
+		</div>
+		<div class="rightbox">
+		<p>階層型メニューとは、アプリケーションなどではよく使われているメニュー形式で、メインのメニューにマウスカーソルを重ねるとサブメニューが表示され、さらにサブメニューにマウスカーソルを重ねるとそのまたサブメニューが表示される、多重に階層化されたメニューです。ここではjQueryを使ってシンプルな多階層メニューを作成します。</p>
+			<br />
+		</div>
+	</div>
+	<br clear="all" />
+
+	<div class="contents">
+		<h1><img src="h1_2.png" /></h1>
+	<div class="leftbox2">
+	<h2>STEP1</h2>
+	<p>まず、メニューの骨格部分となるHTMLを作ります。リストタグ（ul/li要素）を用いてメインになるメニューを記述し、ul要素のclass属性には分かりやすく「main」と名付けておきます。</p>
+	<h2>STEP2</h2>
+	<p>続けて、メインメニューに属するサブメニューを、同じくリストタグ（ul/li要素）を用いてメインメニューの入れ子として記述します。メインメニューと同じくul要素のclass属性を「sub」とし、親子関係を明確にしておきます（名称は任意です）。</p>
+
+	<h2>STEP3</h2>
+	<p>上記のシンプルなコードをカスタマイズすることによって、メニューを自由に増やしたり減らしたりすることができます。これでメニューの骨格部分のHTMLは完成です。</p>
+	</div>
+		<div class="rightbox2">
+			<img src="pic2.jpg" /><span class="caption">基本的なHTML</span>
+		</div>
+
+
+	</div>
+	
+	<div class="footer">
+		<p>(c)MdN.</p>
+	</div>	
+	
+</div>
+</body>
+</html>

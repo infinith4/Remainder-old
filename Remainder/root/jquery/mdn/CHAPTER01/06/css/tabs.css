@@ -1,0 +1,68 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:80%;
+	color:#666666;
+	text-align:center;
+	line-height:180%;
+	background-color:#23292A;
+}
+#Wrapper {
+	text-align:left;
+	width:700px;
+	margin:40px auto;
+}
+h1 {
+	width:700px;
+	height:0px;
+	padding-top:110px;
+	background:url(../images/Header.png) no-repeat;
+	overflow:hidden;
+}
+h2 {
+	font-size:200%;
+	margin-bottom:20px;
+}
+p {
+	margin-bottom:20px;
+}
+address {
+	font-style:normal;
+	color:#999999;
+	text-align:center;
+	padding:10px 0px 40px;
+}
+ul#Navi {
+	list-style-type:none;
+}
+ul#Navi li {
+	float:left;
+}
+ul#Navi li a {
+	display:block;
+	width:140px;
+	height:0px;
+	padding-top:45px;
+	overflow:hidden;
+	background:url(../images/Navi.png) no-repeat;
+}
+ul#Navi li#NaviOutline a {
+	background-position:-140px 0px;
+}
+ul#Navi li#NaviMembers a {
+	background-position:-280px 0px;
+}
+ul#Navi li#NaviBlog a {
+	background-position:-420px 0px;
+}
+ul#Navi li#NaviContact a {
+	background-position:-560px 0px;
+}
+#Contents {
+	clear:both;
+	background-color:#E2E2E2;
+	padding:30px;
+}

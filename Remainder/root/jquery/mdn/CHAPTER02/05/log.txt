@@ -1,0 +1,3341 @@
+=== 2011-06-23 15:25:17 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 1150
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 1150
+    [x-file-name] => favicon.ico
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/x-icon
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 16:23:16 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 16:33:21 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 16:33:40 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 16:34:38 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 16:39:58 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 16:42:26 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 16:43:23 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 16:51:59 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:07:03 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:09:19 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 9f6747486734c9ab1a44d7aba51faa42d3fb7cba.
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:09:39 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 9f6747486734c9ab1a44d7aba51faa42d3fb7cba.
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:10:03 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:11:04 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:11:07 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 8fc985924b69d45b657a3bb1b3f11e4dae1c0c79..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:11:55 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:12:01 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 2173aa5e7c27c02348c79dcb469c91604543ab6b..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:12:08 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 2173aa5e7c27c02348c79dcb469c91604543ab6b..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:24:47 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:25:32 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:27:31 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:27:34 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => dc91390597cd9b81768cd9b04e6690a9e4db6b2a..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:27:36 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => dc91390597cd9b81768cd9b04e6690a9e4db6b2a..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:27:56 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:28:19 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:28:22 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 3f232ac38585f150c015436849bd32525efa9bdd..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:28:25 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 3f232ac38585f150c015436849bd32525efa9bdd..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:28:35 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:29:04 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:29:10 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => c6642fc72568b41b6321e1690308802ef046d0f9..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:30:54 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:47:31 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:47:46 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => dfbf1bcd90d01b1c4667b7412e248a2d2cfd92a8..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:48:18 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:48:20 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 631a13df386d07afcceca21cc3c64a772886e1b0..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:48:24 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 631a13df386d07afcceca21cc3c64a772886e1b0..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:48:28 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 631a13df386d07afcceca21cc3c64a772886e1b0..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:48:30 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 631a13df386d07afcceca21cc3c64a772886e1b0..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:48:48 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:50:20 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:50:23 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => de0a49656e9d1bd8a29794f273334a630e4d1cfb..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:50:27 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => de0a49656e9d1bd8a29794f273334a630e4d1cfb..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:50:29 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => de0a49656e9d1bd8a29794f273334a630e4d1cfb..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:04 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:06 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 8f0e320caa8e4be06d3402dd58fd6090bcac7b16..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:07 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 8f0e320caa8e4be06d3402dd58fd6090bcac7b16..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:09 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 8f0e320caa8e4be06d3402dd58fd6090bcac7b16..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:11 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 8f0e320caa8e4be06d3402dd58fd6090bcac7b16..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:12 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 8f0e320caa8e4be06d3402dd58fd6090bcac7b16..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:27 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:29 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 76ff92337073263512dadbcd84d1a0d8ce530bda..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:30 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 16514
+    [x-param-value] => 76ff92337073263512dadbcd84d1a0d8ce530bda..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:52:32 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-param-value] => 76ff92337073263512dadbcd84d1a0d8ce530bda..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:53:18 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:53:20 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 16514
+    [x-param-value] => uploads/e6a584061ac456a8feab1ea361ce9107e93f2a3a..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:53:38 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 12188
+    [x-param-value] => uploads/uploads/e6a584061ac456a8feab1ea361ce9107e93f2a3a..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:54:03 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads/
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:54:04 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads/
+    [x-file-size] => 16514
+    [x-param-value] => uploads//0931336c1ac2b8d20dcf00664996c06142d5a84d..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:54:06 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads/
+    [x-file-size] => 12188
+    [x-param-value] => uploads//uploads//0931336c1ac2b8d20dcf00664996c06142d5a84d..png
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 17:54:08 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 16514
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads/
+    [x-file-size] => 16514
+    [x-param-value] => uploads//uploads//uploads//0931336c1ac2b8d20dcf00664996c06142d5a84d..png
+    [x-file-name] => upload_hover.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:00:56 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads/
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:03:51 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 12188
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 12188
+    [x-file-name] => upload.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:14:44 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5525
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5525
+    [x-file-name] => logo_reasonably_small.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:14:47 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 894
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 894
+    [x-param-value] => 8863670323ab0de0ae5ba222752e845f72754801..png
+    [x-file-name] => mysql.ico
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/x-icon
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:14:48 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 1150
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 1150
+    [x-file-name] => twitter.ico
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/x-icon
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:14:50 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 3532
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 3532
+    [x-file-name] => 49550_1168156262_9211_n.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:14:53 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 1150
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 1150
+    [x-param-value] => 41f69ab3fe3f3c34058889fc6227602481b6c6cf..jpg
+    [x-file-name] => wordpress.ico
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/x-icon
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:35:47 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 3532
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 3532
+    [x-file-name] => 49550_1168156262_9211_n.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:35:54 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5525
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5525
+    [x-param-value] => b951106bfc23c09ac35167fb12558627db7f80d8..jpg
+    [x-file-name] => logo_reasonably_small.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:35:56 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5525
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5525
+    [x-param-value] => b951106bfc23c09ac35167fb12558627db7f80d8..jpg
+    [x-file-name] => logo_reasonably_small.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:52:28 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:52:33 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-param-value] => 0f74f036395603498d6debfd67c0f34f7fb12be0..png
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:52:34 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-param-value] => 0f74f036395603498d6debfd67c0f34f7fb12be0..png
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:52:36 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-param-value] => 0f74f036395603498d6debfd67c0f34f7fb12be0..png
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 18:53:26 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-param-value] => 0f74f036395603498d6debfd67c0f34f7fb12be0..png
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:01:42 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-param-value] => 0f74f036395603498d6debfd67c0f34f7fb12be0..png
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:05:31 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-param-value] => 0f74f036395603498d6debfd67c0f34f7fb12be0..png
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:05:59 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-param-value] => 0f74f036395603498d6debfd67c0f34f7fb12be0..png
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:07:39 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:07:41 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-param-value] => bc612e4ed56184fc009a588156cd9e011785b308.image/jpeg
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:08:15 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:09:20 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-param-value] => 81f59da5c7002f825308dfb95eb21c78af422410.
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:09:22 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-param-value] => 81f59da5c7002f825308dfb95eb21c78af422410.
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:11:34 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:11:35 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:11:36 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:40 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 68772
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 68772
+    [x-file-name] => hp_ipaq_211.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:41 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:42 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:52 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:53 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:54 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:56 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:56 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 6756
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 6756
+    [x-file-name] => album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:57 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 6756
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 6756
+    [x-file-name] => album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:58 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:13:59 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:14:10 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:14:13 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:15:18 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:16:22 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:25:00 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:25:02 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:26:54 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:26:55 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:34:41 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:43:21 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 68772
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 68772
+    [x-file-name] => hp_ipaq_211.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:53:03 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:56:18 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:57:00 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:57:17 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:57:24 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46677
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46677
+    [x-file-name] => mozodojo-original-image.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:59:22 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:59:24 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 68772
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 68772
+    [x-file-name] => hp_ipaq_211.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:59:30 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 6756
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 6756
+    [x-file-name] => album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:59:32 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 5718
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 5718
+    [x-file-name] => photo_album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 19:59:34 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 7220
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 7220
+    [x-file-name] => share.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:13:13 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46484
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:13:15 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:13:17 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 35980
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 35980
+    [x-file-name] => 1354458_kite_surfer_silhouette.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:13:28 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:30:08 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46484
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:30:09 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 35980
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 35980
+    [x-file-name] => 1354458_kite_surfer_silhouette.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:30:11 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:30:14 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46484
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:30:46 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:34:24 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 68772
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 68772
+    [x-file-name] => hp_ipaq_211.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:35:07 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46484
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:36:12 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [Accept-Language] => ja,en-us;q=0.7,en;q=0.3
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.7
+    [Keep-Alive] => 115
+    [Connection] => keep-alive
+    [Content-Type] => multipart/form-data
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [x-file-size] => 46484
+    [x-file-type] => image/jpeg
+    [x-param-folder] => uploads
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+)
+
+=== 2011-06-23 20:36:14 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [Accept-Language] => ja,en-us;q=0.7,en;q=0.3
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.7
+    [Keep-Alive] => 115
+    [Connection] => keep-alive
+    [Content-Type] => multipart/form-data
+    [x-file-name] => 1353419_leaves.jpg
+    [x-file-size] => 59769
+    [x-file-type] => image/jpeg
+    [x-param-folder] => uploads
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+)
+
+=== 2011-06-23 20:36:16 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [Accept-Language] => ja,en-us;q=0.7,en;q=0.3
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.7
+    [Keep-Alive] => 115
+    [Connection] => keep-alive
+    [Content-Type] => multipart/form-data
+    [x-file-name] => 1354458_kite_surfer_silhouette.jpg
+    [x-file-size] => 35980
+    [x-file-type] => image/jpeg
+    [x-param-folder] => uploads
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 35980
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+)
+
+=== 2011-06-23 20:36:31 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 35980
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 35980
+    [x-file-name] => 1354458_kite_surfer_silhouette.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:36:33 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46484
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:36:35 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:42:52 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2586
+    [x-file-name] => pen.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:42:53 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 68772
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 68772
+    [x-file-name] => hp_ipaq_211.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:42:56 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 6756
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 6756
+    [x-file-name] => album.png
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/png
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 20:44:51 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [Accept-Language] => ja,en-us;q=0.7,en;q=0.3
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.7
+    [Keep-Alive] => 115
+    [Connection] => keep-alive
+    [Content-Type] => multipart/form-data
+    [x-file-name] => pen.png
+    [x-file-size] => 2586
+    [x-file-type] => image/png
+    [x-param-folder] => uploads
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2586
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+)
+
+=== 2011-06-23 20:55:19 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [Accept-Language] => ja,en-us;q=0.7,en;q=0.3
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.7
+    [Keep-Alive] => 115
+    [Connection] => keep-alive
+    [Content-Type] => multipart/form-data
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [x-file-size] => 46484
+    [x-file-type] => image/jpeg
+    [x-param-folder] => uploads
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+)
+
+=== 2011-06-23 21:12:42 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46484
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:21:21 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:35:57 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46484
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:35:58 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:00 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 7845
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 7845
+    [x-file-name] => exit.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:02 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 35980
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 35980
+    [x-file-name] => 1354458_kite_surfer_silhouette.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:06 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 3569
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 3569
+    [x-file-name] => pencil.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:22 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 3569
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 3569
+    [x-file-name] => pencil.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:25 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 35980
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 35980
+    [x-file-name] => 1354458_kite_surfer_silhouette.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:26 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2019
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2019
+    [x-file-name] => android.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:28 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:29 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 3569
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 3569
+    [x-file-name] => pencil.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:31 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2019
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2019
+    [x-file-name] => android.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:33 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 3530
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 3530
+    [x-file-name] => weather_snow.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:35 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 3569
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 3569
+    [x-file-name] => pencil.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:36 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 7845
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 7845
+    [x-file-name] => exit.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:44 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 2019
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 2019
+    [x-file-name] => android.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:45 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 35980
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 35980
+    [x-file-name] => 1354458_kite_surfer_silhouette.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:47 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 7845
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 7845
+    [x-file-name] => exit.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:48 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 59769
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 59769
+    [x-file-name] => 1353419_leaves.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:51 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 3530
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 3530
+    [x-file-name] => weather_snow.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+
+=== 2011-06-23 21:36:52 ===============================
+HEADERS:Array
+(
+    [Host] => blog.turutosiya.com
+    [Connection] => keep-alive
+    [Referer] => http://blog.turutosiya.com/pot/mdn/201106/a2_upl/src/index.html
+    [Content-Length] => 46484
+    [Origin] => http://blog.turutosiya.com
+    [x-param-folder] => uploads
+    [x-file-size] => 46484
+    [x-file-name] => 1351522_sunset_in_vienna.jpg
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    [content-type] => multipart/form-data
+    [x-file-type] => image/jpeg
+    [Accept] => */*
+    [Accept-Encoding] => gzip,deflate,sdch
+    [Accept-Language] => ja,en-US;q=0.8,en;q=0.6
+    [Accept-Charset] => Shift_JIS,utf-8;q=0.7,*;q=0.3
+    [Cookie] => wp-settings-time-2=1305367628; __qca=P0-701327745-1305503683073; __utmz=73548225.1307858237.16.9.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/l.php; wp-settings-1=editor%3Dhtml%26m4%3Do%26m7%3Do%26m0%3Do; wp-settings-time-1=1308298522; __utma=73548225.1237829234.1307063836.1308705826.1308747995.25; PHPSESSID=l1pqbsqv2dtcl1tgb2kaid3sm1
+)
+

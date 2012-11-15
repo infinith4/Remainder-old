@@ -1,0 +1,35 @@
+body {
+	background:#FFF;
+	color:#333;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	font-size:80%;
+	line-height:1.6em;
+}
+
+#container {
+	margin:100px auto;
+	width:690px;
+}
+
+h1 {
+	margin-left:15px;
+	font-family:Georgia,"MS 明朝","Hiragino Mincho Pro W3","ヒラギノ明朝 Pro W3",serif;
+	font-weight:normal;
+	color:#000;
+	font-size:150%;
+}
+
+p {
+	margin-top:10px;
+	padding:15px;
+}
+
+a {
+	color:#F00;
+}
+
+img {
+	margin-top:10px;
+	margin-left:15px;
+	float: left;
+}

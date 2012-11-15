@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*CSSをリセットする*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+	border:0;
+}
+
+/*全体の調整*/
+body {
+    font:13px "ヒラギノ角ゴ Pro W3",'メイリオ', Meiryo,"ＭＳ Ｐゴシック", helvetica, arial, sans-serif;
+    *font-size:small;
+    *font:x-small;
+	-webkit-text-size-adjust: none;
+}
+a {
+	ouline: 0;
+	color: #666;
+	text-decoration: underline;
+}
+a:hover {
+	color: #ae1f4b;
+	text-decoration: none;
+}
+
+#contents {
+	width: 960px;
+	margin: 0 auto;
+}
+#header h1 {
+	margin: 30px 0 20px ;
+}
+#header ul.nav {
+	height: 45px;
+}
+
+#header ul.nav li {
+	float: left;
+}
+iframe {
+	margin-top: 5px;
+	vertical-align: bottom
+}
+
+/*ぱんくずメニュー*/
+#breadcrumbslist {
+	list-style: none;
+	clear:both;
+	margin: 20px auto 10px ;
+	font-size: 93%;
+}
+#breadcrumbslist li.home {
+	background: #fff url(../images/home.gif) no-repeat left center;
+	padding-left: 23px;
+}
+#breadcrumbslist li a, #breadcrumbslist li span {
+	display: block;
+	background: #fff url(../images/arw.gif) no-repeat right center;
+	padding: 10px 20px 10px 5px;
+}
+#breadcrumbslist li.current a, #breadcrumbslist li.current span {
+	background-image: none;
+}

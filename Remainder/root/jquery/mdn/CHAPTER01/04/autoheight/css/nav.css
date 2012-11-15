@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/** ナビ  */
+#wrapper { position: relative; }
+
+#nav { right: 10%; padding: 10px 15px; width: 170px; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; background-color: #246; color: #fff; }
+#nav li { padding: 5px 1em; font-size: 20px; line-height: 1.5em; }
+#nav li:first-child { margin-bottom: 5px; padding-left: 0; border-bottom: 1px solid #469; }

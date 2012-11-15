@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Sample 7 | jQuery Mobile でスマフォサイト</title>
+	  <meta name="description" content="jQuery Mobile でスマフォサイトをつくる！">
+	  <meta name="author" content="Toshiya TSURU">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- アドレスバー等を隠す -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!-- jQuery Mobile に必要なファイル -->
+		<link rel="stylesheet" href="css/jquery.mobile-1.0a4.1.min.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		<script src="js/libs/jquery-1.5.2.min.js"></script>
+		<script src="js/libs/jquery.mobile-1.0a4.1.min.js"></script>
+	</head>
+	<body>
+			
+		<div data-role="page" id="page1">
+			<div data-role="header" data-position="fixed">
+				<h1>フォーマッティング</h1>
+				<a href="sample-index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">ホーム</a>
+			</div><!-- /header -->
+			
+			<div data-role="content">
+				<h2>グリッドレイアウト</h2> 
+				<fieldset class="ui-grid-a">
+					<div class="ui-block-a"><button type="submit" data-theme="c">キャンセル</button></div>
+					<div class="ui-block-b"><button type="submit" data-theme="b">実行</button></div>	   
+				</fieldset>
+				<div class="ui-grid-b">
+					<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:120px">ブロック１</div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:120px">ブロック２</div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:120px">ブロック３</div></div>
+				</div>
+				
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				
+				<h2>折りたたみ</h2>
+				<div data-role="collapsible" data-collapsed="true" >
+					<h3>折りたたみ可能なコンテンツ</h3>
+					<div  class="ui-body ui-body-d">
+					<p>&lt;div data-role="collapsible"&gt;の中に書かれたコンテンツは折りたたみ可能なコンテンツになります。
+						「data-collapsed="true"」属性を指定すると、デフォルトで折りたたまれた状態になります。
+						「data-collapsed="true"」の指定が無い場合は、展開された状態で表示されます。</p>
+					</div>
+				</div>
+			</div><!-- /content -->
+			
+			<div data-role="footer" data-position="fixed">
+				<h4>フッター</h4>
+			</div><!-- /footer -->
+		</div>
+		
+	</body>
+</html>

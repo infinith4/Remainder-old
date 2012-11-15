@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<title>slider</title>
+<link rel="stylesheet" href="style.css">
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="slider.js"></script>
+<script>
+$(function(){
+
+		// 初期設定は、自動＆左＆linear＆10ms
+		$("#slider-0").slider({
+			time: 32
+		});
+		// 手動で動かす
+		$("#slider-1").slider({
+			auto: false,
+			pause: false
+		});
+		// 早送り・巻き戻し
+		$("#slider-2").slider({
+			direction: "right",
+			time: 24,
+			speed: 3
+		});
+		
+		$("#slider-3").slider();
+		
+});
+</script>
+</head>
+<body>
+
+	<div class="slideFrame" id="slider-0">
+		<ul class="slideGuide">
+			<li class="slideCell"><img src="photo/300/01.png" width="400" height="300"></li>
+			<li class="slideCell"><img src="photo/300/02.png" width="400" height="300"></li>
+			<li class="slideCell"><img src="photo/300/06.png" width="225" height="300"></li>
+			<li class="slideCell"><img src="photo/300/03.png" width="400" height="300"></li>
+			<li class="slideCell"><img src="photo/300/04.png" width="400" height="300"></li>
+			<li class="slideCell"><img src="photo/300/05.png" width="225" height="300"></li>
+			<li class="slideCell"><img src="photo/300/07.png" width="400" height="300"></li>
+		</ul>
+	</div>
+
+	<div class="slideFrame" id="slider-1">
+		<ul class="slideGuide">
+			<li class="slideCell"><img src="photo/75/01.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/02.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/03.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/05.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/06.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/07.png" width="75" height="75"></li>
+		</ul>
+		<div class="slideCtrl left">&lt; prev</div>
+		<div class="slideCtrl right">next &gt;</div>
+	</div>
+
+	<div class="slideFrame" id="slider-2">
+		<ul class="slideGuide">
+			<li class="slideCell"><img src="photo/150/01.png" width="200" height="150"></li>
+			<li class="slideCell"><img src="photo/150/02.png" width="200" height="150"></li>
+			<li class="slideCell"><img src="photo/150/03.png" width="119" height="150"></li>
+			<li class="slideCell"><img src="photo/150/04.png" width="200" height="150"></li>
+			<li class="slideCell"><img src="photo/150/05.png" width="200" height="150"></li>
+			<li class="slideCell"><img src="photo/150/06.png" width="214" height="150"></li>
+			<li class="slideCell"><img src="photo/150/07.png" width="200" height="150"></li>
+			<li class="slideCell"><img src="photo/150/08.png" width="200" height="150"></li>
+			<li class="slideCell"><img src="photo/150/09.png" width="126" height="150"></li>
+		</ul>
+		<div class="slideCtrl left">&lt; next</div>
+		<div class="slideCtrl right">prev &gt;</div>
+	</div>
+
+	<div id="sample">
+		<img src="img/contents.jpg">
+	</div>
+
+	<div class="slideFrame" id="slider-3">
+		<ul class="slideGuide">
+			<li class="slideCell"><img src="photo/75/01.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/02.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/03.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/05.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/06.png" width="75" height="75"></li>
+			<li class="slideCell"><img src="photo/75/07.png" width="75" height="75"></li>
+		</ul>
+	</div>
+</body>
+</html>

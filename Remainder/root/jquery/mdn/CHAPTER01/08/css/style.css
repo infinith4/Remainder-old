@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+/* YUI 2: Reset CSS */
+@import url(yui2-reset.css);
+
+/* 共通スタイル */
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+	 Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 87.5%;
+	color: #515151;
+	background: #eff1f2 url(../images/common/bg_body.gif);
+}
+#outer {
+	padding: 20px 0 40px;
+	background: url(../images/common/bg_outer.gif) repeat-x;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 740px;
+}
+#wrapper #header {
+	padding: 31px 20px 35px;
+	overflow: hidden; /* ClearFix */
+	/zoom: 1; /* ClearFix for IE6-7 */
+}
+#wrapper #header #siteId {
+	float: left;
+}
+#wrapper #header ul#nav {
+	float: right;
+	overflow: hidden; /* ClearFix */
+	/zoom: 1; /* ClearFix for IE6-7 */
+}
+#wrapper #header ul#nav li {
+	float: left;
+}
+#wrapper #header ul#nav li a {
+	display: block;
+}
+#wrapper #header ul#nav li#navHome a {
+	background: url(../images/common/nav_home_ov.gif);
+}
+#wrapper #header ul#nav li#navAbout a {
+	background: url(../images/common/nav_about_ov.gif);
+}
+#wrapper #header ul#nav li#navGallery a {
+	background: url(../images/common/nav_gallery_ov.gif);
+}
+#wrapper #header ul#nav li#navContact a {
+	background: url(../images/common/nav_contact_ov.gif);
+}
+#wrapper #header ul#nav li a:hover img {
+	visibility: hidden;
+}
+#wrapper #header ul#nav li.current a:hover img {
+	visibility: visible;
+}
+#wrapper #content {
+	background: #fff url(../images/common/bg_content_mid_r.gif) repeat-y 100% 0;
+}
+#wrapper #content .inner1 {
+	background: url(../images/common/bg_content_mid_l.gif) repeat-y;
+}
+#wrapper #content .inner1 .inner2 {
+	background: url(../images/common/bg_content_btm_r.gif) no-repeat 100% 100%;
+}
+#wrapper #content .inner1 .inner2 .inner3 {
+	background: url(../images/common/bg_content_btm_l.gif) no-repeat 0 100%;
+	overflow: hidden; /* ClearFix */
+	/zoom: 1; /* ClearFix for IE6-7 */
+}
+#wrapper #content #categoryTtl {
+	background: url(../images/common/bg_hd_r.png) no-repeat 100% 0;
+}
+#wrapper #content #main {
+	margin-top: 20px;
+	padding: 0 30px 40px 30px;
+}
+#wrapper #content #main p {
+	margin-top: 1em;
+}
+#footer {
+	margin-top: -5px;
+}
+#footer #copyright {
+	text-align: center;
+}
+
+/* ギャラリー */
+#wrapper #content ul#stage {
+	padding: 15px 20px;
+}
+#wrapper #content ul.pageNav {
+	overflow: hidden; /* ClearFix */
+	/zoom: 1; /* ClearFix for IE6-7 */
+	text-align: center;
+}
+#wrapper #content ul.pageNav li {
+	display: inline;
+}	
+#wrapper #content ul.pageNav li a {
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #ccc;
+}
+#wrapper #content ul.pageNav li a:hover {
+	background: #0cc;
+}
+#wrapper #content ul.pageNav li.current {
+	padding: 0 20px;
+	color: #999;
+}
+#wrapper #content #toPageTop a {
+	display: block;
+	width: 52px;
+	margin: 0 auto;
+	background: url(../images/common/btn_to-page-top_ov.gif) no-repeat;
+}
+#wrapper #content #toPageTop a:hover img {
+	visibility: hidden;
+}

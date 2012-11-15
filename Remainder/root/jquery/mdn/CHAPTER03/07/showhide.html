@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>show DEMO</title>
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+<script>
+$(function(){
+	//ボタンクリックで表示
+	$("#show").click(function () {
+		$(".hide").show("slow",function(){
+			//コールバック関数
+			$("#show").css("backgroundColor","#ffcccc");
+            $("#hide").css("backgroundColor","#cccccc");
+        });
+	});
+	//ボタンクリックで非表示
+	$("#hide").click(function () {
+		$(".hide").hide("fast",function(){
+			//コールバック関数
+			$("#show").css("backgroundColor","#cccccc");
+            $("#hide").css("backgroundColor","#ffcccc");
+        });
+	});
+});
+</script>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<style>
+.hide {
+	display:block;
+ 	margin-top:15px;
+	padding:5px;
+	background:#eef;
+  	width:640px;
+}
+#show,#hide {
+	background-color:#cccccc;
+}
+
+</style>
+</head>
+<body>
+<h1>jQueryアニメーション(show＆hideメソッド)</h1>
+<p>$(要素).show(“速度”,[コールバック関数]);</p>
+<p>$(要素).hide(“速度”,[コールバック関数]);</p>
+<button id="show">説明を表示する</button><button id="hide">説明を非表示にする</button><br />
+<p class="hide" style="display:none;">第1引数には表示速度を<span class="highlight">”slow”、”normal”、”fast”、</span>もしくは完了までの時間を<span class="highlight">ミリ秒単位</span>で指定します。<br />例えば”2500”であれば、2.5秒かけてアニメーションが行われます。<br />また第2引数には表示の<span class="highlight">終了後に実行される関数</span>を記述できます（コールバック関数）。</p>
+
+</body>
+</html>
+            

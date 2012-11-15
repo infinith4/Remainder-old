@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<title>floater.js Sample Demo</title>
+<link rel="stylesheet" href="css/import-demo.css">
+<link rel="canonical" href="http://kaelab.ranadesign.com/blog/2011/06/jquery-2.html">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/jquery.easing.js"></script>
+<script src="js/floater.js"></script>
+<script>
+(function($) {
+	$(function() {
+		
+		// デフォルト
+		$("#nav-1").floater();
+		
+		// オプション指定
+		$("#nav-2").floater({
+			marginTop: $("#header").outerHeight() + 60,
+			marginBottom: $("#footer").outerHeight() + 60
+		});
+		
+		// オプション全部指定
+		$("#nav-3").floater({
+			marginTop: $("#header").outerHeight() + 60,
+			marginBottom: $("#footer").outerHeight() + 60,
+			agility: 0.75,
+			speed: 2000,
+			easing: "easeOutBounce"
+		});
+		
+		// position: fixed 対応
+		$("#nav-4").floater({
+			marginTop: 100,
+			fixed: true
+		});
+
+	});
+})(jQuery);
+</script>
+</head>
+<body>
+<div id="wrapper">
+
+	<div id="header">
+		<h1>floater.js Sample Demo</h1>
+	</div>
+
+	<div id="container">
+		<p>#nav-1はデフォルト。<br>画面上下に接着します。</p>
+		<p>#nav-2は上下の余白を<br>オプションで指定しています。</p>
+		<p>#nav-3はオプション全部指定。</p>
+		<p>#nav-4はオプションで位置固定対応。</p>
+		<p><a href="http://kaelab.ranadesign.com/blog/demo/floater/js/floater.js">floater.js ダウンロード</a></p>
+
+		<div id="nav-1">
+			<ul>
+				<li>#nav-1</li>
+				<li>page 1</li>
+				<li>page 2</li>
+				<li>page 3</li>
+			</ul>
+		</div>
+		<div id="nav-2">
+			<ul>
+				<li>#nav-2</li>
+				<li>page 1</li>
+				<li>page 2</li>
+				<li>page 3</li>
+				<li>page 4</li>
+				<li>page 5</li>
+				<li>page 6</li>
+				<li>page 7</li>
+				<li>page 8</li>
+				<li>page 9</li>
+				<li>page 10</li>
+				<li>page 11</li>
+				<li>page 12</li>
+				<li>page 13</li>
+				<li>page 14</li>
+				<li>page 15</li>
+			</ul>
+		</div>
+		<div id="nav-3">
+			<ul>
+				<li>#nav-3</li>
+				<li>page 1</li>
+				<li>page 2</li>
+				<li>page 3</li>
+			</ul>
+		</div>
+		<div id="nav-4">
+			<ul>
+				<li>#nav-4</li>
+				<li>page 1</li>
+				<li>page 2</li>
+				<li>page 3</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="footer">
+		<p>Copyright RaNa design associates, inc.</p>
+	</div>
+
+</div>
+</body>
+</html>

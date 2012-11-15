@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<title>floater.js Sample Demo</title>
+<link rel="stylesheet" href="css/import.css">
+<link rel="canonical" href="http://kaelab.ranadesign.com/blog/2011/06/jquery-2.html">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/jquery.easing.js"></script>
+<script src="js/floater.js"></script>
+<script>
+(function($) {
+	$(function() {
+		
+		$("#nav").floater({
+			marginTop: $("#header").outerHeight() + 60,
+			marginBottom: $("#footer").outerHeight() + 60
+		});
+		
+	});
+})(jQuery);
+</script>
+</head>
+<body>
+<div id="wrapper">
+
+	<div id="header">
+		<h1><img src="img/header.png" width="201" height="26"></h1>
+	</div>
+
+	<div id="container">
+		<div class="section">
+			<img src="img/contents.png" width="622" height="1275">
+		</div>
+
+		<div id="nav">
+			<img src="img/nav.png" width="206" height="264">
+		</div>
+	</div>
+
+</div>
+
+<div id="footer">
+	<p>Copyright RaNa design associates, inc.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>sample</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="../style/zoomooz.css" />
+		<script type="text/javascript" src="../lib/jquery-1.4.4.js"></script>
+		<script type="text/javascript" src="../lib/sylvester.js"></script>
+		<script type="text/javascript" src="../js/purecssmatrix.js"></script>
+		<script type="text/javascript" src="../js/jquery.animtrans.js"></script>
+		<script type="text/javascript" src="../js/jquery.zoomooz.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".box").click(function(evt) {
+					evt.stopPropagation();
+					$(this).zoomTo({targetsize:0.7,duration:1000});
+				});
+				$("body").click(function(evt) {
+					evt.stopPropagation();
+					$(this).zoomTo();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div class="box">
+				<img src="../images/logo.jpg" alt="PHOTOGRAPHY" />
+				<div id="copyright">&copy;2011 PHOTOGRAPHY. All Rights Reserved.</div>
+			</div>
+			<div class="box">
+				<img src="../images/image1.jpg" alt="image" width="230" height="180" />
+				<p>2011.06.08</p>
+			</div>
+			<div class="box">
+				<img src="../images/image2.jpg" alt="image" width="230" height="180" />
+				<p>2011.08.10</p>
+			</div>
+			<div class="box">
+				<h1>Message</h1>
+				<p>デジカメで撮影した写真を展示しています。<br />
+				写真はフリー素材としてダウンロードできます。<br />
+				お好きな素材がありましたら、<br />ぜひ使ってみてください。</p>
+			</div>
+			<div class="box">
+				<img src="../images/image3.jpg" alt="image" width="230" height="180" />
+				<p>2011.07.07</p>
+			</div>
+			<div class="box">
+				<img src="../images/image4.jpg" alt="image" width="230" height="180" />
+				<p>2011.08.23</p>
+			</div>
+			<div class="box">
+				<img src="../images/image5.jpg" alt="image" width="230" height="180" />
+				<p>2011.05.27</p>
+			</div>
+			<div class="box">
+				<img src="../images/image6.jpg" alt="image" width="230" height="180" />
+				<p>2011.07.14</p>
+			</div>
+			<div class="box">
+				<h1>Contact</h1>
+				<p>〒102-0075 東京都千代田区三番町20番地<br />url: http://www.MdN.co.jp<br />mail: info@MdN.co.jp </p>
+			</div>
+		</div>
+	</body>
+</html>

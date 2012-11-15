@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/*CSSをリセットする*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+	border:0;
+}
+
+/*全体の調整*/
+body {
+    font:13px Georgia, Century, serif;
+    *font-size:small;
+    *font:x-small;
+	-webkit-text-size-adjust: none;
+	background:#eee;
+}
+a{
+	ouline: 0;
+}
+/*セクションの設定*/
+div.section {
+	width: 100%;
+	max-width: 1900px;
+	height: 800px;
+	position: relative;
+	margin: 0 auto;
+}
+/*レイヤーの設定*/
+div.layer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*背景画像の設定*/
+/*0*/
+#section0 {
+	background: url(../images/section0_bg.jpg) no-repeat 0px 0px;
+}
+#section0 .layer1 {
+	background: url(../images/sec0_layer1_bg.png) repeat-y 650px 0px;
+}
+#section0 .layer2 {
+	background: url(../images/sec0_layer2_bg.png) repeat-y 750px 0px;
+}
+
+/*1*/
+#section1 {
+	background: url(../images/section1_bg.jpg) no-repeat 0px 0px;
+}
+#section1 .layer1 {
+	background: url(../images/sec1_layer1_bg.png) no-repeat 20px 120px;
+}
+#section1 .layer2 {
+	background: url(../images/sec1_layer2_bg.png) no-repeat 300px 250px;
+}
+
+/*2*/
+#section2 {
+	background: url(../images/section2_bg.jpg) no-repeat 0px 0px;
+}
+#section2 .layer1 {
+	background: url(../images/sec2_layer1_bg.png) repeat-y 700px 30px;
+}
+#section2 .layer2 {
+	background: url(../images/sec2_layer2_bg.png) repeat-y 650px 120px;
+}
+
+/*3*/
+#section3 {
+	background: url(../images/section3_bg.jpg) no-repeat 0px 0px;
+}
+#section3 .layer1 {
+	background: url(../images/sec3_layer1_bg.png) no-repeat 290px 140px;
+}
+#section3 .layer2 {
+	background: url(../images/sec3_layer2_bg.png) no-repeat 100px 200px;
+}
+
+/*各セクション内のレイアウト等*/
+/*0*/
+#section0 h1 {
+	position: absolute;
+	left: 8%;
+	top: 80px;
+}
+ul#topNav {
+	position: absolute;
+	left: 8%;
+	bottom: 130px;
+}
+ul#topNav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+/*1*/
+#section1 h2 {
+	position: absolute;
+	left: 58%;
+	top: 200px;
+}
+#section1 p {
+	position: absolute;
+	left: 58%;
+	top: 300px;
+	color: #fff;
+	font-size: 108%;
+	width: 450px;
+	line-height: 2;
+}
+
+/*2*/
+#section2 h2 {
+	position: absolute;
+	left: 8%;
+	top: 200px;
+}
+#section2 p {
+	position: absolute;
+	left: 8%;
+	top: 300px;
+	color: #fff;
+	font-size: 108%;
+	width: 450px;
+	line-height: 2;
+}
+/*3*/
+#section3 h2 {
+	position: absolute;
+	left: 58%;
+	top: 200px;
+}
+#section3 p {
+	position: absolute;
+	left: 58%;
+	top: 300px;
+	color: #fff;
+	font-size: 108%;
+	width: 450px;
+	line-height: 2;
+}
+
+/*ナビゲーション*/
+ul#nav {
+	position: fixed;
+	left: 20px;
+	top: 20px;
+	background: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	padding: 8px 15px 0px 15px;
+}
+ul#nav li {
+	display: inline;
+	margin: 0 10px;
+}
+ul#nav li a {
+	opacity: 0.6;
+}
+ul#nav li a:hover {
+	opacity: 1;
+}

@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+
+/* YUI 2: Reset CSS */
+@import url(yui2-reset.css);
+
+/* 共通スタイル */
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+	 Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 87.5%; /* 14px */
+	background: #e1deda url(../images/common/bg_body.gif);
+}
+a {
+	font-weight: bold;
+	color: #6d4b16;
+}
+a:hover {
+	color: #ce861a;
+}
+#wrapper {
+	width: 940px;
+	margin: 30px auto 0;
+	padding: 0 20px;
+	overflow: hidden;
+	/zoom: 1;
+}
+#wrapperInner {
+	overflow: hidden;
+	/zoom: 1;
+}
+#header {
+	float: left;
+	width: 220px;
+}
+#header ul#nav {
+	padding-bottom: 19px;
+	background: url(../images/common/bg_shadow_s.gif) no-repeat 0 100%;
+}
+#header ul#nav li a {
+	display: block;
+	margin-top: 1px;
+	background: #fff;
+	padding: 11px 15px 9px;
+	text-decoration: none;
+}
+#header ul#nav li a:hover {
+	background: #f9ffd7;
+}
+#content {
+	float: left;
+	width: 720px;
+	padding-top: 20px;
+	overflow: hidden;
+	/zoom: 1;
+}
+#content .section {
+	clear: both;
+	position: relative;
+	margin-left: 20px;
+	padding: 10px 10px 40px;
+	background: #fff url(../images/common/bg_shadow_l.gif) no-repeat 0 100%;
+}
+#content .section p.more {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+#content .section.half {
+	clear: none;
+	float: left;
+	width: 320px;
+	background-image: url(../images/common/bg_shadow_m.gif);
+	/display: inline;
+}
+#content .section .sectionTtl {
+	margin-bottom: 1em;
+	margin-left: -13px;
+	padding-left: 13px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #3d2808;
+	background: url(../images/common/bg_section-ttl.gif) no-repeat;
+}
+#content #service ul#serviceArea {
+	margin-top: -2em;
+	margin-left: -10px;
+	overflow: hidden;
+	zoom: 1;
+}
+#content #service ul#serviceArea li {
+	float: left;
+	width: 335px;
+	margin-top: 2em;
+	margin-left: 10px;
+	overflow: hidden;
+	/zoom: 1;
+	/display: inline;
+}
+#content #service ul#serviceArea li img {
+	float: left;
+	margin-right: 1em;
+	border: 1px solid #ccc;
+}
+#content #service ul#serviceArea li p {
+	font-size: 85.7%;
+	overflow: hidden;
+	/zoom: 1;
+}
+#content #service ul#serviceArea li p a.more {
+	display: block;
+	margin-top: .25em;
+	padding-left: 17px;
+	background: url(../images/common/icn_more.gif) no-repeat 0 50%;
+}
+#content .section dl.dateList dt {
+	margin-top: 1em;
+	margin-bottom: .1em;
+	font-family: Georgia, serif;
+	font-size: 85.7%;
+	color: #bbb;
+}
+#footer {
+	margin-top: 40px;
+	padding: 20px 10px;
+	font-size: 85.7%;
+	text-align: right;
+	background: url(../images/common/line_h1x2.gif) repeat-x;
+}
+#footer ul#footerNav li {
+	display: inline;
+	padding-left: 10px;
+}
+#footer #copyright {
+	margin-top: .5em;
+	color: #666;
+}
+
+

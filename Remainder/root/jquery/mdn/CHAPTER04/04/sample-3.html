@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Sample 3 | jQuery Mobile でスマフォサイト</title>
+	  <meta name="description" content="jQuery Mobile でスマフォサイトをつくる！">
+	  <meta name="author" content="Toshiya TSURU">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- アドレスバー等を隠す -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!-- jQuery Mobile に必要なファイル -->
+		<link rel="stylesheet" href="css/jquery.mobile-1.0a4.1.min.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		<script src="js/libs/jquery-1.5.2.min.js"></script>
+		<script src="js/libs/jquery.mobile-1.0a4.1.min.js"></script>
+	</head>
+	<body>
+			
+		<div data-role="page" id="page1">
+			<div data-role="header">
+				<h1>ページ遷移</h1>
+			</div><!-- /header -->
+			
+			<div data-role="content">
+				<p>
+					<a href="sample-3-2.html" data-role="button">通常ページ遷移</a>
+					<a href="sample-3-2.html" rel="external" data-role="button">「rel="external"」指定でもAjaxによる遷移が無効化されます</a>
+					<a href="sample-3-2.html" target="_blank" data-role="button">「target="_blank"」を指定すると別ウィンドウで遷移します。</a>
+					<a href="http://www.mdn.co.jp/" data-role="button">外部リンクではAjaxによる遷移は行われません</a>
+				</p>
+				
+				<p>
+					<a href="sample-3-2.html" data-role="button">default</a>
+					<a href="sample-3-2.html" data-transition="slide" data-role="button">slide</a>
+					<a href="sample-3-2.html" data-transition="slideup" data-role="button">slideup</a>
+					<a href="sample-3-2.html" data-transition="slidedown" data-role="button">slidedown</a>
+					<a href="sample-3-2.html" data-transition="pop" data-role="button">pop</a>
+					<a href="sample-3-2.html" data-transition="fade" data-role="button">fade</a>
+					<a href="sample-3-2.html" data-transition="flip" data-role="button">flip</a>
+				</p>
+			</div><!-- /content -->
+			
+			<div data-role="footer">
+				<h4>フッター１</h4>
+			</div><!-- /footer -->
+		</div>
+		
+	</body>
+</html>

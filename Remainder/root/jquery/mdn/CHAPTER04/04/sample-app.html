@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+	  <meta charset="utf-8">
+	  <title>未経験プログラマ10年戦記</title>
+	  <meta name="description" content="未経験プログラマ10年戦記">
+	  <meta name="author" content="Toshiya TSURU">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- アドレスバー等を隠す -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!-- jQuery Mobile に必要なファイル -->
+		<link rel="stylesheet" href="css/jquery.mobile-1.0a4.1.min.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		<script src="js/libs/jquery-1.5.2.min.js"></script>
+		<script src="js/libs/jquery.mobile-1.0a4.1.min.js"></script>
+		<!-- Google Analytics 用 -->
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-50571-25']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		
+		<!-- トップページ -->
+		<div data-role="page" id="menu" >
+			
+			<div data-role="header" data-position="fixed">
+				<h1>未経験プログラマ10年戦記</h1>
+			</div><!-- /header -->
+			
+			<br/>
+			
+			<div data-role="content">
+				<ul data-role="listview" data-theme="a">
+					<li><a href="#page">Loading...</a></li>
+				</ul>
+			</div><!-- /content -->
+			
+			<br/>
+			
+			<div data-role="footer" data-position="fixed"　class="ui-bar">
+				<h4>&nbsp;</h4>
+			</div><!-- /footer -->
+			
+		</div>
+		
+		<div data-role="page" id="post" class="post" >
+				
+			<div data-role="header" data-position="fixed">
+				<h1></h1>
+			</div><!-- /header -->
+			
+			<div data-role="content">
+				<p class="ui-body ui-body-d">
+					Loading...
+				</p>
+				<div data-role="collapsible" data-collapsed="true" data-theme="a">
+					<h3>続きを読む</h3>
+					<p class="ui-body ui-body-d">
+					 Loading...
+					</p>
+				</div>
+			</div><!-- /content -->
+			
+			<div data-role="footer" data-position="fixed"　class="ui-bar">
+				<h4>&nbsp;</h4>
+			</div><!-- /footer -->
+		</div>
+		
+		<script>
+			$(function(){
+				var blog_url = 'http://blog.turutosiya.com/';
+				
+				/* コンテンツ本文をロード */
+				$('.post').live('pagebeforeshow',function(event, ui){
+					var $this = $(this);
+					var $p = $this.find('div[data-role="collapsible"] p:first');
+					if($p.size() < 1 || $p.attr('data-content-loaded') == 1) return;
+					
+					// 本文を取得
+					var post_id = $this.attr('data-post-id');
+					$.getJSON(
+						blog_url+'?json=get_post&post_id='+post_id+'&callback=?',		 
+						function(data){
+							$p.html(data.post.content);
+							$p.attr('data-content-loaded', 1);
+							
+							// read more から前は既に表示されているので消します。
+							var $more = $p.find('span[id^="more"]').parent();
+							$more.prevAll().remove();
+							$more.remove();
+						}); 
+				});
+
+				/* ブログエントリを取得 */
+				$.getJSON(
+					blog_url+'?json=1&callback=?',
+					function(data){
+						var $list = $('div[data-role="content"] ul[data-role="listview"]');
+						var $li = $list.find('li:first'); 
+						var $post = $('#post');
+						
+						var posts = data.posts;
+						
+						for(var i = 0; i < posts.length; ++i){
+							var post = posts[i];
+							
+							// リストへの追加
+							var $li_post = $li.clone();
+							$li_post.find('a')
+								.attr('href', '#post_' + post.id)
+								.html(post.title);
+							$list.append($li_post);
+							
+							// ページの追加
+							var $page_post = $post.clone();
+							$page_post.attr('data-post-id', post.id);
+							$page_post.attr('id', 'post_' + post.id);
+							$page_post.attr('data-url', 'post_' + post.id); // slight hack for jQuery Mobile
+							$page_post.find('div[data-role="header"] h1').html(post.title);
+							$page_post.find('div[data-role="content"] > p:first')
+								.html(post.content)
+								.attr('data-content-loaded', 0);
+							
+							// 「続きを読む」を消す
+							var $more = $page_post.find('a.more-link').parent();
+							if($more.size() < 1) $page_post.find('div[data-role="content"] div[data-role="collapsible"]').remove();
+							else $more.remove(); // remvoe 'read more' link
+							$post.after($page_post);
+						}
+						
+						// ダミー要素を削除
+						$li.remove();
+					});
+			});
+		</script>
+	</body>
+</html>

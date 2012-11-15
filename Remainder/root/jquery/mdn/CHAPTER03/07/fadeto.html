@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>fadeTo DEMO</title>
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+<script>
+$(function(){
+	$("#fade10").click(function () {
+		$(".hide:not(:animated)").fadeTo("slow",1);
+	});
+	//ボタンクリックでフェードアウト
+	$("#fade7").click(function () {
+		$(".hide:not(:animated)").fadeTo("slow",0.7);
+	});
+	$("#fade5").click(function () {
+		$(".hide:not(:animated)").fadeTo("slow",0.5);
+	});
+	//ボタンクリックでフェードアウト
+	$("#fade3").click(function () {
+		$(".hide:not(:animated)").fadeTo("slow",0.3);
+	});
+	//ボタンクリックでフェードアウト
+	$("#fade0").click(function () {
+		$(".hide:not(:animated)").fadeTo("slow",0);
+	});
+});
+</script>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<style>
+.hide {
+	display:block;
+ 	margin-top:15px;
+	padding:5px;
+
+  	width:640px;
+  	
+}
+</style>
+</head>
+<body>
+<h1>jQueryアニメーション(fadeToメソッド)</h1>
+<p>$(要素).fadeTo(“速度”,“透明度”,[コールバック関数]);</p>
+<button id="fade10">100%</button><button id="fade7">70%</button><button id="fade5">50%</button><button id="fade3">30%</button><button id="fade0">0%</button><br />
+<p class="hide" style="display:none;"><img src="pic.jpg" /></p>
+</body>
+</html>
+            

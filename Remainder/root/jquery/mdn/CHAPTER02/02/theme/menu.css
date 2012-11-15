@@ -1,0 +1,46 @@
+body { background:#F7F7F7; margin:0; padding:0; font-family:"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","Meiryo","メイリオ","ＭＳ Ｐゴシック",sans-serif; }
+body.detail { background:url(detail.png) 640px repeat-y; }
+
+div#header { z-index:10; background:url(wood.png); margin:0; padding:10px 20px; border-bottom:1px solid rgba(0,0,0,.2); line-height:1em; -webkit-box-shadow:0 0 5px rgba(0,0,0,.8); -moz-box-shadow:0 0 5px rgba(0,0,0,.8); box-shadow:0 0 5px rgba(0,0,0,.8); position:fixed; top:0; left:0; right:0; height:20px; }
+div#header h1 { margin:0; padding:0; color:#FFF; font-size:21px; line-height:1em; text-shadow:0 1px 3px rgba(0,0,0,.5); }
+div#header h1 a { color:#FFF; text-decoration:none; }
+div#header div.buttons { position:absolute; top:13px; left:15px; width:960px; text-align:right; }
+div#header a.button { 
+	height:25px; padding:2px 15px; border:1px solid rgba(0,0,0,.3);
+	-webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px;
+	background:-moz-linear-gradient(top, rgba(0,0,0,.2), rgba(0,0,0,.4));
+	background:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.2)), to(rgba(0,0,0,.4)));
+	text-decoration:none; color:#FFF; text-shadow:0 0 2px rgba(0,0,0,1);
+}
+div#header a.button:hover { 
+	background:-moz-linear-gradient(top, rgba(0,0,0,.5), rgba(0,0,0,.4));
+	background:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.5)), to(rgba(0,0,0,.4)));
+}
+div#header a.button.disabled,
+div#header a.button.disabled:hover { 
+	background:rgba(0,0,0,.2);
+	background:rgba(0,0,0,.2);
+	color:rgba(255,255,255,.4);
+	text-shadow:none;
+	border:1px solid rgba(0,0,0,.1);
+}
+
+div#cover { position:absolute; width:960px; top:55px; left:15px; text-align:left; overflow:hidden; padding:0 0 100px; }
+div#cover ul { margin:0; padding:0; }
+div#cover ul li { float:left; list-style:none; width:130px; margin:5px; padding:10px; background:#FFF; -webkit-box-shadow:0 0 3px rgba(0,0,0,.5); -moz-box-shadow:0 0 3px rgba(0,0,0,.5); box-shadow:0 0 3px rgba(0,0,0,.5); -webkit-border-radius:3px; -moz-border-radius: 3px; border-radius:3px; }
+div#cover ul li:hover { background:#EEE; -webkit-box-shadow:0 0 5px rgba(0,0,0,.5); -moz-box-shadow:0 0 5px rgba(0,0,0,.5); box-shadow:0 0 5px rgba(0,0,0,.5); }
+div#cover ul li a { text-decoration:none; color:#333; }
+div#cover ul li span { display:block; font-size:13px; font-weight:bold; margin:5px 0 0; }
+div#cover ul li img { width:130px; border:none; }
+div#cover ul li.L { width:290px; }
+div#cover ul li.L img { width:290px; }
+
+div#pages { position:fixed; top:55px; bottom:20px; margin:0 15px; text-align:left; }
+div.page { position:absolute; width:560px; top:0; bottom:0; left:0; overflow:hidden; display:none; margin:5px; padding:20px; background:#FFF; -webkit-box-shadow:0 0 3px rgba(0,0,0,.5); -moz-box-shadow:0 0 3px rgba(0,0,0,.5); box-shadow:0 0 3px rgba(0,0,0,.5); -webkit-border-radius:5px; -moz-border-radius: 5px; border-radius:5px; }
+div.page h3 { margin:.5em 0 .5em; color:#999; font-size:24px; border-bottom:1px dotted #999; }
+div.page p { margin:0 0 .5em; font-size:14px; }
+div.page div.photo { margin:0; overflow:hidden; }
+div.page div.photo img { -webkit-border-radius:5px; -moz-border-radius: 5px; border-radius:5px; max-width:560px; border:none; }
+
+div#cover ul:after,
+.clearfix:after { content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0 }

@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>sample</title>
+		<style type="text/css" title="currentStyle">
+			@import "media/css/demo_page.css";
+			@import "media/css/demo_table.css";
+		</style>
+		<script type="text/javascript" src="media/js/jquery.js"></script>
+		<script type="text/javascript" src="media/js/jquery.dataTables.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#example').dataTable();
+				//$('#example').dataTable({"bPaginate": false,"bSort": false});
+			} );
+		</script>
+	</head>
+	<body id="dt_example">
+		<div id="container">
+			<h1>都道府県データ</h1>
+			<table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
+				<thead>
+					<tr>
+						<th>No.</th>
+						<th>都道府県</th>
+						<th>都道府県（ふりがな）</th>
+						<th>地方</th>
+					</tr>
+				</thead>
+				<tbody>
+                    <tr>
+                        <td class="center">01</td>
+                        <td>北海道</td>
+                        <td>ほっかいどう</td>
+                        <td>北海道</td>
+                    </tr>
+                    <tr>
+                        <td class="center">02</td>
+                        <td>青森県</td>
+                        <td>あおもり</td>
+                        <td>東北</td>
+                    </tr>
+                    <tr>
+                        <td class="center">03</td>
+                        <td>岩手県</td>
+                        <td>いわて</td>
+                        <td>東北</td>
+                    </tr>
+                    <tr>
+                        <td class="center">04</td>
+                        <td>宮城県</td>
+                        <td>みやぎ</td>
+                        <td>東北</td>
+                    </tr>
+                    <tr>
+                        <td class="center">05</td>
+                        <td>秋田県</td>
+                        <td>あきた</td>
+                        <td>東北</td>
+                    </tr>
+                    <tr>
+                        <td class="center">06</td>
+                        <td>山形県</td>
+                        <td>やまがた</td>
+                        <td>東北</td>
+                    </tr>
+                    <tr>
+                        <td class="center">07</td>
+                        <td>福島県</td>
+                        <td>ふくしま</td>
+                        <td>東北</td>
+                    </tr>
+                    <tr>
+                        <td class="center">08</td>
+                        <td>茨城県</td>
+                        <td>いばらき</td>
+                        <td>関東</td>
+                    </tr>
+                    <tr>
+                        <td class="center">09</td>
+                        <td>栃木県</td>
+                        <td>とちぎ</td>
+                        <td>関東</td>
+                    </tr>
+                    <tr>
+                        <td class="center">10</td>
+                        <td>群馬県</td>
+                        <td>ぐんま</td>
+                        <td>関東</td>
+                    </tr>
+                    <tr>
+                        <td class="center">11</td>
+                        <td>埼玉県</td>
+                        <td>さいたま</td>
+                        <td>関東</td>
+                    </tr>
+                    <tr>
+                        <td class="center">12</td>
+                        <td>千葉県</td>
+                        <td>ちば</td>
+                        <td>関東</td>
+                    </tr>
+                    <tr>
+                        <td class="center">13</td>
+                        <td>東京都</td>
+                        <td>とうきょう</td>
+                        <td>関東</td>
+                    </tr>
+                    <tr>
+                        <td class="center">14</td>
+                        <td>神奈川県</td>
+                        <td>かながわ</td>
+                        <td>関東</td>
+                    </tr>
+                    <tr>
+                        <td class="center">15</td>
+                        <td>新潟県</td>
+                        <td>にいがた</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">16</td>
+                        <td>富山県</td>
+                        <td>とやま</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">17</td>
+                        <td>石川県</td>
+                        <td>いしかわ</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">18</td>
+                        <td>福井県</td>
+                        <td>ふくい</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">19</td>
+                        <td>山梨県</td>
+                        <td>やまなし</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">20</td>
+                        <td>長野県</td>
+                        <td>ながの</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">21</td>
+                        <td>岐阜県</td>
+                        <td>ぎふ</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">22</td>
+                        <td>静岡県</td>
+                        <td>しずおか</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">23</td>
+                        <td>愛知県</td>
+                        <td>あいち</td>
+                        <td>中部</td>
+                    </tr>
+                    <tr>
+                        <td class="center">24</td>
+                        <td>三重県</td>
+                        <td>みえ</td>
+                        <td>近畿</td>
+                    </tr>
+                    <tr>
+                        <td class="center">25</td>
+                        <td>滋賀県</td>
+                        <td>しが</td>
+                        <td>近畿</td>
+                    </tr>
+                    <tr>
+                        <td class="center">26</td>
+                        <td>京都府</td>
+                        <td>きょうと</td>
+                        <td>近畿</td>
+                    </tr>
+                    <tr>
+                        <td class="center">27</td>
+                        <td>大阪府</td>
+                        <td>おおさか</td>
+                        <td>近畿</td>
+                    </tr>
+                    <tr>
+                        <td class="center">28</td>
+                        <td>兵庫県</td>
+                        <td>ひょうご</td>
+                        <td>近畿</td>
+                    </tr>
+                    <tr>
+                        <td class="center">29</td>
+                        <td>奈良県</td>
+                        <td>なら</td>
+                        <td>近畿</td>
+                    </tr>
+                    <tr>
+                        <td class="center">30</td>
+                        <td>和歌山県</td>
+                        <td>わかやま</td>
+                        <td>近畿</td>
+                    </tr>
+                    <tr>
+                        <td class="center">31</td>
+                        <td>鳥取県</td>
+                        <td>とっとり</td>
+                        <td>中国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">32</td>
+                        <td>島根県</td>
+                        <td>しまね</td>
+                        <td>中国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">33</td>
+                        <td>岡山県</td>
+                        <td>おかやま</td>
+                        <td>中国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">34</td>
+                        <td>広島県</td>
+                        <td>ひろしま</td>
+                        <td>中国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">35</td>
+                        <td>山口県</td>
+                        <td>やまぐち</td>
+                        <td>中国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">36</td>
+                        <td>徳島県</td>
+                        <td>とくしま</td>
+                        <td>四国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">37</td>
+                        <td>香川県</td>
+                        <td>かがわ</td>
+                        <td>四国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">38</td>
+                        <td>愛媛県</td>
+                        <td>えひめ</td>
+                        <td>四国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">39</td>
+                        <td>高知県</td>
+                        <td>こうち</td>
+                        <td>四国</td>
+                    </tr>
+                    <tr>
+                        <td class="center">40</td>
+                        <td>福岡県</td>
+                        <td>ふくおか</td>
+                        <td>九州</td>
+                    </tr>
+                    <tr>
+                        <td class="center">41</td>
+                        <td>佐賀県</td>
+                        <td>さが</td>
+                        <td>九州</td>
+                    </tr>
+                    <tr>
+                        <td class="center">42</td>
+                        <td>長崎県</td>
+                        <td>ながさき</td>
+                        <td>九州</td>
+                    </tr>
+                    <tr>
+                        <td class="center">43</td>
+                        <td>熊本県</td>
+                        <td>くまもと</td>
+                        <td>九州</td>
+                    </tr>
+                    <tr>
+                        <td class="center">44</td>
+                        <td>大分県</td>
+                        <td>おおいた</td>
+                        <td>九州</td>
+                    </tr>
+                    <tr>
+                        <td class="center">45</td>
+                        <td>宮崎県</td>
+                        <td>みやざき</td>
+                        <td>九州</td>
+                    </tr>
+                    <tr>
+                        <td class="center">46</td>
+                        <td>鹿児島県</td>
+                        <td>かごしま</td>
+                        <td>九州</td>
+                    </tr>
+                    <tr>
+                        <td class="center">47</td>
+                        <td>沖縄県</td>
+                        <td>おきなわ</td>
+                        <td>沖縄</td>
+                    </tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th>No.</th>
+						<th>都道府県</th>
+						<th>都道府県（ふりがな）</th>
+						<th>地方</th>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</body>
+</html>

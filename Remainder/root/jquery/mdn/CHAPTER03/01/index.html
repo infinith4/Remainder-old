@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="css/style.css">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/fitter.js"></script>
+<script src="js/fadechanger.js"></script>
+<script src="js/imgloader.js"></script>
+<script src="js/transition.js"></script>
+<script>
+$(function() {
+
+	// オプションの一括指定
+	var options = {
+		imglist: [
+			"photo/0.jpg",
+			"photo/1.jpg",
+			"photo/2.jpg",
+			"photo/3.jpg",
+			"photo/4.jpg",
+			"photo/5.jpg"
+		],
+		width: 1200,
+		height: 896,
+		minWidth: 600,
+		minHeight: 400,
+		callback: function() {
+			var self = this;
+			
+			// ローディング表示を終了
+			$("#loading").hide();
+			// 末尾の要素をフェードイン
+			self.find("img").eq(-1).fadeIn(function() {
+				// フェード切り替え開始
+				self.fadechanger({ selector: "img" });
+			});
+
+			// fitter起動
+			self.fitter(options);
+		}
+	}
+	
+	// loader
+	$("#imgContainer").imgloader(options);
+
+	// transition
+	$("#header a").transition();
+
+});
+</script>
+</head>
+<body>
+<div id="wrapper">
+
+	<img src="img/indicator.gif" id="loading">
+
+	<div id="imgContainer"></div>
+	
+	<div id="header">
+		<img src="img/contents.png">
+	</div>
+
+</div>
+</body>
+</html>

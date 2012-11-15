@@ -1,0 +1,173 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	text-indent:0;
+}
+html,body {
+	height:100%;
+}
+body {
+	font-family:'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+}
+
+#Viewer {
+	min-height:100%;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+#Header {
+	width:800px;
+	margin-right:auto;
+	margin-bottom:2em;
+	margin-left:auto;
+	padding:50px 50px 0 50px;
+}
+#Header h1 {
+	margin-bottom:0.5em;
+	font-size:2.5em;
+}
+#Header p {
+	font-size:1em;
+}
+
+#Content {
+	width:800px;
+	margin-right:auto;
+	margin-left:auto;
+	padding:0px 50px 100px 50px;
+}
+#Content h2 {
+	margin-bottom:1em;
+	font-size:1.5em;
+}
+#Content p {
+	margin-bottom:1.5em;
+	text-indent:1em;
+}
+
+#Controller {
+	z-index:10;
+	position:fixed;
+	width:620px;
+	height:100px;
+	bottom:0;
+	left:50%;
+	margin-left:-311px;
+	border-top:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+	border-left:1px solid #E0E0E0;
+	border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	color:#707070;
+	background-color:#D7D7D7;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #F0F0F0),color-stop(1, #DDDDDD));
+	background: -moz-linear-gradient(center top,#F0F0F0 0%,#DDDDDD 100%);
+}
+#FontColor,
+#BgColor {
+	position:absolute;
+	width:250px;
+	height:26px;
+	left:20px;
+}
+#FontColor {
+	top:20px;
+}
+#BgColor {
+	top:55px;
+}
+#FontColor h2,
+#BgColor h2 {
+	position:absolute;
+	width:50px;
+	height:26px;
+	top:0;
+	left:0;
+	line-height:26px;
+	font-size:16px;
+}
+#FontColor ul,
+#BgColor ul {
+	position:absolute;
+	top:0;
+	right:0;
+	list-style:none;
+}
+
+#FontColor ul li,
+#BgColor ul li {
+	width:24px;
+	height:24px;
+	margin:1px 7px 1px 1px;
+	float:left;
+	border:1px solid #cccccc;
+	cursor:pointer;
+}
+#FontColor ul .current,
+#BgColor ul .current {
+	border:2px solid #F60;
+	margin:0 6px 0 0;
+}
+
+.black {
+	background-color:#000;
+}
+.darkgrey {
+	background-color:#404040;
+}
+.lightgrey {
+	background-color:#ECECEC;
+}
+.white {
+	background-color:#FFF;
+}
+.ivory {
+	background-color:#FFFCF0
+}
+.sepia {
+	background-color:#423224;
+}
+.navy {
+	background-color:#1B1C3B;
+}
+
+#FontSize,
+#LineHeight,
+#LetterSpace {
+	position:absolute;
+	width:290px;
+	height:16px;
+	right:20px;
+}
+#FontSize {
+	top:15px;
+}
+#LineHeight {
+	top:43px;
+}
+#LetterSpace {
+	top:70px;
+}
+#FontSize h2,
+#LineHeight h2,
+#LetterSpace h2 {
+	position:absolute;
+	width:50px;
+	left:0;
+	font-size:16px;
+	line-height:16px;
+	text-align:right;
+}
+#SizeSelector,
+#HeightSelector,
+#SpaceSelector {
+	position:absolute;
+	width:230px;
+	top:3px;
+	right:0px;
+	line-height:16px;
+	font-size:8px;
+}

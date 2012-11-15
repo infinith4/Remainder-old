@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* 初期設定
+--------------------------------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* slider
+--------------------------------------------------------- */
+.slideFrame {
+	overflow: hidden;
+	width: 100%;
+}
+
+.slideCell {
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+
+/* controller */
+.slideCtrl {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 90px;
+	height: 100%;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #333;
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	-webkit-opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.slideCtrl.left { left: 0; }
+.slideCtrl.right { right: 0; }
+
+
+/* slider-0
+--------------------------------------------------------- */
+#slider-0.slideFrame {
+	height: 300px;
+}
+
+/* slider-1
+--------------------------------------------------------- */
+#slider-1.slideFrame {
+	position: relative;
+	height: 75px;
+	margin: 10px 0;
+}
+#slider-1 .slideCtrl {
+	padding-top: 30px;
+}
+
+/* slider-2
+--------------------------------------------------------- */
+#slider-2.slideFrame {
+	position: relative;
+	height: 150px;
+}
+#slider-2 .slideCtrl {
+	padding-top: 65px;
+}
+
+/* slider-2
+--------------------------------------------------------- */
+#slider-3.slideFrame {
+	position: relative;
+	height: 75px;
+}
+
+
+/* sample
+--------------------------------------------------------- */
+#sample {
+	padding: 35px 0 25px;
+}

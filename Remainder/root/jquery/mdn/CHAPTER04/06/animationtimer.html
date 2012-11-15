@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>jQueryタイマーアニメーション DEMO</title>
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+<script type="text/javascript" src="jquery.timers-1.2.js"></script>
+<script>
+$(function(){
+	var i=0;
+	var t=0;
+
+	//タイマーイベントを発生
+	$(document).everyTime(1500,'timer01',function(){
+			
+			//変数tの数値で表示を切り替え
+			if(t==0){
+				$("img").attr("src","pic.jpg");
+				$(".hide").fadeIn("slow");
+			}
+			else if(t==1){
+				$(".hide").fadeOut("slow");
+			}			
+			else if(t==2){
+				$("img").attr("src","pic2.jpg");
+				$(".hide").fadeIn("slow");
+			}
+			else if(t==3){
+				$(".hide").fadeOut("slow");
+			}
+			
+			//tをループさせる
+			if(t==3){
+				t=0;
+			}
+			else{
+				t++;
+			}
+			
+	});
+	//ボタンクリックで停止
+	$("button").click(function () {
+ 		$(document).stopTime('timer01');
+	});
+});
+</script>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<style>
+.hide {
+	display:block;
+ 	margin-top:15px;
+	
+}
+</style>
+</head>
+<body>
+<h1>jQueryタイマーアニメーション</h1>
+<button>タイマー停止</button><br />
+<p class="hide" style="display:none;"><img src="pic.jpg" /></p>
+</body>
+</html>
+            

@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+
+/* YUI 2: Reset CSS */
+@import url(yui2-reset.css);
+
+/* 共通スタイル */
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+	 Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 87.5%; /* 14px */
+	background: url(../images/common/bg_body.gif) no-repeat 50% 0;
+}
+img {
+	vertical-align: bottom;
+}
+a {
+	color: #a3005f;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#wrapper {
+	width: 945px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+#header {
+	padding: 20px 0 40px;
+	overflow: hidden;
+	/zoom: 1;
+}
+#header #siteId {
+	float: left;
+	padding-top: 4px;
+}
+#header #nav {
+	float: right;
+	margin-left: -15px;
+	overflow: hidden;
+	/zoom: 1;
+}
+#header #nav li {
+	float: left;
+}
+#header #nav li a {
+	display: block;
+	margin-left: 15px;
+}
+#content {
+	/zoom: 1;
+}
+#content:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#content #main {
+	float: left;
+	width: 465px;
+}
+#content #main .section {
+	margin-bottom: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #c0c0c0;
+}
+#content #main .section .sectionTtl {
+	margin-bottom: 30px;
+}
+#content #main .section dl.info {
+	margin-top: 10px;
+}
+#content #main .section dl.info dt {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Century Gothic";
+}
+#content #main .section dl.info dd {
+	margin-top: 10px;
+}
+#content #main .section dl.info dd a {
+	display: block;
+}
+#content #main .section dl.info dd a img {
+}
+#content #side {
+	float: right;
+	width: 465px;
+}
+#content #side .sideTtl {
+	margin-bottom: 30px;
+}
+#content #side #alpha,
+#content #side #beta {
+	float: left;
+	padding-top: 20px;
+	width: 225px;
+	border-top: 1px solid #c0c0c0;
+}
+#content #side #beta {
+	float: right;
+}
+#content #side #beta #banner li {
+	margin-top: 10px;
+	/display: inline;
+	/zoom: 1;
+}
+#content #side #beta #banner li a {
+	display: block;
+	border: 4px solid #eee;
+}
+#content #side #beta #banner li a img {
+	border: 1px solid #ddd;
+}
+#footer {
+	margin-top: 30px;
+	padding: 20px 0;
+	font-size: 11px;
+	border-top: 1px solid #c0c0c0;
+}
+#footer #footerNav li {
+	display: inline;
+	margin-right: 1em;
+}
+#footer #copyright {
+	margin-top: .5em;
+}
+
+/* 関連ツイート */
+#content #side #alpha #twitter ul li {
+	position: relative;
+	margin-bottom: 1em;
+	font-size: 11px;
+	/zoom: 1;
+}
+#content #side #alpha #twitter ul li span {
+	display: block;
+}
+#content #side #alpha #twitter ul li span.time {
+	float: right;
+	font-weight: bold;
+	font-size: 9px;
+	line-height: 28px;
+	color: #c0c0c0;
+}
+#content #side #alpha #twitter ul li span.name {
+	margin-left: 34px;
+	font-weight: bold;
+	line-height: 28px;
+}
+#content #side #alpha #twitter ul li span.icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1px;
+	border: 1px solid #c0c0c0;
+}
+#content #side #alpha #twitter ul li span.text {
+	margin-top: 5px;
+	overflow: hidden;
+	/zoom: 1;
+}
+/* AJAXステータス表示用パーツ */
+#content #side #alpha #twitter .msg {
+	color: #c0c0c0;
+}
+#content #side #alpha #twitter .error {
+	color: #c00;
+}
+
+
+

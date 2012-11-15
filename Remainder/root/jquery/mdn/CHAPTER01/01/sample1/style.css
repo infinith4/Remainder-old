@@ -1,0 +1,39 @@
+body{
+	background:#fff;
+	font-family: 'ƒqƒ‰ƒMƒmŠpƒS Pro W3', 'Hiragino Kaku Gothic Pro', 'ƒƒCƒŠƒI', Meiryo, '‚l‚r ‚oƒSƒVƒbƒN', sans-serif;
+	font-size:12px;
+	color: #164158;
+}
+
+ul.navi {
+	width:220px;
+	margin:0px;
+}
+
+ul.navi, ul.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.category {
+	margin-top:5px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #B9DDE8;
+}
+
+ul.menu a{
+	display:block;
+	height: 35px;
+	line-height: 35px;
+	color: #164158;
+}
+
+ul.menu li{
+	background-color: #F2F9FB;
+}
+
+a {
+	text-decoration:none;
+}

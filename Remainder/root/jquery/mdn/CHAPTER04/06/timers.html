@@ -1,0 +1,37 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery timers</title>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+<script type="text/javascript" src="jquery.timers-1.2.js"></script>
+<script type="text/javascript">
+$(function () {
+	var i=0;
+	//1秒経過するごとに1加算して表示する
+	$(document).everyTime(1000,'timer01',function(){
+		i++;
+		$(".second").text(i);
+	});
+	
+	//ボタンクリックで停止
+	$("button").click(function () {
+ 		$(document).stopTime('timer01');
+ 		$(".second").text(i + "(停止中)");
+	});
+	
+	//30秒経過したら警告文を表示します
+	$(document).oneTime(30000,'timer02',function(){
+		$(".onetime").text("30秒経過しました。");
+	});
+});
+</script>
+</head>
+<body>
+<h1>jQueryタイマー(jQuery Timers)</h1>
+<button>タイマー停止</button><br />
+<p>経過時間（秒）： <span class="second">0</span></p>
+<p class="onetime"></p>
+</body>
+</html>

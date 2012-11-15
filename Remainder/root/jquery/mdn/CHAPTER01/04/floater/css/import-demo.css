@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/** reset */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font-style: normal; font-weight: normal; vertical-align: baseline; background: transparent; }
+
+body { font-size: 13px; *font-size: small; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ',Meiryo, 'ＭＳ Ｐゴシック', sans-serif; line-height: 123.1%; }
+
+li { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+ins { text-decoration: none; }
+
+del { text-decoration: line-through; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+img { vertical-align: bottom; }
+
+:focus { outline: 0; }
+
+.root .child-1 { padding-left: 1em; }
+.root .child-1 li:before { content: "├ "; }
+.root .child-1 li:last-child:before { content: "└ "; }
+
+/** base */
+body { background-color: #123; }
+
+#wrapper { background-color: #ddd; }
+
+#header { height: 80px; background-color: #268; }
+#header h1 { padding: 20px; color: #fff; font-size: 30px; line-height: 1em; }
+
+#container { height: 1500px; }
+#container p { padding: 20px 10px; color: #268; font-size: 18px; line-height: 1em; }
+
+#footer { height: 80px; background-color: #246; background-color: #123; }
+#footer p { padding: 10px; color: #fff; font-size: 14px; line-height: 1em; text-align: right; }
+
+/** Navigation  */
+#wrapper { position: relative; }
+
+#nav-1, #nav-2, #nav-3, #nav-4 { right: 100px; padding: 10px 15px; width: 130px; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; background-color: #246; color: #fff; }
+#nav-1 li, #nav-2 li, #nav-3 li, #nav-4 li { padding: 5px 1em; font-size: 20px; line-height: 1.5em; }
+#nav-1 li:first-child, #nav-2 li:first-child, #nav-3 li:first-child, #nav-4 li:first-child { margin-bottom: 5px; padding-left: 0; border-bottom: 1px solid #469; }
+
+#nav-2 { right: 300px; background-color: #b68626; }
+#nav-2 li:first-child { border-bottom-color: #d6a646; }
+
+#nav-3 { right: 500px; background-color: #176a6e; }
+#nav-3 li:first-child { border-bottom-color: #2e9f9f; }
+
+#nav-4 { right: 700px; background-color: #942c75; }
+#nav-4 li:first-child { border-bottom-color: #b74da8; }

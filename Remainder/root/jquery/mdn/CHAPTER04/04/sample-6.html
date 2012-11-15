@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Sample 6 | jQuery Mobile でスマフォサイト</title>
+	  <meta name="description" content="jQuery Mobile でスマフォサイトをつくる！">
+	  <meta name="author" content="Toshiya TSURU">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- アドレスバー等を隠す -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!-- jQuery Mobile に必要なファイル -->
+		<link rel="stylesheet" href="css/jquery.mobile-1.0a4.1.min.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		<script src="js/libs/jquery-1.5.2.min.js"></script>
+		<script src="js/libs/jquery.mobile-1.0a4.1.min.js"></script>
+	</head>
+	<body>
+			
+		<div data-role="page" id="page1">
+			<div data-role="header" data-position="fixed">
+				<h1>リスト</h1>
+				<a href="sample-index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">ホーム</a>
+			</div><!-- /header -->
+			
+			<div data-role="content">
+				<h2>いろいろなリストアイテム</h2> 
+				<ul data-role="listview" data-inset="true">
+					<li><a href="sample-6.html">普通のリストアイテム</a></li>
+					<li><a href="sample-6.html">カウントバブル<span class="ui-li-count">2</span></a></li>
+					<li data-icon="info"><a href="sample-6.html">「data-icon="info"」指定</a></li>
+					<li><a href="index.html"><img src="img/star16.png" alt="Star" class="ui-li-icon">アイコン付きリストアイテム</a></li>
+					<li>
+						<a href="sample-6.html"> 
+						<img src="img/star.png" /> 
+						<h3>サムネイル</h3> 
+						<p>コンテンツ</p></a> 
+						<a href="sample-6.html">4 ページ</a> 
+					</li>
+					<li data-theme="a">「data-theme="a"」指定 <span class="ui-li-count">99</span></li> 
+				</ul>
+				
+				<h2>フィルター付きリスト</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true"> 
+					<li data-role="list-divider">あ</li> 
+					<li><a href="sample-6.html">足立</a></li> 
+					<li><a href="sample-6.html">尾崎</a></li> 
+					<li data-role="list-divider">か</li> 
+					<li><a href="sample-6.html">川越</a></li> 
+					<li data-role="list-divider">さ</li> 
+					<li><a href="sample-6.html">佐藤</a></li>
+					<li data-role="list-divider">た</li> 
+					<li><a href="sample-6.html">田中</a></li>
+					<li data-role="list-divider">な</li> 
+					<li><a href="sample-6.html">名越</a></li>  
+				</ul>
+			</div><!-- /content -->
+			
+			<div data-role="footer" data-position="fixed">
+				<h4>フッター</h4>
+			</div><!-- /footer -->
+		</div>
+		
+	</body>
+</html>

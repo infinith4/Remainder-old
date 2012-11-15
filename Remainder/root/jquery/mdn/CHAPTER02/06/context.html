@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>jQuery Context Menu Plugin Demo</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script src="jquery-1.6.min.js" type="text/javascript"></script>
+<script src="jquery.contextMenu.js" type="text/javascript"></script>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<link href="jquery.contextMenu.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+	$(document).ready( function() {
+		$("#myDiv").contextMenu(
+			{menu: 'myMenu'},
+			//この部分に動作をJavaScriptで記述
+			function(action, el, pos) {
+					if(action == 'info'){
+					alert('ライブラリとは汎用性の高い複数のプログラムを、再利用可能な形でひとまとまりにしたものです');
+				}	 
+				else if(action == 'book'){
+					alert('書籍名：jQueryデザインブック/右クリックメニュー');
+				}	 
+				else if(action == 'author'){
+					alert('著作者：藤沢立也');
+				}	             			
+				else if(action == 'ver'){
+					alert('右クリックメニュー ver1.0');
+				}
+			}
+		);
+		
+		$("#library,#js").contextMenu({
+			menu: 'myMenu2'},
+			//この部分に動作をJavaScriptで記述
+			function(action, el, pos) {
+				if(action == 'info'){
+					var el_id = $(el).attr('id');
+					if(el_id == 'library'){
+						alert('ライブラリとは汎用性の高い複数のプログラムを、再利用可能な形でひとまとまりにしたものです');
+					}
+					else if(el_id == 'js'){
+						alert('JavaScriptとは、ブラウザ上で動作するプログラム言語（スクリプト）です。');
+					}
+				}	 
+				else if(action == 'book'){
+					alert('書籍名：jQueryデザインブック/右クリックメニュー');
+				}	 
+				else if(action == 'author'){
+					alert('著作者：藤沢立也');
+				}
+				else if(action == 'ver'){
+					alert('右クリックメニュー ver1.0');
+				}
+			}	
+		);	
+	});	
+</script>
+
+<style type="text/css">
+/* テキスト部分 */
+#myDiv {
+	margin-top:15px;
+	margin-bottom:15px;
+	border:solid 1px #eef;
+	padding:5px;
+	background:#eef;
+  	width:400px;
+	clear:both;
+}
+/* 単語のハイライト */
+.check {
+	font-weight:bold;
+	color:#00008b;
+}
+</style>
+</head>
+<body>
+
+<h1>右クリックメニュー(jQuery Context Menu Plugin)</h1>
+
+<!-- テキスト部分 -->
+<div id="myDiv">
+	jQueryとは<span id="js" class="check">JavaScript</span>の<span id="library" class="check">ライブラリ</span>の一つで、急速に普及してきています。<br /><br />
+	その最大の特徴は「write less, do more」のキャッチフレーズ通り「少ないコードで、より多くのことを実行」できる優れたライブラリです。<br /><br />
+	もちろんブラウザに依存しないクロスブラウザな動作をします。ブラウザ対応は世界中のプログラマにとって一番の悩みですから、作業効率を画期的に改善します。<br /><br />
+	さらにjQueryの機能を拡張してくれる豊富な「プラグイン」の存在も魅力です。「プラグイン」は自作できる拡張機能であり世界中の多くの開発者によって作成されています。<br /><br />
+</div>
+
+<!-- メニューその１ -->
+<ul id="myMenu" class="contextMenu">
+	<li class="copy separator"><a href="#book">著書情報</a></li>
+	<li class="edit"><a href="#author">著作者</a></li>
+	<li class="quit separator"><a href="#ver">バージョン情報</a></li>
+</ul>
+
+<!-- メニューその２ -->
+<ul id="myMenu2" class="contextMenu">
+	<li class="paste"><a href="#info">詳細説明</a></li>
+	<li class="copy separator"><a href="#book">著書情報</a></li>
+	<li class="edit"><a href="#author">著作者</a></li>
+	<li class="quit separator"><a href="#ver">バージョン情報</a></li>
+</ul>
+
+</body>
+</html>

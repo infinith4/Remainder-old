@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>jQuery日付・時間</title>
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+<script type="text/javascript" src="jquery.timers.js"></script>
+<script type="text/javascript" src="exdate.js"></script>
+<script type="text/javascript" src="jquery.countdown.js"></script>
+<script type="text/javascript" src="jquery.countdown-ja.js"></script>
+<script type="text/javascript" src="jquery.timers-1.2.js"></script>
+<script>
+$(function(){
+	
+	/* タイマーアニメーション */
+	var i=0;
+	var t=0;
+
+	//タイマーイベントを発生
+	$(document).everyTime(1500,'timer01',function(){
+			
+			//変数tの数値で表示を切り替え
+			if(t==0){
+				$(".hide img").attr("src","pic.jpg");
+				$(".hide").fadeIn("slow");
+			}
+			else if(t==1){
+				$(".hide").fadeOut("slow");
+			}			
+			else if(t==2){
+				$(".hide img").attr("src","pic2.jpg");
+				$(".hide").fadeIn("slow");
+			}
+			else if(t==3){
+				$(".hide").fadeOut("slow");
+			}
+			
+			//tをループさせる
+			if(t==3){
+				t=0;
+			}
+			else{
+				t++;
+			}
+			
+	});
+	//ボタンクリックで停止
+	$("button").click(function () {
+ 		$(document).stopTime('timer01');
+	});
+	
+
+	/* jQuery exDateオブジェクト(jQuery exDate) */
+	
+	//現在の時間でオブジェクト生成
+	var date=$.exDate();
+	
+	//各種変換
+	$("#tochar").text(date.toChar());
+	$("#lastday").text(date.lastDay().toChar());
+	$("#addmonths_past").text(date.addMonths(-7).toChar("yyyy年mm月dd日 hh時mi分"));
+	$("#addmonths_feature").text(date.addMonths(17).toChar("yyyy年mm月dd日 hh時mi分"));	
+	
+
+	/* jQueryカウントダウン(jQuery Countdown) */
+
+	//日付オブジェクト生成
+	var austDay = new Date();
+	
+	//ターゲットの日付時間を入力
+	austDay = new Date(2012, 5 - 1, 20,5,32,55);
+
+	//入力した日付表示
+	$('#year').text(austDay.getFullYear());
+	$('#month').text(austDay.getMonth()+1);
+	$('#day').text(austDay.getDate());
+	$('#hour').text(austDay.getHours());
+	$('#minute').text(austDay.getMinutes());
+	$('#second').text(austDay.getSeconds());
+
+	//ターゲットまでのカウントダウンを取得する
+	$('#defaultCountdown').countdown({until: austDay});
+	
+	var j=0;
+	//1秒経過するごとに1加算して表示する
+	$(document).everyTime(1000,'timer01',function(){
+		j++;
+		$(".second").text(j);
+	});
+
+
+	/* jQueryタイマー(jQuery Timers) */
+
+	//ボタンクリックで停止
+	$("button").click(function () {
+ 		$(document).stopTime('timer01');
+ 		$(".second").text(j + "(停止中)");
+	});
+	
+	//30秒経過したら警告文を表示します
+	$(document).oneTime(30000,'timer02',function(){
+		$(".onetime").text("30秒経過しました。");
+	});
+	
+	
+});
+</script>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<link href="jquery.countdown.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+#defaultCountdown { 
+	width: 240px;
+	height: 45px;
+ }
+
+.hide {
+	display:block;
+ 	margin-top:15px;
+}
+
+.leftbox {
+	float:left;
+	width:500px;
+	height:420px;
+	padding-top:20px;
+	padding-left:20px;
+	border:1px solid #000;
+}
+
+.rightbox {
+	float:left;
+	height:400px;
+	padding:20px;
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.leftbox2 {
+	float:left;
+	width:500px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.rightbox2 {
+	float:left;
+	width:312px;
+	height:113px;
+	padding:20px;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+</style>
+</head>
+<body>
+<h1><img src="logo.gif" /></h1>
+<!-- jQueryタイマーアニメーション -->
+<div class ="leftbox">
+	<h1>jQueryタイマーアニメーション</h1>
+	<button>タイマー停止</button><br />
+	<p class="hide" style="display:none;"><img src="pic.jpg" /></p>
+</div>
+
+<!-- jQuery exDateオブジェクト(jQuery exDate) -->
+<div class="rightbox">
+	<h1>jQuery exDateオブジェクト(jQuery exDate)</h1>
+	<h2>現在の時刻</h2> 
+	<p id="tochar"></p>
+	<h2>今月の最終日</h2> 
+	<p id="lastday"></p>
+	<h2>7ヶ月前の年月日</h2> 
+	<p id="addmonths_past"></p>
+	<h2>17ヶ月後の年月日</h2> 
+	<p id="addmonths_feature"></p>
+</div>
+<br clear="all">
+
+<!-- jQueryカウントダウン(jQuery Countdown) -->
+<div class ="leftbox2">
+	<h1>jQueryカウントダウン(jQuery Countdown)</h1>
+	<p>カウントダウン： <span id="year">2010</span>年 <span id="month">1</span>月 <span id="day">1</span>日　<span id="hour">23</span>:<span id="minute">59</span>:<span id="second">59</span></p>
+	<div id="defaultCountdown"></div>
+</div>
+
+<!-- jQueryタイマー(jQuery Timers) -->
+<div class ="rightbox2">
+	<h1>jQueryタイマー(jQuery Timers)</h1>
+	<button>タイマー停止</button><br />
+	<p>経過時間（秒）： <span class="second">0</span></p>
+	<p class="onetime"></p>
+</div>
+
+</body>
+</html>
+            

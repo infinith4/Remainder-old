@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>jQuery Countdown</title>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<link href="jquery.countdown.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#defaultCountdown { width: 240px; height: 45px; }
+</style>
+<script type="text/javascript" src="jquery-1.6.min.js"></script>
+<script type="text/javascript" src="jquery.countdown.js"></script>
+<script type="text/javascript" src="jquery.countdown-ja.js"></script>
+<script type="text/javascript">
+$(function () {
+
+	//日付オブジェクト生成
+	var austDay = new Date();
+	
+	//ターゲットの日付時間を入力
+	austDay = new Date(2012, 5 - 1, 20,5,32,55);
+
+	//入力した日付表示
+	$('#year').text(austDay.getFullYear());
+	$('#month').text(austDay.getMonth()+1);
+	$('#day').text(austDay.getDate());
+	$('#hour').text(austDay.getHours());
+	$('#minute').text(austDay.getMinutes());
+	$('#second').text(austDay.getSeconds());
+
+	//ターゲットまでのカウントダウンを取得する
+	$('#defaultCountdown').countdown({until: austDay});
+
+});
+</script>
+</head>
+<body>
+<h1>jQueryカウントダウン(jQuery Countdown)</h1>
+<p>カウントダウン： <span id="year">2010</span>年 <span id="month">1</span>月 <span id="day">1</span>日　<span id="hour">23</span>:<span id="minute">59</span>:<span id="second">59</span></p>
+<div id="defaultCountdown"></div>
+</body>
+</html>

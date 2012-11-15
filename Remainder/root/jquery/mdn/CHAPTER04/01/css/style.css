@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+
+/* YUI 2: Reset CSS */
+@import url(yui2-reset.css);
+
+/* 共通スタイル */
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+	 Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 87.5%; /* 14px */
+	background: #e1deda url(../images/common/bg_body.gif);
+}
+a {
+	font-weight: bold;
+	color: #6d4b16;
+}
+a:hover {
+	color: #ce861a;
+}
+#wrapper {
+	width: 940px;
+	margin: 30px auto 0;
+	padding: 0 20px;
+	overflow: hidden; /* ClearFix */
+	/zoom: 1; /* ClearFix for IE6-7 */
+}
+#wrapperInner {
+	overflow: hidden; /* ClearFix */
+	/zoom: 1; /* ClearFix for IE6-7 */
+}
+#header {
+	float: left;
+	width: 220px;
+}
+#header #siteId {
+}
+#header ul#nav {
+	padding-bottom: 19px;
+	background: url(../images/common/bg_shadow_s.gif) no-repeat 0 100%;
+}
+#header ul#nav li a {
+	display: block;
+	margin-top: 1px;
+	background: #fff;
+	padding: 11px 15px 9px;
+	text-decoration: none;
+}
+#header ul#nav li a:hover {
+	background: #f9ffd7;
+}
+#content {
+	float: left;
+	width: 720px;
+	padding-top: 20px;
+	overflow: hidden; /* ClearFix */
+	/zoom: 1; /* ClearFix for IE6-7 */
+}
+#content .section {
+	clear: both;
+	position: relative;
+	margin-left: 20px;
+	padding: 10px 10px 40px;
+	background: #fff url(../images/common/bg_shadow_l.gif) no-repeat 0 100%;
+}
+#content .section p.more {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+#content .section.half {
+	clear: none;
+	float: left;
+	width: 320px;
+	background-image: url(../images/common/bg_shadow_m.gif);
+}
+#content .section .sectionTtl {
+	margin-bottom: 1em;
+	margin-left: -13px;
+	padding-left: 13px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #3d2808;
+	background: url(../images/common/bg_section-ttl.gif) no-repeat;
+}
+#footer {
+	margin-top: 40px;
+	padding: 20px 10px;
+	font-size: 85.7%;
+	text-align: right;
+	background: url(../images/common/line_h1x2.gif) repeat-x;
+}
+#footer ul#footerNav li {
+	display: inline;
+	padding-left: 10px;
+}
+#footer #copyright {
+	margin-top: .5em;
+	color: #666;
+}
+
+/* マップ */
+#content #gmap {
+	height: 500px;
+	background: #eee;
+	border: 1px solid #e1deda;
+}
+
+
+

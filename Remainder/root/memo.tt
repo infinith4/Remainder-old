@@ -15,6 +15,13 @@
 
 <link rel="stylesheet" type="text/css" href="./js/jquery.tooltip.js/jquery.tooltip.css" />
 
+            <h1>Category</h1>
+            <!-- [% FOREACH item = remaindermemo %] -->
+            <div id="memo">
+              <p id="memo">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+              <!-- <td><font color="#d0d0d0">|</font>   [% item.days | html %]</td> -->
+            </div><br>
+            <!-- [% END %] -->
 <div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="#">Remainder</a>
@@ -121,17 +128,15 @@
               </form>
             </div>
 
-            <h1>aaaaaa</h1>
-            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
-            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
-            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
-            [Memo areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]<br>
-            [Memo area]<br>
-            [Memo area]<br>
-            [Memo area]<br>
-            [Memo area]<br>
-            [Memo area]<br>
-
+            <h1>Category</h1>
+            [% FOREACH item = remaindermemo %]
+            <div class="memo">    
+              <p id="memo">[% item.memo | html %]</p>
+              <!-- <td><font color="#d0d0d0">|</font>   [% item.days | html %]</td> -->
+            </div><br>
+            [% END %]
+              
+            <br>
           </div>
           <div class="span2">
             [% INCLUDE 'setting.tt' %]

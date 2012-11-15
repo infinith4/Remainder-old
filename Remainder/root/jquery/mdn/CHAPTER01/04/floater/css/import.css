@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/** reset */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font-style: normal; font-weight: normal; vertical-align: baseline; background: transparent; }
+
+body { font-size: 13px; *font-size: small; font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ',Meiryo, 'ＭＳ Ｐゴシック', sans-serif; line-height: 123.1%; }
+
+li { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+ins { text-decoration: none; }
+
+del { text-decoration: line-through; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+img { vertical-align: bottom; }
+
+:focus { outline: 0; }
+
+.root .child-1 { padding-left: 1em; }
+.root .child-1 li:before { content: "├ "; }
+.root .child-1 li:last-child:before { content: "└ "; }
+
+/** base */
+body { background-color: #fffad4; }
+
+#wrapper { padding: 0 48px; width: 844px; }
+
+#header h1 { padding: 59px 0 52px; }
+
+#container .section { padding: 20px 10px 60px; color: #268; font-size: 18px; line-height: 1em; }
+
+#footer { height: 40px; background-color: #000; }
+#footer p { padding: 10px; color: #fff; font-size: 14px; line-height: 1em; text-align: right; }
+
+/** Navigation  */
+#wrapper { position: relative; }
+
+#nav { right: 0; top: 137px; }

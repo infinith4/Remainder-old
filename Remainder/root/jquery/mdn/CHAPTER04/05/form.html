@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>無題ドキュメント</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="contact">
+	<h3>メッセージフォーム</h3>
+	<p class="close"><a href="javascript:closeform()"><img src="images/close_button.png" width="66" height="66" alt="Close" /></a></p>
+	<form method="post" action="mail.cgi" name="mailform" id="mailform">
+		<table>
+			<tr>
+				<th>氏名</th>
+				<td><input name="name" type="text" id="name" size="30" class="chkrequired" /></td>
+			</tr>
+			<tr>
+				<th>Eメール</th>
+				<td><input name="email" type="text" id="email" size="30" class="chkrequired chkemail" /></td>
+			</tr>
+			<tr>
+				<th>性別</th>
+				<td>
+					<div class="chkradio" id="sex">
+						<input type="radio" name="sex" id="male" value="男" /> <label for="male">男</label>
+						<input type="radio" name="sex" id="female" value="女" /> <label for="female">女</label>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th><label for="message">メッセージ</label></th>
+				<td><textarea name="message" id="message" rows="3" cols="40" class="chkrequired"></textarea></td>
+			</tr>
+		</table>
+		<div class="buttonArea">
+			<button type="submit">この内容で送信</button>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>

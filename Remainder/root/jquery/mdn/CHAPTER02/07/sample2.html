@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>sample</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="jquery.bubblepopup.v2.3.1.css" />
+		<script type="text/javascript" src="jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="jquery.bubblepopup.v2.3.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.button').CreateBubblePopup({
+					position 		: 'right',
+					align	 		: 'top',
+					tail			: {align:'top'},
+					closingDelay	: 1000,
+					innerHtmlStyle	: {
+						color		: '#FFFFFF',
+						'text-align': 'left',
+						'font-size'	: '12px'
+					},
+					themeName		: 'all-orange'
+				});
+				$('#balloon0').SetBubblePopupInnerHtml('説明：<br />このような吹き出しが<br />表示されます。');
+				$('#balloon1').SetBubblePopupInnerHtml('画像1');
+				$('#balloon2').SetBubblePopupInnerHtml('画像2');
+				$('#balloon3').SetBubblePopupInnerHtml('画像3');
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="container">
+			<h1>TOOLTIP</h1>
+			<p>
+				ツールチップ(tooltip) とは、テキストや画像などの要素の上にマウスカーソルを置いたときに表示される補足説明などを書いた吹き出しです。下の各写真にマウスカーソルを重ねると<a class="button" id="balloon0" href="#">ツールチップ</a>が表示されます。
+			</p>
+			<img class="button" id="balloon1" src="images/image1.jpg" />
+			<img class="button" id="balloon2" src="images/image2.jpg" />
+			<img class="button" id="balloon3" src="images/image3.jpg" />
+		</div>
+	</body>
+</html>
