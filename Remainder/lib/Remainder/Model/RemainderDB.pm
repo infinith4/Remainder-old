@@ -10,8 +10,7 @@ __PACKAGE__->config(
         dsn => 'dbi:mysql:remainderdb',
         user => 'remainderuser',
         password => 'remainderpass',
-        AutoCommit => q{},
-         => q{1},
+        AutoCommit => q{1},
         on_connect_do => ["SET NAMES utf8"],
     }
 );

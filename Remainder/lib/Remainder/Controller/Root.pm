@@ -75,12 +75,12 @@ sub memo :Local {
     #レコードへ登録
 #=pod
     my $row = $c->model('RemainderDB::RemainderMemo')->create({
-        memo => 'test02',
-        weektimes => $weektimes,
-        days => $days,
+        memo => "aaa",
+        #weektimes => $weektimes,
+        #days => $days,
         notification => $notification,
-        created => '\NOW()',
-        updated => '\NOW()',
+        #created => '\NOW()',
+        #updated => '\NOW()',
     });
     #$c->response->body('success')
 #=cut
