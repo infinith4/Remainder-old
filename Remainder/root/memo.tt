@@ -62,24 +62,11 @@
              </div>
             <hr>
             設定<br>
-            複数個をチェックボックスで指定<br>
+            <!-- 複数個をチェックボックスで指定<br> -->
             <li>Remaindする日程</li>
             <!-- <select name="select" style="width: 30px"> -->
-            <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->
-
-            [%- MACRO SELECT (name, start, end) BLOCK -%]
+            <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->           
             
-              <select id="[% name %]" name="[% name %]" style="width:50px">
-              [%- FOREACH i = [start..end] %]
-                <option value="[% i %]">[% i %]</option>
-              [%- END %]
-              </select>
-           [%- END -%]
-             週 [% select('weektimes',1,10) %]回<BR>
-            LABEL CLASS="CHECKBOX"で囲むと改行されて不便<BR>
-            <input type="checkbox" name="days" id="optionscheckbox" value="random">
-            ランダム
-            <div id="box">
               <input type="checkbox" name="days" id="optionscheckbox" value="monday">
             月曜日
               <input type="checkbox" name="days" id="optionscheckbox" value="tuesday">
@@ -95,15 +82,6 @@
             土曜日
               <input type="checkbox" name="days" id="optionscheckbox" value="sunday">
             日曜日
-
-            </div>
-            <div class="jToolTip_q">
-              <font color="#ff0000" >？</font>
-              <div class="jToolTip_a">
-                1週間のうちランダムにお知らせします。
-                
-              </div>
-            </div>
             <br>
             <br>            
             通知方法：メール,ポップアップ,他？
@@ -112,15 +90,6 @@
             <!-- <input type="checkbox" id="optionscheckbox" value="popup">
                  ポップアップ
             -->
-            <label><input type="checkbox" id="check">Check This!</label>
-<div id="box">content is here</div>
-
-            
-          </div>
-
-        </div>
-        
-      </div>
       <script>
         new jQueryCollapse($("#custom-show-hide-example"), {
           open: function() {
@@ -131,14 +100,7 @@
           }
         });
       </script>
-      <script>
-        $('#optionscheckbox').click(function() {
-        //クリックイベントで要素をトグルさせる
-        $("#box").slideToggle(this.checked);
-        });
-      </script>
-
-       
+            
       <!-- END Custom show and hide -->
           
             </form>
