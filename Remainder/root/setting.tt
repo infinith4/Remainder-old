@@ -18,7 +18,7 @@
             <!-- <select name="select" style="width: 30px"> -->
             <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->
 
-            [%- MACRO select (name, start, end) BLOCK -%]
+            [%- MACRO SELECT (name, start, end) BLOCK -%]
             
               <select id="[% name %]" name="[% name %]" style="width:50px">
               [%- FOREACH i = [start..end] %]
@@ -26,9 +26,9 @@
               [%- END %]
               </select>
            [%- END -%]
-             週 [% select('weektimes',1,10) %]回<br>
-            label class="checkbox"で囲むと改行されて不便<br>
-            <input type="checkbox" name="days" id="optionsCheckbox" value="random">
+             週 [% select('weektimes',1,10) %]回<BR>
+            LABEL CLASS="CHECKBOX"で囲むと改行されて不便<BR>
+            <input type="checkbox" name="days" id="optionscheckbox" value="random">
             ランダム
             <div class="jToolTip_q">
               <font color="#ff0000" >？</font>
@@ -38,29 +38,32 @@
               </div>
             </div>
             <br>
-            <input type="checkbox" name="days" id="optionsCheckbox" value="monday">
+            <input type="checkbox" name="days" id="optionscheckbox" value="monday">
             月曜日
-            <input type="checkbox" name="days" id="optionsCheckbox" value="tuesday">
+            <input type="checkbox" name="days" id="optionscheckbox" value="tuesday">
             火曜日
-            <input type="checkbox" name="days" id="optionsCheckbox" value="wensday">
+            <input type="checkbox" name="days" id="optionscheckbox" value="wensday">
             水曜日
-            <input type="checkbox" name="days" id="optionsCheckbox" value="thursday">
+            <input type="checkbox" name="days" id="optionscheckbox" value="thursday">
             木曜日
-            <input type="checkbox" name="days" id="optionsCheckbox" value="friday">
+            <input type="checkbox" name="days" id="optionscheckbox" value="friday">
             金曜日
             <br>
-            <input type="checkbox" name="days" id="optionsCheckbox" value="saturday">
+            <input type="checkbox" name="days" id="optionscheckbox" value="saturday">
             土曜日
-            <input type="checkbox" name="days" id="optionsCheckbox" value="sunday">
+            <input type="checkbox" name="days" id="optionscheckbox" value="sunday">
             日曜日
             <br><br>
             
             通知方法：メール,ポップアップ,他？
-            <input type="checkbox" id="optionsCheckbox" name="notification" value="mail" checked>
+            <input type="checkbox" id="optionscheckbox" name="notification" value="mail" checked>
             <i class="icon-envelope icon-white" style="margin-top: 1px;"></i>メール
-            <!-- <input type="checkbox" id="optionsCheckbox" value="popup">
+            <!-- <input type="checkbox" id="optionscheckbox" value="popup">
                  ポップアップ
             -->
+            <label><input type="checkbox" id="check">Check This!</label>
+<div id="box">content is here</div>
+
             
           </div>
 
@@ -76,7 +79,9 @@
             this.slideUp(150);
           }
         });
-      </script>
+        </script>
+      
+      
       <!-- END Custom show and hide -->
           
 </body>
