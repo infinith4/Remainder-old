@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Memo Remainder</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/memoremainder.css" rel="stylesheet">
 </head>
 <body background="./img/webtreats_stone_3.jpg">
 
@@ -14,7 +14,6 @@
 <script type="text/javascript" src="./js/jquery.tooltip.js/jquery.tooltip.js"></script>
 
 <link rel="stylesheet" type="text/css" href="./js/jquery.tooltip.js/jquery.tooltip.css" />
-
 <div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="#">Remainder</a>
@@ -124,8 +123,7 @@
               <form class="form-search">
                 <input type="text" class="input-medium search-query">
                 <button type="submit" class="btn">検索</button>
-              </form>
-    
+              </form>    
               <form action="http://www.google.com/search" method="get">
                 <input type="hidden" name="hl" value="ja">
                 <input type="hidden" name="as_sitesearch" value="サイトのURL">
@@ -136,10 +134,37 @@
 
             <h1>Category</h1>
             [% FOREACH item = remaindermemo %]
-            <div class="memo">    
-              <p id="memo">[% item.memo | html %]</p>
+            <div class="well well-small">
+            <p align ="right">
+              &nbsp;<button class="close">&times;</button>
+            </p>
+              <pre>
+              <p>[% item.memo | html %]aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabr
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr
+bbbbbbbbbbbbbbbbbsfdddddddddddddddddgsdfgsdgsdfgsdfgsdfgsdgsdgsdggdsfgsdgsdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaふと、半角文字で表示確認をしたらdivから文字がはみ出していてびっくりした。
+今更感が否めないが調べたので残しとく。
+</p>
+             </pre>
+             
+            <div class="tag">
+                <span class="label">default</span>
+                <span class="label">default</span>
+                <span class="label">default</span>
+                <span class="label">default</span>
+                <span class="label">default</span>
+                <span class="label">default</span>
+                <span class="label">default</span>
+                <span class="label">default</span>
+                <span class="label label-success">Success</span>
+                <span class="label label-warning">Warning</span>
+                <span class="label label-important">Important</span>
+                <span class="label label-info">Info</span>
+                <span class="label label-inverse">Inverse</span>
+            </div>
               <!-- <td><font color="#d0d0d0">|</font>   [% item.days | html %]</td> -->
-            </div><br>
+            </div>
+            
+
             [% END %]
               
             <br>
