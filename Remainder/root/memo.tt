@@ -139,13 +139,8 @@
               &nbsp;<button class="close">&times;</button>
             </p>
               <pre>
-              <p>[% item.memo | html %]aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabr
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbr
-bbbbbbbbbbbbbbbbbsfdddddddddddddddddgsdfgsdgsdfgsdfgsdfgsdgsdgsdggdsfgsdgsdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaふと、半角文字で表示確認をしたらdivから文字がはみ出していてびっくりした。
-今更感が否めないが調べたので残しとく。
-</p>
+              <p>[% item.memo | html %]</p>
              </pre>
-             
             <div class="tag">
                 <span class="label">default</span>
                 <span class="label">default</span>
