@@ -15,13 +15,6 @@
 
 <link rel="stylesheet" type="text/css" href="./js/jquery.tooltip.js/jquery.tooltip.css" />
 
-            <h1>Category</h1>
-            <!-- [% FOREACH item = remaindermemo %] -->
-            <div id="memo">
-              <p id="memo">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-              <!-- <td><font color="#d0d0d0">|</font>   [% item.days | html %]</td> -->
-            </div><br>
-            <!-- [% END %] -->
 <div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="#">Remainder</a>
@@ -49,6 +42,7 @@
           
           <div class="span4">
           
+            <button class="btn btn-primary" type="button">&nbsp;&nbsp;作成&nbsp;&nbsp;</button><br>
             
             <form method="POST" action="/memo">
               <div class="control-group">
@@ -91,7 +85,7 @@
             日曜日
             <br>
             <br>            
-            通知方法：メール,ポップアップ,他？
+            通知方法：メール,ポップアップ,他？<br>
             <input type="checkbox" id="optionscheckbox" name="notification" value="mail" checked>
             <i class="icon-envelope icon-white" style="margin-top: 1px;"></i>メール
             <!-- <input type="checkbox" id="optionscheckbox" value="popup">
@@ -111,7 +105,19 @@
       <!-- END Custom show and hide -->
           
             </form>
+            <hr>
+            <button class="btn btn-danger" type="button">&nbsp;&nbsp;重要&nbsp;&nbsp;</button><br><br>
+            <button class="btn btn-warning" type="button">&nbsp;&nbsp;普通&nbsp;&nbsp;</button><br><br>
+            <button class="btn btn-success" type="button">&nbsp;&nbsp;微妙&nbsp;&nbsp;</button><br><br>
+            <div class="jToolTip_q">
+              <img src="./img/Bin_Empty.png">
+              <div class="jToolTip_a">
+                ゴミ箱.メモをドラッグ&amp;ドロップしても削除できます.
+              </div>
+            </div>
           </div>
+
+
           <div class="span3">
             <div align="right">
               <!-- 検索 -->
