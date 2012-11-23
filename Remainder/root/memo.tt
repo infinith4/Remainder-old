@@ -3,17 +3,19 @@
 <head>
     <meta charset="utf-8">
     <title>Memo Remainder</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/memoremainder.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.tagsinput.css" />
+<link rel="stylesheet" type="text/css" href="./js/jquery.tooltip.js/jquery.tooltip.css" />
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body background="./img/webtreats_stone_3.jpg">
-
+[% INCLUDE 'tag01.html' %]
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./js/jquery.tooltip.js/jquery.tooltip.js"></script>
 
-<link rel="stylesheet" type="text/css" href="./js/jquery.tooltip.js/jquery.tooltip.css" />
 <div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="#">Remainder</a>
@@ -83,7 +85,39 @@
               <input type="checkbox" name="days" id="optionscheckbox" value="sunday">
             日曜日
             <br>
-            <br>            
+            <br>
+            通知時間:
+            [% INCLUDE 'fromto.tt' %]
+            [%- SET dty=datetime.year;dtmo=datetime.month;dtd=datetime.day;dth=datetime.hour;dtmi=datetime.minute; -%]
+            [%-MACRO select (name,start,end) BLOCK -%]
+              <select id="[% name %]" name="[% name %]">
+                [%- datetimelist = [
+                  {datetimename => 'year',datetimenow => datetimenow.year },
+                  {datetimename => 'month',datetimenow => datetimenow.month },
+                  {datetimename => 'day',datetimenow => datetimenow.day },
+                  {datetimename => 'hour',datetimenow => datetimenow.hour },
+                  {datetimename => 'minute',datetimenow => datetimenow.minute}
+                ]-%]
+              [%- FOREACH n = datetimelist %]
+                [%- IF name==n.datetimename -%]
+                  [%- FOREACH i = [start..end] %]
+                    [%- IF i==n.datetimenow -%]
+                      <option value="[% i %]" selected >[% i %]</option>
+                    [%- ELSE -%]
+                      <option value="[% i %]" >[% i %]</option>
+                    [%- END -%]
+                  [%- END %]
+                [%- END -%]
+              [%- END -%]
+              </select>
+            [%- END -%]
+            [% select ('year' ,2012,2100) %]年
+            [% select ('month',1,12) %]月
+            [% select ('day',1,31) %]日<!--月によって変える-->
+            [% select ('hour',1,24) %]時
+            [% select ('minute',1,59) %]分
+            <br>
+            
             通知方法：メール,ポップアップ,他？<br>
             <input type="checkbox" id="optionscheckbox" name="notification" value="mail" checked>
             <i class="icon-envelope icon-white" style="margin-top: 1px;"></i>メール
@@ -135,6 +169,7 @@
             <h1>Category</h1>
             [% FOREACH item = remaindermemo %]
             <div class="well well-small">
+            <input type="checkbox">
             <p align ="right">
               &nbsp;<button class="close">&times;</button>
             </p>

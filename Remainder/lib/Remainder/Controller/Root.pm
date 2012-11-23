@@ -3,10 +3,13 @@ use Moose;
 use namespace::autoclean;
 use utf8;
 use Data::Dumper;
+
 use Email::Sender::Simple qw(sendmail);
 use Email::Simple;
 use Email::Simple::Creator;
 use Email::Sender::Transport::SMTP;
+
+use DateTime;
 
 BEGIN { extends 'Catalyst::Controller' }
 
@@ -94,27 +97,51 @@ sub memo :Local {
     #print $day;
     #$c->stash->{day} = join ',',@$day;
 
-my $email = Email::Simple->create(
-    header => [
-        From    => '"from name" <infinith4@gmail.com>',
-        To      => '"to name" <infith4@math.tsukuba.ac.jp>',
-        Subject => "testmemo mail subject",
-    ],
-    body => $memo."\n",
-    );
 
-my $transport = Email::Sender::Transport::SMTP->new({
-    ssl  => 1,
-    host => 'smtp.gmail.com',
-    port => 465,
-    sasl_username => 'infinith4@gmail.com',
-    sasl_password => 'pallallp5'
-                                                    });
+    #mail 送信
+    my $email = Email::Simple->create(
+        header => [
+            From    => '"from name" <infinith4@gmail.com>',
+            To      => '"to name" <infith4@math.tsukuba.ac.jp>',
+            Subject => "testmemo mail subject",
+        ],
+        body => $memo."\n",
+        );
 
-eval { sendmail($email, { transport => $transport }); };
-if ($@) { warn $@ }
+    my $transport = Email::Sender::Transport::SMTP->new({
+        ssl  => 1,
+        host => 'smtp.gmail.com',
+        port => 465,
+        sasl_username => 'infinith4@gmail.com',
+        sasl_password => 'pallallp5'
+    });
+
+    #eval { sendmail($email, { transport => $transport }); };
+    #if ($@) { warn $@ }
+
+    #日付を指定して生成
+    my $dt = DateTime->new(
+        time_zone => 'Asia/Tokyo',
+        year      => 2008,
+        month     => 8,
+        day       => 4,
+        hour      => 15,
+        minute    => 0,
+        second    => 0
+        );
+
+    #epochから生成
+    $dt = DateTime->from_epoch( time_zone => 'Asia/Tokyo', epoch => 1217829600 );
+    
+    #現在の日付(時間ふくむ)
+    $dt = DateTime->now( time_zone => 'Asia/Tokyo' );
+    $c->stash->{datetimenow} = $dt;
+    #月末日を取得
+    my $dt2 = DateTime->last_day_of_month( year => 2008, month => 11 );
+    $c->stash->{day} = $dt2->day;
 
 }
+
 sub memolist :Local {
 	my ($self ,$c) = @_;
 	$c->stash->{list} = [$c->model('RemainderDB::RemainderMemo')->all];
