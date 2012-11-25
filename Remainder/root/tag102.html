@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" /><title>【snippet】テーブルを編集できるようにする（Edit in Place） - js do it</title>
+<style type="text/css">table {
+    border: 1px #E3E3E3 solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th {
+    width:120px;
+    padding: 5px;
+    border: #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    background: #F5F5F5;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+}
+table td {
+    padding: 5px;
+    border: 1px #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    text-align: center;
+}
+
+
+
+</style></head>
+<body>
+<p>
+    セルをクリックすると値を編集できます。<br>
+    フォーカスが外れると保存されます。
+</p>
+[<p id="data-list">
+test
+</p>]
+<br>
+<br>
+
+<p>
+    テーブル以外の要素でも編集可能にできます。
+</p>
+
+
+
+<script type="text/javascript">
+(function(document){
+    
+    $(document).ready(function(){
+ $("#data-list").click(edit_togle());
+           $("h3").click(edit_togle());
+
+    });
+
+
+    function edit_togle(){
+        var edit_flag = false;
+        return function(){
+            if(edit_flag) return;
+            var $input = $("<input>").attr("type","text").val($(this).text());
+            $(this).html($input); 
+            
+            $("input", this).focus().blur(function(){
+                save($(this).val());
+                $(this).after($(this).val()).unbind().remove();
+                edit_flag = false;
+            });
+            edit_flag = true;
+        }
+    }    
+    
+    
+    function save(value){
+        alert("「"+value+"」を保存しました"); //保存する処理をここに書く
+    }
+    
+    
+})(document);
+
+
+
+
+
+</script>
+</body>
+</html>

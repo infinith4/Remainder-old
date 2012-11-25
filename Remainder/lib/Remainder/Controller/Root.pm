@@ -1,7 +1,7 @@
 package Remainder::Controller::Root;
 use Moose;
 use namespace::autoclean;
-use utf8;
+
 use Data::Dumper;
 
 use Email::Sender::Simple qw(sendmail);
@@ -10,6 +10,7 @@ use Email::Simple::Creator;
 use Email::Sender::Transport::SMTP;
 
 use DateTime;
+use Catalyst::Plugin::Unicode;
 
 BEGIN { extends 'Catalyst::Controller' }
 
@@ -65,8 +66,9 @@ sub end : ActionClass('RenderView') {}
 
 sub remainder :Local {
 	my ($self ,$c) = @_;
-	$c->stash->{list} = [$c->model('CatalDB::Book')->all];
-    $c->stash->{title} = 'Remainder - あなたの気になるをお知らせ！ -';
+	#$c->response->body('こんにちは');
+    #$c->stash->{list} = [$c->model('CatalDB::Book')->all];
+    #$c->stash->{title} = 'Remainder - あなたの気になるをお知らせ！ -';
    
 }
 
@@ -136,9 +138,37 @@ sub memo :Local {
     #現在の日付(時間ふくむ)
     $dt = DateTime->now( time_zone => 'Asia/Tokyo' );
     $c->stash->{datetimenow} = $dt;
+    print $dt,"\n";
+    my $dtto = DateTime->now( time_zone => 'Asia/Tokyo' )->add(months => 12 );
+    #$dtto=$dtto->add( months => 12 );
+    $c->stash->{datetimeto} = $dtto;
+
     #月末日を取得
     my $dt2 = DateTime->last_day_of_month( year => 2008, month => 11 );
     $c->stash->{day} = $dt2->day;
+    
+    #tag付け
+    my $tags = "tag1,タグ2,タグ3,ＴＡＧＵ4,Tag 5,tag6";#日本語が使えない;use utf8しておくと２バイト文字が表示できない
+    #my $tag1 = "tag1";
+    #my $tag2 = "tag2";
+    my @tagsarray=();
+    my @list=split(/,/,$tags);
+    foreach(@list){
+        push(@tagsarray, $_);
+    }
+        #@list = ['Perl', 'php'];
+    #$c->stash->{array_t} = \@list; #stashに渡すのは,['perl','php']でないと,うまくいかない
+    #my %hash = {'Practical' => 'Perl', 'PP' => 'php'};
+    #my @tags = [$tag1,$tag2];
+    #$c->stash->{tagslist} = \@tags;# {'Practical' => 'Perl', 'PP' => 'php'}#%hash; #stashに渡すのは,['perl','php']でないと,うまくいかない
+    my @array = ( 'test1', 'test2', 'test3' );#日本語が使えない
+
+    $c->stash->{tagsarray} = \@tagsarray; # ハッシュや配列の場合はリファレンスでセットする
+    #$c->stash->{textjp} = 'テスト';
+    #my %hash = {text1 => 'テスト１',text2 => 'テスト２' };
+
+    #$c->stash->{messageh} = \%hash; # ハッシュや配列の場合はリファレンスでセットする
+    
 
 }
 

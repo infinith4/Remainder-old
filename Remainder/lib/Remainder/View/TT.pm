@@ -1,12 +1,14 @@
 package Remainder::View::TT;
-use Moose;
-use namespace::autoclean;
+use strict;
+use warnings;
 
-extends 'Catalyst::View::TT';
+#use namespace::autoclean;
+
+use base 'Catalyst::View::TT';
 
 __PACKAGE__->config(
     TEMPLATE_EXTENSION => '.tt',
-    render_die => 1,
+    #render_die => 1,
 );
 
 =head1 NAME

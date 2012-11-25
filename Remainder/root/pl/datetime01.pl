@@ -22,18 +22,22 @@ $dt = DateTime->now( time_zone => 'Asia/Tokyo' );
 print $dt->hour,"\n";
 
 print $dt,"\n";
+
+$dt=$dt->add(months => 12);
+print $dt,"\n";
+
 #現在の日付(時間含まない)
 $dt = DateTime->today( time_zone => 'Asia/Tokyo' );
-
 print $dt,"\n";
+
 #月末 2008-08-31T00:00:00
 $dt = DateTime->last_day_of_month( year => 2008, month => 8 );
 
 print $dt,"\n";
 #2008年正月から250日目 2008-09-06T00:00:00
-$dt = DateTime->from_day_of_year( year => 2008, day_of_year => 250 );
+$dt = DateTime->from_day_of_year( year => 2008,day_of_year => 360 );
 
-print $dt,"\n";
+print "aaa",$dt,"\n";
 
 #月末日を取得
 my $dt2 = DateTime->last_day_of_month( year => 2013, month => 2 );
