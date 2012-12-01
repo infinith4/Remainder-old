@@ -16,3 +16,14 @@ CREATE TABLE `RemainderMemo` (
   `updated` datetime NOT NULL, /* memoの更新日 */
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+LOCK TABLES `RemainderMemo` WRITE;
+/*!40000 ALTER TABLE `RemainderMemo` DISABLE KEYS */;
+INSERT INTO `RemainderMemo` VALUES 
+('1','tashirohiro4','3ステップで学ぶ MySQL入門','ほしい物,mysql,web開発','0','2012-12-01 22:20:00','2012-12-12 22:33:00','Sun,Mon,Wed,Sat','mail','2','2012-12-01 22:23:00','2012-12-01 22:23:00'),
+('2','tashirohiro4','perl入門','ほしい物,perl,web開発','0','2012-12-02 00:20:00','2012-12-19 22:33:00','Sun,Mon,Wed','mail','2','2012-12-02 22:23:00','2012-12-02 22:23:00'),
+('3','tashirohiro4','XML入門','ほしい物,web開発','0','2012-12-02 01:22:00','2012-12-19 22:33:00','Sun,Tue,Wed,Sat','mail','2','2012-12-02 01:23:00','2012-12-02 01:23:00'),
+('4','tashirohiro4','mysql入門','ほしい物,mysql,web開発','0','2012-12-02 02:12:00','2012-12-21 20:33:00','Sun,Mon,Wed','mail','2','2012-12-02 02:23:00','2012-12-02 02:23:00'),
+('5','tashirohiro4','Apache入門','web開発,apache,server,ほしい物','0','2012-12-03 20:20:00','2012-12-19 22:33:00','Sun,Thu','mail','2','2012-12-03 20:23:00','2012-12-03 20:23:00');
+/*!40000 ALTER TABLE `RemainderMemo` ENABLE KEYS */;
+UNLOCK TABLES;

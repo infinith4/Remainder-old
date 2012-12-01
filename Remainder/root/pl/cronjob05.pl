@@ -60,5 +60,6 @@ if(scalar(@daylist) != 0){
     }
 }
 
-#$cron->add_entry("0-59/1 * * * *", \&job); # 10分ごとに&job()を実行
+$cron->add_entry("44 19 * * * 0-10/2", \&job); # 10分ごとに&job()を実行
+$cron->add_entry("19 20 * * * 0-10/2", \&job); # 10分ごとに&job()を実行
 $cron->run();

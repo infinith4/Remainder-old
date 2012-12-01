@@ -4,12 +4,10 @@ use namespace::autoclean;
 
 use Data::Dumper;
 
-use Schedule::Cron;
-
-use Email::Sender::Simple qw(sendmail);
-use Email::Simple;
-use Email::Simple::Creator;
-use Email::Sender::Transport::SMTP;
+#use Email::Sender::Simple qw(sendmail);
+#use Email::Simple;
+#use Email::Simple::Creator;
+#use Email::Sender::Transport::SMTP;
 
 use DateTime;
 use Catalyst::Plugin::Unicode;
@@ -87,7 +85,7 @@ sub memo :Local {
     my $notification = $c->request->body_params->{'notification'};
 	#$c->stash->{list} = [$c->model('CatalremaindDB::RemainderMemo')->all];
     #レコードへ登録
-    $memo =$memo.".";
+#    $memo =$memo.".";
 
     if($memo ne ""){
         my $row = $c->model('RemainderDB::RemainderMemo')->create({
@@ -105,51 +103,6 @@ sub memo :Local {
 
     #print $day;
     #$c->stash->{day} = join ',',@$day;
-
-    #mail 送信 START #########################################
-    sub dispatcher{
-        print "ID: ", shift, "\n";
-        print "Args:","@_", "\n";
-    }
-
-    sub job{#mail 送信job
-        #mail 送信
-        my $email = Email::Simple->create(
-            header => [
-                From    => '"from name" <remainder.information@gmail.com>',
-                To      => '"to name" <remainder.infomation@gmail.com>',#given
-                Subject => "testmemo mail subject",#given
-            ],
-            body => "Job test\n",#given
-            );
-
-        my $transport = Email::Sender::Transport::SMTP->new({
-            ssl  => 1,
-            host => 'smtp.gmail.com',
-            port => 465,
-            sasl_username => 'remainder.information@gmail.com',
-            sasl_password => 'ol12dcdbl0jse1l'
-                                                            });
-        eval { sendmail($email, { transport => $transport }); };             
-        if ($@) { warn $@ }
-
-    }
-
-    my $cron = new Schedule::Cron(\&dispatcher);
-    my $min = 12;#given
-    my $hour = 17;#given
-    my $days = "Sun,Mon,Wed,Sat";#given
-    my @daylist = split(/,/,$days);
-
-    if(scalar(@daylist) != 0){
-        for(my $i = 0;$i < scalar(@daylist);$i++){
-            $cron->add_entry("$min $hour * * $daylist[$i]", \&job);
-        }
-    }
-
-#    $cron->run();
-
-    #mail送信 END ################################################
 
     #日付を指定して生成
     my $dt = DateTime->new(
