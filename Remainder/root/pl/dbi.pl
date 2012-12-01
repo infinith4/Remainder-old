@@ -21,7 +21,7 @@ if(!$db){
 }
 
 # SQL文を用意
-my $sth = $db->prepare("select id,memo from RemainderMemo");
+my $sth = $db->prepare("select id,userid,memo,tag,rm,fromtime,totime,days from RemainderMemo");
 
 #取得されるべき値
 #my $min = 12;#given
@@ -38,6 +38,13 @@ if(!$sth->execute){
 while (my @rec = $sth->fetchrow_array) {
     print "$rec[0]\n";
     print "$rec[1]\n";
+    print "$rec[2]\n";
+    print "$rec[3]\n";
+    print "$rec[4]\n";
+    print "$rec[5]\n";
+    print "$rec[6]\n";
+    print "$rec[7]\n";
+    print "\n";
 }
 
 # ステートメントハンドルオブジェクトを閉じる
