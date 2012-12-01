@@ -21,7 +21,7 @@ if(!$db){
 }
 
 # SQL文を用意
-my $sth = $db->prepare("select id,userid,memo,tag,rm,fromtime,totime,days from RemainderMemo");
+my $sth = $db->prepare("select id,userid,memo,tag,fromtime,totime,days from RemainderMemo");
 
 #取得されるべき値
 #my $min = 12;#given
@@ -43,7 +43,6 @@ while (my @rec = $sth->fetchrow_array) {
     print "$rec[4]\n";
     print "$rec[5]\n";
     print "$rec[6]\n";
-    print "$rec[7]\n";
     print "\n";
 }
 
