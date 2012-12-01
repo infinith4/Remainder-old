@@ -87,10 +87,9 @@ sub memo :Local {
     my $notification = $c->request->body_params->{'notification'};
 	#$c->stash->{list} = [$c->model('CatalremaindDB::RemainderMemo')->all];
     #レコードへ登録
-#=pod
     $memo =$memo.".";
-=pod
-    #if(not exists $memo){
+
+    if($memo ne ""){
         my $row = $c->model('RemainderDB::RemainderMemo')->create({
             memo => $memo,
             #weektimes => $weektimes,
@@ -99,11 +98,11 @@ sub memo :Local {
             #created => 'NOW()',
             #updated => 'NOW()',
         });
-    #}
-=cut
+    }
+
     $c->stash->{remaindermemo} = [$c->model('RemainderDB::RemainderMemo')->all];
     #$c->response->body('success')
-#=cut
+
     #print $day;
     #$c->stash->{day} = join ',',@$day;
 
@@ -151,8 +150,6 @@ sub memo :Local {
 #    $cron->run();
 
     #mail送信 END ################################################
-=pod
-=cut
 
     #日付を指定して生成
     my $dt = DateTime->new(
