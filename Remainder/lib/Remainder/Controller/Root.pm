@@ -4,6 +4,8 @@ use namespace::autoclean;
 
 use Data::Dumper;
 
+use Schedule::Cron;
+
 use Email::Sender::Simple qw(sendmail);
 use Email::Simple;
 use Email::Simple::Creator;
@@ -73,53 +75,84 @@ sub remainder :Local {
 }
 
 sub memo :Local {
-	my ($self ,$c) = @_;
-	#$c->stash->{list} = [$c->model('CatalDB::Book')->all];
+    my ($self ,$c) = @_;
+    #$c->stash->{list} = [$c->model('CatalDB::Book')->all];
+    #my $memo = "";
     my $memo = $c->request->body_params->{'memo'};
-    #print $memo;
+    #print "$memo\n";
     my $weektimes = $c->request->body_params->{'weektimes'};
-    #print $weektimes;
     my $days = $c->request->body_params->{'days'};
+    #print $days,"\n";
     #$c->stash->{day} = join ',',@$day;
     my $notification = $c->request->body_params->{'notification'};
 	#$c->stash->{list} = [$c->model('CatalremaindDB::RemainderMemo')->all];
     #レコードへ登録
 #=pod
-    my $row = $c->model('RemainderDB::RemainderMemo')->create({
-        memo => $memo.".",
-        #weektimes => $weektimes,
-        days => $days,
-        notification => $notification,
-        #created => 'NOW()',
-        #updated => 'NOW()',
-    });
+    $memo =$memo.".";
+=pod
+    #if(not exists $memo){
+        my $row = $c->model('RemainderDB::RemainderMemo')->create({
+            memo => $memo,
+            #weektimes => $weektimes,
+            days => $days,
+            notification => $notification,
+            #created => 'NOW()',
+            #updated => 'NOW()',
+        });
+    #}
+=cut
     $c->stash->{remaindermemo} = [$c->model('RemainderDB::RemainderMemo')->all];
     #$c->response->body('success')
 #=cut
     #print $day;
     #$c->stash->{day} = join ',',@$day;
 
+    #mail 送信 START #########################################
+    sub dispatcher{
+        print "ID: ", shift, "\n";
+        print "Args:","@_", "\n";
+    }
 
-    #mail 送信
-    my $email = Email::Simple->create(
-        header => [
-            From    => '"from name" <infinith4@gmail.com>',
-            To      => '"to name" <infith4@math.tsukuba.ac.jp>',
-            Subject => "testmemo mail subject",
-        ],
-        body => $memo."\n",
-        );
+    sub job{#mail 送信job
+        #mail 送信
+        my $email = Email::Simple->create(
+            header => [
+                From    => '"from name" <remainder.information@gmail.com>',
+                To      => '"to name" <remainder.infomation@gmail.com>',#given
+                Subject => "testmemo mail subject",#given
+            ],
+            body => "Job test\n",#given
+            );
 
-    my $transport = Email::Sender::Transport::SMTP->new({
-        ssl  => 1,
-        host => 'smtp.gmail.com',
-        port => 465,
-        sasl_username => 'infinith4@gmail.com',
-        sasl_password => 'pallallp5'
-    });
+        my $transport = Email::Sender::Transport::SMTP->new({
+            ssl  => 1,
+            host => 'smtp.gmail.com',
+            port => 465,
+            sasl_username => 'remainder.information@gmail.com',
+            sasl_password => 'ol12dcdbl0jse1l'
+                                                            });
+        eval { sendmail($email, { transport => $transport }); };             
+        if ($@) { warn $@ }
 
-    #eval { sendmail($email, { transport => $transport }); };
-    #if ($@) { warn $@ }
+    }
+
+    my $cron = new Schedule::Cron(\&dispatcher);
+    my $min = 12;#given
+    my $hour = 17;#given
+    my $days = "Sun,Mon,Wed,Sat";#given
+    my @daylist = split(/,/,$days);
+
+    if(scalar(@daylist) != 0){
+        for(my $i = 0;$i < scalar(@daylist);$i++){
+            $cron->add_entry("$min $hour * * $daylist[$i]", \&job);
+        }
+    }
+
+#    $cron->run();
+
+    #mail送信 END ################################################
+=pod
+=cut
 
     #日付を指定して生成
     my $dt = DateTime->new(
@@ -168,13 +201,22 @@ sub memo :Local {
     #my %hash = {text1 => 'テスト１',text2 => 'テスト２' };
 
     #$c->stash->{messageh} = \%hash; # ハッシュや配列の場合はリファレンスでセットする
-    
 
 }
 
 sub memolist :Local {
 	my ($self ,$c) = @_;
 	$c->stash->{list} = [$c->model('RemainderDB::RemainderMemo')->all];
+}
+
+sub oauth :Local {
+	my ($self ,$c) = @_;
+	
+}
+
+sub oauthphp :Local {
+	my ($self ,$c) = @_;
+	
 }
 
 =head1 AUTHOR

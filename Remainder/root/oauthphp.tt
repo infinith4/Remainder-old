@@ -1,0 +1,28 @@
+<?php 
+
+    $app_id = "376987082389393";
+    $app_secret = "e98421b675023fc82eccf180eda6ef68";
+    $my_url = "http://localhost:3000/";
+
+    $code = $_REQUEST["code"];
+
+    if(empty($code)) {
+        $dialog_url = "http://www.facebook.com/dialog/oauth?client_id=" 
+            . $app_id . "&redirect_uri=" . urlencode($my_url);
+
+        echo("<script> top.location.href='" . $dialog_url . "'</script>");
+    }
+
+    $token_url = "https://graph.facebook.com/oauth/access_token?client_id="
+        . $app_id . "&redirect_uri=" . urlencode($my_url) . "&client_secret="
+        . $app_secret . "&code=" . $code;
+
+    $access_token = file_get_contents($token_url);
+
+    $graph_url = "https://graph.facebook.com/me?" . $access_token;
+
+    $user = json_decode(file_get_contents($graph_url));
+
+    echo("Hello " . $user->name);
+
+?>
