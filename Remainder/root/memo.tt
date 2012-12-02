@@ -67,25 +67,24 @@
             <!-- <select name="select" style="width: 30px"> -->
             <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->           
             
-              <input type="checkbox" name="days" id="optionscheckbox" value="monday">
+              <input type="checkbox" name="days" id="optionscheckbox" value="Mon">
             月曜日
-              <input type="checkbox" name="days" id="optionscheckbox" value="tuesday">
+              <input type="checkbox" name="days" id="optionscheckbox" value="Tue">
             火曜日
-              <input type="checkbox" name="days" id="optionscheckbox" value="wensday">
+              <input type="checkbox" name="days" id="optionscheckbox" value="Wed">
             水曜日
-              <input type="checkbox" name="days" id="optionscheckbox" value="thursday">
+              <input type="checkbox" name="days" id="optionscheckbox" value="Thu">
             木曜日
-              <input type="checkbox" name="days" id="optionscheckbox" value="friday">
+              <input type="checkbox" name="days" id="optionscheckbox" value="Fri">
             金曜日
             <br>
-              <input type="checkbox" name="days" id="optionscheckbox" value="saturday">
+              <input type="checkbox" name="days" id="optionscheckbox" value="Sat">
             土曜日
-              <input type="checkbox" name="days" id="optionscheckbox" value="sunday">
+              <input type="checkbox" name="days" id="optionscheckbox" value="Sun">
             日曜日
             <br>
             <br>
             通知時間:
-            
             [%- SET dty=datetime.year;dtmo=datetime.month;dtd=datetime.day;dth=datetime.hour;dtmi=datetime.minute; -%]
             [%-MACRO select (name,start,end) BLOCK -%]
               <select id="[% name %]" name="[% name %]" style="width:70px;">

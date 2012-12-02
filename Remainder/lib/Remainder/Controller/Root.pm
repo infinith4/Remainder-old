@@ -78,7 +78,9 @@ sub memo :Local {
     #my $memo = "";
     my $memo = $c->request->body_params->{'memo'};
     #print "$memo\n";
-    my $weektimes = $c->request->body_params->{'weektimes'};
+#    my $weektimes = $c->request->body_params->{'weektimes'};
+    #my $fromtime = $c->request->body_params->{'days'};
+    
     my $days = $c->request->body_params->{'days'};
     #print $days,"\n";
     #$c->stash->{day} = join ',',@$day;
@@ -87,17 +89,22 @@ sub memo :Local {
     #レコードへ登録
 #    $memo =$memo.".";
 
-    if($memo ne ""){
+    if($memo ne ''){
         my $row = $c->model('RemainderDB::RemainderMemo')->create({
+            userid => 'tashirohiro4',
             memo => $memo,
             #weektimes => $weektimes,
-            days => $days,
+            tag => '',
+            fromtime => '2012-12-02 11:49',
+            totime => '2012-12-12 11:40',
+            days => 'Sun',
             notification => $notification,
             #created => 'NOW()',
             #updated => 'NOW()',
         });
     }
 
+    $c->model('RemainderDB')->storage->debug(1);
     $c->stash->{remaindermemo} = [$c->model('RemainderDB::RemainderMemo')->all];
     #$c->response->body('success')
 

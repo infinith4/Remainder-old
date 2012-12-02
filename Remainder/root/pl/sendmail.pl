@@ -6,6 +6,8 @@ use warnings;
 use Schedule::Cron;
 
 use DBI;
+use Encode;
+
 use Email::Sender::Simple qw(sendmail);
 use Email::Simple;
 use Email::Simple::Creator;
@@ -36,6 +38,8 @@ my $p = 'remainderpass';
 
 # データベースへ接続
 my $db = DBI->connect($d, $u, $p);
+# クライアント側文字コードの指定
+$db->do("set names utf8"); 
 
 if(!$db){
     print "接続失敗\n";
@@ -79,7 +83,7 @@ $rec[4]から$rec[5]まで配信されます.($rec[6])
 EOF
 =cut
 
-    my $mailcontent = "$userid さん\n\nContent:$rec[2]\n\nTag:$rec[3]\n$rec[4]から$rec[5]まで配信されます.($rec[6])\n\n配信を停止する(http://localhost:3000/memo)\n\n-----------------------------------------------\n - Remainder -あなたの気になるをお知らせ-\n $frommail";
+    my $mailcontent = "$userid さん\n\n内容:\n$rec[2]\n\n\nTag:$rec[3]\n\n$rec[4]から$rec[5]まで配信されます.($rec[6])\n\n配信を停止する(http://localhost:3000/memo)\n\n-----------------------------------------------\n - Remainder -あなたの気になるをお知らせ-\n $frommail";
 
     #mail 送信 START #########################################
     sub dispatcher{
@@ -110,17 +114,17 @@ EOF
 
     }
 
-    #    print "$rec[0]\n";    #id
-    #    print "$rec[1]\n";    #userid
-    #    print "$rec[2]\n";    #memo
-    #    print "$rec[3]\n";    #tag
-    #    print "$rec[4]\n";    #fromtime
+        print "$rec[0]\n";    #id
+        print "$rec[1]\n";    #userid
+        print "$rec[2]\n";    #memo
+        print "$rec[3]\n";    #tag
+        print "$rec[4]\n";    #fromtime
     my @fromminhour= split(/\s|:/,$rec[4]);
     #hour:$minhour[1],min:$minhour[2]
-    #    print "$rec[5]\n";    #totime
-    #    print "$rec[6]\n";    #days
+        print "$rec[5]\n";    #totime
+        print "$rec[6]\n";    #days
     my @days= split(/,/,$rec[6]);
-    #    print "\n";
+        print "\n";
     my $cron = new Schedule::Cron(\&dispatcher);
 
     my $min = $fromminhour[1];#given
@@ -135,7 +139,7 @@ EOF
         }
     }
 
-    #$cron->add_entry("0-59/1 * * * *", \&job);
+    #$cron->add_entry("* * * * * 0-59/2", \&job);
 
     $cron->run();
 

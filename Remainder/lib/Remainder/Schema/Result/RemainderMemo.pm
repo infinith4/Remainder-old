@@ -44,6 +44,12 @@ __PACKAGE__->table("RemainderMemo");
   is_auto_increment: 1
   is_nullable: 0
 
+=head2 userid
+
+  data_type: 'varchar'
+  is_nullable: 0
+  size: 50
+
 =head2 memo
 
   data_type: 'text'
@@ -60,11 +66,17 @@ __PACKAGE__->table("RemainderMemo");
   data_type: 'integer'
   is_nullable: 0
 
-=head2 weektimes
+=head2 fromtime
 
-  data_type: 'varchar'
-  is_nullable: 1
-  size: 20
+  data_type: 'datetime'
+  datetime_undef_if_invalid: 1
+  is_nullable: 0
+
+=head2 totime
+
+  data_type: 'datetime'
+  datetime_undef_if_invalid: 1
+  is_nullable: 0
 
 =head2 days
 
@@ -100,14 +112,26 @@ __PACKAGE__->table("RemainderMemo");
 __PACKAGE__->add_columns(
   "id",
   { data_type => "integer", is_auto_increment => 1, is_nullable => 0 },
+  "userid",
+  { data_type => "varchar", is_nullable => 0, size => 50 },
   "memo",
   { data_type => "text", is_nullable => 0 },
   "tag",
   { data_type => "varchar", is_nullable => 1, size => 20 },
   "rm",
   { data_type => "integer", is_nullable => 0 },
-  "weektimes",
-  { data_type => "varchar", is_nullable => 1, size => 20 },
+  "fromtime",
+  {
+    data_type => "datetime",
+    datetime_undef_if_invalid => 1,
+    is_nullable => 0,
+  },
+  "totime",
+  {
+    data_type => "datetime",
+    datetime_undef_if_invalid => 1,
+    is_nullable => 0,
+  },
   "days",
   { data_type => "varchar", is_nullable => 1, size => 20 },
   "notification",
@@ -141,8 +165,8 @@ __PACKAGE__->add_columns(
 __PACKAGE__->set_primary_key("id");
 
 
-# Created by DBIx::Class::Schema::Loader v0.07033 @ 2012-11-08 14:02:11
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:qkaPDdPsTfrk+BxY744QNQ
+# Created by DBIx::Class::Schema::Loader v0.07033 @ 2012-12-02 11:20:07
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:1U7aNN1M+k3uv5eIj+etBQ
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

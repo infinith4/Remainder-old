@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use DBI;
+use Encode;
 
 # データソース
 my $d = 'DBI:mysql:remainderdb';
@@ -14,6 +15,8 @@ my $p = 'remainderpass';
 
 # データベースへ接続
 my $db = DBI->connect($d, $u, $p);
+# クライアント側文字コードの指定
+$db->do("set names utf8"); 
 
 if(!$db){
     print "接続失敗\n";
@@ -36,7 +39,7 @@ if(!$sth->execute){
 while (my @rec = $sth->fetchrow_array) {
 #    print "$rec[0]\n";    #id
 #    print "$rec[1]\n";    #userid
-#    print "$rec[2]\n";    #memo
+    print "$rec[2]\n";    #memo
 #    print "$rec[3]\n";    #tag
 #    print "$rec[4]\n";    #fromtime
     my @fromminhour= split(/\s|:/,$rec[4]);
