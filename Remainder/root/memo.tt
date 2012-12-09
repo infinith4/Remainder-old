@@ -63,7 +63,7 @@
             <hr>
             設定<br>
             <!-- 複数個をチェックボックスで指定<br> -->
-            <li>Remaindする日程</li>
+            <li>Remindする日程</li>
             <!-- <select name="select" style="width: 30px"> -->
             <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->           
             
