@@ -1,0 +1,114 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Schedule::Cron;
+
+use DBI;
+use Email::Sender::Simple qw(sendmail);
+use Email::Simple;
+use Email::Simple::Creator;
+use Email::Sender::Transport::SMTP;
+use DateTime;
+
+#script/reamainder_server.pl とは別に、メール送信用にscriptを走らせておく。
+
+# データソース
+my $d = 'DBI:mysql:remainderdb';
+# ユーザ名
+my $u = 'remainderuser';
+# パスワード
+my $p = 'remainderpass';
+
+# データベースへ接続
+my $db = DBI->connect($d, $u, $p);
+
+if(!$db){
+    print "接続失敗\n";
+    exit;
+}
+
+my $dt = DateTime->now( time_zone => 'Asia/Tokyo' );
+my  $dayabbr    = $dt->day_abbr;   # 曜日の省略名
+$dt =~ s/T/ /g;
+
+# SQL文を用意
+#                              0   1      2    3    4        5     6
+my $sth = $db->prepare("SELECT id,userid,memo,tag,fromtime,totime,days FROM RemainderMemo WHERE '$dt' >= fromtime and days like '%$dayabbr%' ORDER BY fromtime asc"); #fromtime でソート.現在以前 and 現在の曜日を含むもの.
+#取得されるべき値
+#my $min = 12;#given
+#my $hour = 17;#given
+#my $days = "Sun,Mon,Wed,Sat";#given
+
+if(!$sth->execute){
+    print "SQL失敗\n";
+    exit;
+}
+    #必要なデータはmysqlから呼び出す.
+    my $userid ="tashirohiro4";#given
+    my $usermail = "infinith4\@gmail.com";#given
+    my $subject = "[test] Remainder";
+
+    my $frommail = "remainder.information\@gmail.com";
+    my $frommailpassword = "ol12dcdbl0jse1l";
+
+    my $mailcontent = "$userid さん\n\nContent:$rec[2]\n\nTag:$rec[3]\n$rec[4]から$rec[5]まで配信されます.($rec[6])\n\n配信を停止する(http://localhost:3000/memo)\n\n-----------------------------------------------\n - Remainder -あなたの気になるをお知らせ-\n $frommail";
+
+    #mail 送信 START #########################################
+    sub sendmaildispatcher{
+        print "ID: ", shift, "\n";
+        print "Args:","@_", "\n";
+    }
+
+    sub sendmailjob{#mail 送信job
+        #mail 送信
+        my $email = Email::Simple->create(
+            header => [
+                From    => '"Mail Remainder"'." <".$frommail.">",
+                To      => $userid."さん"." <".$usermail.">",#given
+                Subject => "$subject",#given
+            ],
+            body => "$mailcontent",#given
+            );
+
+        my $transport = Email::Sender::Transport::SMTP->new({
+            ssl  => 1,
+            host => 'smtp.gmail.com',
+            port => 465,
+            sasl_username => $frommail,
+            sasl_password => $frommailpassword
+                                                            });
+        eval { sendmail($email, { transport => $transport }); };             
+        if ($@) { warn $@ }
+
+    }
+
+    my @fromminhour= split(/\s|:/,$rec[4]);
+    my @days= split(/,/,$rec[6]);
+    my $cron = new Schedule::Cron(\&sendmaildispatcher);
+
+    my $min = $fromminhour[1];#given
+    my $hour = $fromminhour[2];#given
+    my $days = $rec[6];#given
+
+    my @daylist = split(/,/,$days);
+
+
+while (my @rec = $sth->fetchrow_array) {
+    
+    $cron->add_entry("$min $hour * * $dayabbr", \&sendmailjob);
+}    
+
+    #$cron->add_entry("0-59/1 * * * *", \&job);
+
+    $cron->run();
+
+
+
+#mail送信 END ################################################
+
+# ステートメントハンドルオブジェクトを閉じる
+$sth->finish;
+# データベースハンドルオブジェクトを閉じる
+$db->disconnect;

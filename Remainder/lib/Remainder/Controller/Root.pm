@@ -4,12 +4,13 @@ use namespace::autoclean;
 
 use Data::Dumper;
 
-#use Email::Sender::Simple qw(sendmail);
-#use Email::Simple;
-#use Email::Simple::Creator;
-#use Email::Sender::Transport::SMTP;
+use Email::Sender::Simple qw(sendmail);
+use Email::Simple;
+use Email::Simple::Creator;
+use Email::Sender::Transport::SMTP;
 
 use DateTime;
+#use Time::Local;
 use Catalyst::Plugin::Unicode;
 
 BEGIN { extends 'Catalyst::Controller' }
@@ -96,7 +97,7 @@ sub memo :Local {
             #weektimes => $weektimes,
             tag => '',
             fromtime => '2012-12-02 11:49',
-            totime => '2012-12-12 11:40',
+            totime => '2013-12-12 11:40',
             days => 'Sun',
             notification => $notification,
             #created => 'NOW()',
@@ -128,7 +129,9 @@ sub memo :Local {
     #現在の日付(時間ふくむ)
     $dt = DateTime->now( time_zone => 'Asia/Tokyo' );
     $c->stash->{datetimenow} = $dt;
-    print $dt,"\n";
+    my  $day_abbr    = $dt->day_abbr;   # 曜日の省略名
+    $c->stash->{datetimeweekly} = $day_abbr;
+
     my $dtto = DateTime->now( time_zone => 'Asia/Tokyo' )->add(months => 12 );
     #$dtto=$dtto->add( months => 12 );
     $c->stash->{datetimeto} = $dtto;

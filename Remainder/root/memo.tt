@@ -85,6 +85,9 @@
             <br>
             <br>
             通知時間:
+            [%- datetimenow -%]
+            [%- datetimeweekly -%]
+            
             [%- SET dty=datetime.year;dtmo=datetime.month;dtd=datetime.day;dth=datetime.hour;dtmi=datetime.minute; -%]
             [%-MACRO select (name,start,end) BLOCK -%]
               <select id="[% name %]" name="[% name %]" style="width:70px;">
