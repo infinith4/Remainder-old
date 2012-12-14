@@ -47,13 +47,24 @@ if(!$sth->execute){
     exit;
 }
 
+    my @memos;
+
+while (my @rec = $sth->fetchrow_array) {
+    push(@memos,$rec[2]);
+}
+
+foreach (@memos) {
+    print "$_\n";
+}
+
+=pod
 while (my @rec = $sth->fetchrow_array) {
     my $fromtime = $rec[4];
     my $totime = $rec[5];
     my $days = $rec[6];
-    print $fromtime,"\n";
-
+    print $fromtime,"\n";#All fromtime entrys display
 }
+=cut
 
 my $subject = "[test] Reminder";
 my $frommail = "reminder.information\@gmail.com";
@@ -68,7 +79,12 @@ sub sendmailjob{#mail 送信job
     #mail 送信
     my $useridsendmail = $_[0];
     my $usermailsendmail = $_[1];
+    my @arr = @_;
+    
+#    print "$arr[0]\n";
+#    print "$arr[1]\n";
 
+=pod
     my $mailcontent = "$useridsendmail さん\n\n-----------------------------------------------\n - Remainder -あなたの気になるをお知らせ-\n $frommail";
 
     my $email = Email::Simple->create(
@@ -89,18 +105,21 @@ sub sendmailjob{#mail 送信job
                                                         });
     eval { sendmail($email, { transport => $transport }); };             
     if ($@) { warn $@ }
-    
+=cut
+
 }
 
 
 #    my @daylist = split(/,/,$days);
 
-my $cron;
+#my $cron;
+my $cron = new Schedule::Cron(\&sendmaildispatcher);
+
+=pod
 while (my @rec = $sth->fetchrow_array) {
     
     my @fromminhour = split(/\s|:/,$rec[4]);
     my @days = split(/,/,$rec[6]);
-    $cron = new Schedule::Cron(\&sendmaildispatcher);
 
     my $min = $fromminhour[1];#given
     my $hour = $fromminhour[2];#given
@@ -109,10 +128,24 @@ while (my @rec = $sth->fetchrow_array) {
     my $usermail = "infinith4\@gmail.com";#given
     print "$hour:$min\n";
 
-    $cron->add_entry("$min $hour * * $dayabbr", \&sendmailjob($userid,$usermail));
+    $cron->add_entry("05 00 * * Mon", \&sendmailjob($userid,$usermail));
 
 
-}    
+}
+=cut
+
+    my $userid ="tashirohiro4";#given
+    my $usermail = "infinith4\@gmail.com";#given
+
+=pod
+    $cron->add_entry("0 8 * * *", \&sendmailjob($userid,$usermail,@memos));
+    $cron->add_entry("0 12 * * *", \&sendmailjob($userid,$usermail,@memos));
+    $cron->add_entry("0 15 * * *", \&sendmailjob($userid,$usermail,@memos));
+    $cron->add_entry("0 21 * * *", \&sendmailjob($userid,$usermail,@memos));
+=cut
+    $cron->add_entry("2 21 * * *", \&sendmailjob($userid,$usermail,@memos));
+#    $cron->add_entry("26 00 * * Mon", \&sendmailjob($userid,$usermail));
+ 
     $cron->run();
 
     #$cron->add_entry("0-59/1 * * * *", \&job);

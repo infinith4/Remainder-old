@@ -24,27 +24,6 @@ sub dispatcher{
 sub job{
 # 実行したい処理（メール送信、時間設定ファイルの読み込み？）
     print "job:$_[0]\n";
-    
-        #mail 送信
-        my $email = Email::Simple->create(
-            header => [
-                From    => '"Mail Remainder"'." <".$frommail.">",
-                To      => $userid."さん"." <".$usermail.">",#given
-                Subject => "$subject",#given
-            ],
-            body => "$mailcontent",#given
-            );
-
-        my $transport = Email::Sender::Transport::SMTP->new({
-            ssl  => 1,
-            host => 'smtp.gmail.com',
-            port => 465,
-            sasl_username => $frommail,
-            sasl_password => $frommailpassword
-                                                            });
-        eval { sendmail($email, { transport => $transport }); };             
-        if ($@) { warn $@ }
-    
 }
 
 my $cron = new Schedule::Cron(\&dispatcher);
@@ -54,7 +33,31 @@ my @aaa = ("aaa","bbb","ccc");
 
 my @min = (54,55,56);
 
-foreach(@min){
-$cron->add_entry("$_ 23 * * * ", \&job($_)); # 10分ごとに&job()を実行
-}
+#my @memos;
+
+#push(@memos,$memo);
+
+#monday
+$cron->add_entry("0 8 * * * ", \&job(@memo));
+$cron->add_entry("0 12 * * * ", \&job(@memo));
+$cron->add_entry("0 15 * * * ", \&job(@memo));
+$cron->add_entry("0 21 * * * ", \&job(@memo));
+
+=pod
+#monday
+$cron->add_entry("0 8 * * * ", \&job(@memo));
+#tuesday
+$cron->add_entry("$_ 23 * * * ", \&job($_));
+#wednesday
+$cron->add_entry("$_ 23 * * * ", \&job($_));
+#thursday
+$cron->add_entry("$_ 23 * * * ", \&job($_));
+#friday
+$cron->add_entry("$_ 23 * * * ", \&job($_));
+#starday
+$cron->add_entry("$_ 23 * * * ", \&job($_));
+#sunday
+$cron->add_entry("$_ 23 * * * ", \&job($_));
+=cut
+
 $cron->run();
