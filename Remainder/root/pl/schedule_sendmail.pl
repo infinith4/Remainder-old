@@ -2,18 +2,73 @@
 use strict;
 use warnings;
 use DateTime;
-
+use DBI;
 use Email::Sender::Simple qw(sendmail);
 use Email::Simple;
 use Email::Simple::Creator;
 use Email::Sender::Transport::SMTP;
 
 #ここまでで複数時間を指定してメールを時間に送信できる。
+
 #DBからselect してmemoと時間を指定するだけ。
 
+my $dtnow = DateTime->now( time_zone => 'Asia/Tokyo' );
+# データソース
+my $d = 'DBI:mysql:remainderdb';
+# ユーザ名
+my $u = 'remainderuser';
+# パスワード
+my $p = 'remainderpass';
+
+# データベースへ接続
+my $db = DBI->connect($d, $u, $p);
+
+if(!$db){
+    print "接続失敗\n";
+    exit;
+}
+# SQL文を用意
+#                              0   1      2    3    4        5     6
+#my $sth = $db->prepare("SELECT id,userid,memo,tag,fromtime,totime,days FROM RemainderMemo WHERE '$dtnow' >= fromtime and days like '%$dayabbr%' ORDER BY fromtime asc"); #fromtime でソート.現在以前
+my $sth = $db->prepare("SELECT id,userid,memo,tag,fromtime,totime,days FROM RemainderMemo WHERE '$dtnow' >= fromtime ORDER BY fromtime asc"); #fromtime でソート.現在以前
+
+if(!$sth->execute){
+    print "SQL失敗\n";
+    exit;
+}
+
+#my $time = "2012-12-02 11:49:00";
+
+my @memos = ();
+my @hours = ();
+my @mins = ();
+
+while (my @rec = $sth->fetchrow_array) {
+    my $fromtime = $rec[4];
+    print $fromtime,"\n";
+    $fromtime =~ m/\s/;
+    my $hourminsec = "$'";
+
+    print $hourminsec,"\n";
+
+    my @arr =split(/:/,$hourminsec);
+
+    push(@hours,$arr[0]);
+    push(@mins,$arr[1]);
+
+    push(@memos,$rec[2]);
+}
+
+foreach(@memos){
+    print $_,"\n";
+}
+
+=pod
+#DB から取得されるべき値
 #時間は要素ごとに対応している。
 my @hours = (5,5,9);
 my @mins = (36,37,28);
+=cut
 
 my $hoursnum = scalar(@hours);
 
@@ -77,44 +132,6 @@ sub hourmin_entry{
     
 }
 
-=pod
-sub job{
-    
-        print "$_[0]\n";
-    
-}
-
-=cut
-
-
-=pod
-sub time {
-    while(1){
-        my $dt = DateTime->now( time_zone => 'Asia/Tokyo' );
-        my $dayabbr    = $dt->day_abbr;   # 曜日の省略名
-    }
-    return $dt;
-}
-
-=cut
-
-
-=pod
-sub subject{
-    my $func = $_[0];
-    $func;
-    print "completed\n";
-}
-=cut
-
-=pod
-my @aaa=("aaa","bbb");
-foreach (@aaa){
-    &subject(\&callback($_));
-}
-
-=cut
-
 
 my @aaa=("aaa","bbb");
 
@@ -122,7 +139,7 @@ my $bbb="bbb";
 my $userid ="tashirohiro4";#given
 my $usermail = "infinith4\@gmail.com";#given
 my $subject = "[test] Remainder";
-my @memos = ("memo1","memo2","memo3");
+#my @memos = ("memo1","memo2","memo3");
 
 
 
@@ -133,3 +150,9 @@ my %hash = ( userid => $userid, usermail => $usermail, subject => $subject);
 &hourmin_entry(\@hours,\@mins,\%hash,@memos);
 
 #1;
+
+
+# ステートメントハンドルオブジェクトを閉じる
+$sth->finish;
+# データベースハンドルオブジェクトを閉じる
+$db->disconnect;
