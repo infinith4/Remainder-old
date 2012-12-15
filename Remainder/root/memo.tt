@@ -85,8 +85,8 @@
             <br>
             <br>
             通知時間:
-            [%- datetimenow -%]
-            [%- datetimeweekly -%]
+            [%- datetimenow -%]<!-- 現在時刻 -->
+            [%- datetimeweekly -%]<!-- 曜日 -->
             
             [%- SET dty=datetime.year;dtmo=datetime.month;dtd=datetime.day;dth=datetime.hour;dtmi=datetime.minute; -%]
             [%-MACRO select (name,start,end) BLOCK -%]
@@ -102,7 +102,7 @@
                 [%- IF name==n.datetimename -%]
                   [%- FOREACH i = [start..end] %]
                     [%- IF i==n.datetimenow -%]
-                      <option value="[% i %]" selected >[% i %]</option>
+                      <option value="[% i %]" selected >[% i %]</option> <!-- hour or min が0-23 or 0-59のなかで,現時刻に等しいものをselected-->
                     [%- ELSE -%]
                       <option value="[% i %]" >[% i %]</option>
                     [%- END -%]
@@ -111,18 +111,18 @@
               [%- END -%]
               </select>
             [%- END -%]
-            [% select ('hour',1,24) %]時
-            [% select ('minute',1,59) %]分
+            [% select ('hour',0,23) %]時
+            [% select ('minute',0,59) %]分
             <br><br>
             
             [%-MACRO selectfrom (name,start,end) BLOCK -%]
               <select id="[% name %]" name="[% name %]" style="width:70px;">
                 [%- datetimelist = [
-                  {datetimename => 'year',datetimenowfrom => datetimenow.year },
-                  {datetimename => 'month',datetimenowfrom => datetimenow.month },
-                  {datetimename => 'day',datetimenowfrom => datetimenow.day },
-                  {datetimename => 'hour',datetimenowfrom => datetimenow.hour },
-                  {datetimename => 'minute',datetimenowfrom => datetimenow.minute}
+                  {datetimename => 'fromyear',datetimenowfrom => datetimenow.year },
+                  {datetimename => 'frommonth',datetimenowfrom => datetimenow.month },
+                  {datetimename => 'fromday',datetimenowfrom => datetimenow.day },
+                  {datetimename => 'fromhour',datetimenowfrom => datetimenow.hour },
+                  {datetimename => 'fromminute',datetimenowfrom => datetimenow.minute}
                 ]-%]
               [%- FOREACH n = datetimelist %]
                 [%- IF name == n.datetimename -%]
@@ -137,19 +137,19 @@
               [%- END -%]
               </select>
             [%- END -%]
-            [% selectfrom ('year' ,2012,2100) %]年
-            [% selectfrom ('month',1,12) %]月
-            [% selectfrom ('day',1,31) %]日<!--月によって変える-->
+            [% selectfrom ('fromyear' ,2012,2100) %]年
+            [% selectfrom ('frommonth',1,12) %]月
+            [% selectfrom ('fromday',1,31) %]日<!--月によって変える-->
             <br>
             から
             [%-MACRO selectto (name,start,end) BLOCK -%]
-              <select id="[% name %]" name="[% name %]" style="width:70px;">
+              <select id="[% name %]" name="[% name %]" style="width:70px;"><!-- タグを生成 -->
                 [%- datetimelist = [
-                  {datetimename => 'year',datetimenowto => datetimeto.year },
-                  {datetimename => 'month',datetimenowto => datetimeto.month },
-                  {datetimename => 'day',datetimenowto => datetimeto.day },
-                  {datetimename => 'hour',datetimenowto => datetimeto.hour },
-                  {datetimename => 'minute',datetimenowto => datetimeto.minute}
+                  {datetimename => 'toyear',datetimenowto => datetimeto.year },
+                  {datetimename => 'tomonth',datetimenowto => datetimeto.month },
+                  {datetimename => 'today',datetimenowto => datetimeto.day },
+                  {datetimename => 'tohour',datetimenowto => datetimeto.hour },
+                  {datetimename => 'tominute',datetimenowto => datetimeto.minute}
                 ]-%]
               [%- FOREACH n = datetimelist %]
                 [%- IF name==n.datetimename -%]
@@ -164,9 +164,9 @@
               [%- END -%]
               </select>
             [%- END -%]
-            [% selectto ('year' ,2012,2100) %]年
-            [% selectto ('month',1,12) %]月
-            [% selectto ('day',1,31) %]日<!--月によって変える-->
+            [% selectto ('toyear' ,2012,2100) %]年
+            [% selectto ('tomonth',1,12) %]月
+            [% selectto ('today',1,31) %]日<!--月によって変える-->
             <br>
             通知方法：メール,ポップアップ,他？<br>
             <input type="checkbox" id="optionscheckbox" name="notification" value="mail" checked>

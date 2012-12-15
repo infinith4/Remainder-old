@@ -157,13 +157,13 @@ sub memo :Local {
 	#$c->stash->{list} = [$c->model('CatalremaindDB::RemainderMemo')->all];
     #レコードへ登録
 #    $memo =$memo.".";
-    my $fromyear = $c->request->body_params->{'year'};
-    my $frommonth = $c->request->body_params->{'month'};
-    my $fromday = $c->request->body_params->{'day'};
+    my $fromyear = $c->request->body_params->{'fromyear'};
+    my $frommonth = $c->request->body_params->{'frommonth'};
+    my $fromday = $c->request->body_params->{'fromday'};
     my $fromhour = $c->request->body_params->{'hour'};
-    my $frommin = $c->request->body_params->{'min'};
+    my $frommin = $c->request->body_params->{'minute'};
 
-    my $fromtime = $fromyear."-".$frommonth."-".$fromday." ".$fromhour.":".$frommin;
+    my $fromtime = $fromyear."-".$frommonth."-".$fromday." ".$fromhour.":".$frommin.":00";
     if($memo ne ''){
         
         my $row = $c->model('RemainderDB::RemainderMemo')->create({
@@ -171,7 +171,7 @@ sub memo :Local {
             memo => $memo,
             #weektimes => $weektimes,
             tag => '',
-            fromtime => $fromtime,
+            fromtime => "$fromtime",
             totime => '2013-12-12 11:40',
             days => 'Sun',
             notification => $notification,
