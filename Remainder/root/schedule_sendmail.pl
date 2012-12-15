@@ -8,12 +8,13 @@ use Email::Simple;
 use Email::Simple::Creator;
 use Email::Sender::Transport::SMTP;
 use utf8;
-use Encode;
+use Encode qw/decode/;
 
 #ここまでで複数時間を指定してメールを時間に送信できる。
 
 #DBからselect してmemoと時間を指定するだけ。
 
+my $dtnow = DateTime->now( time_zone => 'Asia/Tokyo' );
 # データソース
 my $d = 'DBI:mysql:remainderdb';
 # ユーザ名
@@ -23,49 +24,47 @@ my $p = 'remainderpass';
 
 # データベースへ接続
 my $db = DBI->connect($d, $u, $p);
-        my $dtnow = DateTime->now( time_zone => 'Asia/Tokyo' );
-        
-        if(!$db){
-            print "接続失敗\n";
-            exit;
-        }
-        $db->do("set names utf8"); 
+
+if(!$db){
+    print "接続失敗\n";
+    exit;
+}
+$db->do("set names utf8"); 
 # SQL文を用意
 #                              0   1      2    3    4        5     6
 #my $sth = $db->prepare("SELECT id,userid,memo,tag,fromtime,totime,days FROM RemainderMemo WHERE '$dtnow' >= fromtime and days like '%$dayabbr%' ORDER BY fromtime asc"); #fromtime でソート.現在以前
-        my $sth = $db->prepare("SELECT id,userid,memo,tag,fromtime,totime,days FROM RemainderMemo WHERE '$dtnow' >= fromtime ORDER BY fromtime asc"); #fromtime でソート.現在以前
+my $sth = $db->prepare("SELECT id,userid,memo,tag,fromtime,totime,days FROM RemainderMemo WHERE '$dtnow' >= fromtime ORDER BY fromtime asc"); #fromtime でソート.現在以前
 
-        if(!$sth->execute){
-            print "SQL失敗\n";
-            exit;
-        }
+if(!$sth->execute){
+    print "SQL失敗\n";
+    exit;
+}
 
 #my $time = "2012-12-02 11:49:00";
 
-        my @memos = ();
-        my @hours = ();
-        my @mins = ();
+my @memos = ();
+my @hours = ();
+my @mins = ();
 
-        while (my @rec = $sth->fetchrow_array) {
-            my $fromtime = $rec[4];
-            print $fromtime,"\n";
-            $fromtime =~ m/\s/;
-            my $hourminsec = "$'";
+while (my @rec = $sth->fetchrow_array) {
+    my $fromtime = $rec[4];
+    print $fromtime,"\n";
+    $fromtime =~ m/\s/;
+    my $hourminsec = "$'";
 
-            print $hourminsec,"\n";
+    print $hourminsec,"\n";
 
-            my @arr =split(/:/,$hourminsec);
+    my @arr =split(/:/,$hourminsec);
 
-            push(@hours,$arr[0]);
-            push(@mins,$arr[1]);
+    push(@hours,$arr[0]);
+    push(@mins,$arr[1]);
 
-            push(@memos,$rec[2]);
-        }
-
+    push(@memos,$rec[2]);
+}
 
 foreach(@memos){
     # バイト文字列(外部からの入力)を内部文字列に変換($strがUTF-8の場合)
-    my $str = encode('UTF-8', $_);
+   # my $str = decode('UTF-8', $_);
     print $_,"\n";
 }
 
@@ -87,7 +86,7 @@ sub hourmin_entry{
     my $frommail = "remainder.information\@gmail.com";
     my $frommailpassword = "ol12dcdbl0jse1l";
 
-#    while(1){
+    while(1){
         my $dt = DateTime->now( time_zone => 'Asia/Tokyo' );
         #my $hour = $dt->hour(),"\n";
         #my $min = $dt->minute(),"\n";
@@ -133,8 +132,8 @@ sub hourmin_entry{
                 }
                 
         }
-        #sleep(60);
-#    }
+        sleep(60);
+    }
     
 }
 
