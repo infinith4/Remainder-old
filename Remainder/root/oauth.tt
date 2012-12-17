@@ -11,7 +11,7 @@
         {
             url = "https://www.facebook.com/dialog/oauth?client_id=" + 
                      appId  + "&redirect_uri=" + window.location +
-                     "&response_type=token";
+                     "&response_type=token" + "&scope=email";
             window.open(url);
 
         } else {
@@ -27,11 +27,13 @@
 
         function displayUser(user) {
             userName.innerText = user.name;
+            userEmail.innerText = user.email;
             id.innerText = id;
 
         }
         </script>
         <p id="userName"></p>
+        Email:<p id="userEmail"></p>
 	<p id="id"></p>
 	<img src="https://graph.facebook.com/tashirohiro4/picture"/>
     </body>

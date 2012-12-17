@@ -150,7 +150,11 @@ sub memo :Local {
 #    my $weektimes = $c->request->body_params->{'weektimes'};
     #my $fromtime = $c->request->body_params->{'days'};
     
-    my $days = $c->request->body_params->{'days'};
+    my @days = $c->request->body_params->{'days'};
+    my $daystext = "";
+    foreach (@days){
+        $daystext = $daystext.$_;
+    } 
     #print $days,"\n";
     #$c->stash->{day} = join ',',@$day;
     my $notification = $c->request->body_params->{'notification'};
@@ -160,10 +164,14 @@ sub memo :Local {
     my $fromyear = $c->request->body_params->{'fromyear'};
     my $frommonth = $c->request->body_params->{'frommonth'};
     my $fromday = $c->request->body_params->{'fromday'};
+    my $toyear = $c->request->body_params->{'toyear'};
+    my $tomonth = $c->request->body_params->{'tomonth'};
+    my $today = $c->request->body_params->{'today'};
     my $fromhour = $c->request->body_params->{'hour'};
     my $frommin = $c->request->body_params->{'minute'};
 
     my $fromtime = $fromyear."-".$frommonth."-".$fromday." ".$fromhour.":".$frommin.":00";
+    my $totime = $toyear."-".$tomonth."-".$today." ".$fromhour.":".$frommin.":00";
     if($memo ne ''){
         
         my $row = $c->model('RemainderDB::RemainderMemo')->create({
@@ -172,8 +180,8 @@ sub memo :Local {
             #weektimes => $weektimes,
             tag => '',
             fromtime => "$fromtime",
-            totime => '2013-12-12 11:40',
-            days => 'Sun',
+            totime => "$totime",
+            days => "$daystext",
             notification => $notification,
             #created => 'NOW()',
             #updated => 'NOW()',
