@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Memo Remainder</title>
+    <link href="./css/memoremainder.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.tagsinput.css" />
+    <link rel="stylesheet" type="text/css" href="./js/jquery.tooltip.js/jquery.tooltip.css" />
+    <link href="./css/bootstrap.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+</head>
+<body background="./img/webtreats_stone_3.jpg">
+
+<script src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/jquery.tooltip.js/jquery.tooltip.js"></script>
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Remainder</a>
+
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#"><i class="icon-off"></i>Sign in</a></li>
+        <div class="btn-group" >
+          <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> User</a>
+          <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+            <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+            <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="i"></i> Make admin</a></li>
+          </ul>
+        </div>
+    </ul>
+
+  </div>
+</div>
+       
+        <div class="row">
+          <div class="span3">
+            <form method="POST" action="/bookmarksetting">
+                
+            設定<br>
+            <!-- 複数個をチェックボックスで指定<br> -->
+            <li>BookmarkをRemindする日程</li>
+
+            <font color="ff0000" size="3">＊</font>
+            タグ : <input type="text" name="tag" value="あとで読む">
+            例 ：あとで読む,未読,ReadLater
+            <br><br>
+            関連タグ : <input type="text" name="reltag" value="">
+            例 ：重要,本,仕事
+            <br><br>
+            <font color="ff0000" size="3">＊</font>
+            お知らせする件数 ：<input type="text" name="remindnum" value="10">
+            <br><br>
+            
+            <font color="ff0000" size="3">＊</font>お知らせする時間:<br>
+            
+            <!-- <select name="select" style="width: 30px"> -->
+            <!--google map のルート検索の時間指定のところと同じように,一覧から選択できて,かつ,入力できるようにしたい<br>-->           
+            
+              <input type="checkbox" name="bookmarkdays" id="optionscheckbox" value="Mon">
+            月
+              <input type="checkbox" name="bookmarkdays" id="optionscheckbox" value="Tue">
+            火
+              <input type="checkbox" name="bookmarkdays" id="optionscheckbox" value="Wed">
+            水
+              <input type="checkbox" name="bookmarkdays" id="optionscheckbox" value="Thu">
+            木
+              <input type="checkbox" name="bookmarkdays" id="optionscheckbox" value="Fri">
+            金
+              <input type="checkbox" name="bookmarkdays" id="optionscheckbox" value="Sat">
+            土
+              <input type="checkbox" name="bookmarkdays" id="optionscheckbox" value="Sun">
+            日曜日            
+            <br><br>
+            [%- SET dty=datetime.year;dtmo=datetime.month;dtd=datetime.day;dth=datetime.hour;dtmi=datetime.minute; -%]
+            
+            [%-MACRO select (name,start,end) BLOCK -%]
+              <select id="[% name %]" name="[% name %]" style="width:70px;">
+                [%- datetimelist = [
+                  {datetimename => 'year',datetimenow => datetimenow.year },
+                  {datetimename => 'month',datetimenow => datetimenow.month },
+                  {datetimename => 'day',datetimenow => datetimenow.day },
+                  {datetimename => 'hour',datetimenow => datetimenow.hour },
+                  {datetimename => 'minute',datetimenow => datetimenow.minute}
+                ]-%]
+              [%- FOREACH n = datetimelist %]
+                [%- IF name==n.datetimename -%]
+                  [%- FOREACH i = [start..end] %]
+                    [%- IF i==n.datetimenow -%]
+                      <option value="[% i %]" selected >[% i %]</option> 
+<!-- hour or min が0-23 or 0-59のなかで,現時刻に等しいものをselected-->
+                    [%- ELSE -%]
+                      <option value="[% i %]" >[% i %]</option>
+                    [%- END -%]
+                  [%- END %]
+                [%- END -%]
+              [%- END -%]
+              </select>
+            [%- END -%]
+            [% select ('hour',0,23) %]時
+            [% select ('minute',0,59) %]分
+            <div class="controls" align="right">
+              <button type="submit" class="btn btn-danger"><i class="icon-envelope icon-white" style="margin-top: 1px;"></i>送信</button>
+              </div>
+            <br><br>
+            </form>
+            </div>
+          </div>
+        
+
+</body>
+
+</html>

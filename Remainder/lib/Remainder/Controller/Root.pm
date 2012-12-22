@@ -1,14 +1,11 @@
 package Remainder::Controller::Root;
+use strict;
+use warnings;
+
 use Moose;
 use namespace::autoclean;
 
 use Data::Dumper;
-
-use Email::Sender::Simple qw(sendmail);
-use Email::Simple;
-use Email::Simple::Creator;
-use Email::Sender::Transport::SMTP;
-
 use DateTime;
 #use Time::Local;
 use Catalyst::Plugin::Unicode;
@@ -17,6 +14,12 @@ use CGI;
 use CGI::Carp qw(fatalsToBrowser);
 use OAuth::Lite::Consumer;
 use OAuth::Lite::Token;
+use DBI;
+
+use HTTP::Lite;
+use HTML::TreeBuilder;
+use HTML::TagParser;
+use XML::FeedPP;
 
 BEGIN { extends 'Catalyst::Controller' }
 
@@ -133,6 +136,115 @@ Attempt to render a view, if needed.
 
 sub end : ActionClass('RenderView') {}
 
+sub bookmark :Local {
+	my ($self ,$c) = @_;
+	#$c->response->body('こんにちは');
+    #$c->stash->{list} = [$c->model('CatalDB::Book')->all];
+    #$c->stash->{title} = 'Remainder - あなたの気になるをお知らせ！ -';
+    
+}
+
+sub bookmarksetting :Local {
+	my ($self ,$c) = @_;
+    #現在の日付(時間ふくむ)
+    my $datetimenow = DateTime->now( time_zone => 'Asia/Tokyo' );
+    $c->stash->{datetimenow} = $datetimenow;
+    #my $tag = $c->request->body_params->{'tag'};
+    my $reltag = $c->request->body_params->{'reltag'};
+    my $remindnum = $c->request->body_params->{'remindnum'};
+    my @bookmarkdays = $c->request->body_params->{'bookmarkdays'};
+    my $hour = $c->request->body_params->{'hour'};
+    my $minute = $c->request->body_params->{'minute'};
+    #data source
+    my $d = "DBI:mysql:RemaidnerMemo";
+    my $u = "remainderuser";
+    my $p = "remainderpass";
+    
+    #Connect database;
+    my $dbh = DBI->connect($d,$u,$p);
+#    my $loginuseremail = $c->request->body_params->{'loginuseremail'};
+    my $loginuseremail = "tashirohiro4\@gmail.com";
+##############################
+
+    my $http = new HTTP::Lite;
+    my $userid = "infinity_th4";
+    #my $tag = $c->request->body_params->{'tag'};
+    my $tag = "*book";#日本語が使えない
+    my $url = "http://b.hatena.ne.jp/".$userid."/atomfeed?tag=".$tag;
+    my $req = $http->request("$url") || die $!;
+    my $body = $http->body();
+    my $tree = HTML::TreeBuilder->new;
+    $tree->parse($body);
+    $tree->eof();
+
+    my @urls = ();
+#URL 
+    foreach my $a ($tree->look_down("rel" , "related")) {
+        print $a->attr("href");
+        push(@urls, $a->attr("href"));
+        print "\n";
+    }
+
+    print $_,"\n" ,foreach @urls;
+
+    my $feed = XML::FeedPP->new( $url );
+    print "Title: ", $feed->title(), "\n";
+    print "Date: ", $feed->pubDate(), "\n";
+
+    my @bookmarkurls = ();
+    my @titles = ();
+    my @reltags = ();
+    my @issueds = ();
+    foreach my $item ( $feed->get_item() ) {
+        print "bookmarkURL: ", $item->link(), "\n"; #bookmarkURL
+        push(@bookmarkurls, $item->link());
+        print "Title: ", $item->title(), "\n";      #Title
+        push(@titles, $item->title());
+        my $reltag ="";
+        foreach my $a ($item->get("dc:subject")) {
+            print "category: ", $a, "\n"; #relation Tag
+            $reltag = $reltag.$a.",";
+        }
+        push(@reltags,$reltag);
+        print "issued: ", $item->get("issued"), "\n";#登録日時
+        push(@issueds, $item->get("issued"));
+    }
+
+########################################
+    #If user logined site,We check email by DataTable RemainderUsers.Because Email is Primary.
+    #Create for new login user.
+=pod    
+    my $row = $c->model('RemainderDB::BookmarkSetting')->create({
+        userid => '',
+        memo => $memo,
+        #weektimes => $weektimes,
+        tag => '',
+        fromtime => "$fromtime",
+        totime => "$totime",
+        days => "$daystext",
+        notification => $notification,
+        #created => 'NOW()',
+        #updated => 'NOW()',
+    });
+=cut
+    my $n = 20;
+
+    for(0 .. ($n-1)){
+    my $row = $c->model('RemainderDB::Bookmark')->create({
+        userid => $userid,
+        tag => $tag,
+        bookmarkid => $bookmarkurls[$_],
+        title => $titles[$_],
+        reltag => $reltags[$_],
+        #created => 'NOW()',
+        #updated => 'NOW()',
+    });
+    }
+
+    $c->model('RemainderDB')->storage->debug(1);
+    
+}
+
 sub remainder :Local {
 	my ($self ,$c) = @_;
 	#$c->response->body('こんにちは');
@@ -172,6 +284,23 @@ sub memo :Local {
 
     my $fromtime = $fromyear."-".$frommonth."-".$fromday." ".$fromhour.":".$frommin.":00";
     my $totime = $toyear."-".$tomonth."-".$today." ".$fromhour.":".$frommin.":00";
+    #data source
+    my $d = "DBI:mysql:RemaidnerMemo";
+    my $u = "remainderuser";
+    my $p = "remainderpass";
+    
+    #Connect database;
+    my $dbh = DBI->connect($d,$u,$p);
+#    my $loginuseremail = $c->request->body_params->{'loginuseremail'};
+    my $loginuseremail = "tashirohiro4\@gmail.com";
+
+    #If user logined site,We check email by DataTable RemainderUsers.Because Email is Primary.
+    $c->stash->{useremail} = $c->model('RemainderDB::RemainderUsers')->find('tashirohiro4\@gmail.com');
+    #$useremail =  $c->model('RemainderDB::RemainderMemo')->find('$loginuseremail',{key => 'useremail'});
+    
+    #Create for new login user.
+    
+    
     if($memo ne ''){
         
         my $row = $c->model('RemainderDB::RemainderMemo')->create({

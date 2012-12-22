@@ -1,3 +1,20 @@
+DROP TABLE IF EXISTS `RemainderUsers`;
+CREATE TABLE `RemainderUsers` (
+`userid` int(10) NOT NULL AUTO_INCREMENT,
+`email` varchar(100),/* user email NOT NULL?*/
+`user_name` varchar(20),
+`created` datetime NOT NULL, /* 作成日 */
+`logindated` datetime NOT NULL, /* 最終ログイン日 */
+`logincount` int(10),
+PRIMARY KEY (`userid`) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+LOCK TABLES `RemainderUsers` WRITE;
+/*!40000 ALTER TABLE `RemainderUsers` DISABLE KEYS */;
+INSERT INTO `RemainderUsers` VALUES 
+('1','tashirohiro4@gmail.com','tashirohiro4','2012-12-01 22:23:00','2012-12-01 22:23:00','0');
+UNLOCK TABLES;
+
 DROP TABLE IF EXISTS `RemainderMemo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -27,3 +44,5 @@ INSERT INTO `RemainderMemo` VALUES
 ('5','tashirohiro4','Apache入門','web開発,apache,server,ほしい物','0','2012-12-03 20:20:00','2012-12-19 22:33:00','Sun,Thu','mail','2','2012-12-03 20:23:00','2012-12-03 20:23:00');
 /*!40000 ALTER TABLE `RemainderMemo` ENABLE KEYS */;
 UNLOCK TABLES;
+
+
